@@ -1,0 +1,9 @@
+{
+  "mode": "SYNTHETIC",
+  "rows": 29440,
+  "months": 70,
+  "skills": 55,
+  "kg_nodes": 115,
+  "kg_edges": 2513,
+  "best_model": "XGBoost (HistGB fallback)"
+}

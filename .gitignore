@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+hgtenv/
+data/raw/*
+data/processed/*

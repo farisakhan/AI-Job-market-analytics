@@ -1,0 +1,116 @@
+id,label,name,freq,category
+Skill:React,Skill,React,4292.0,Framework
+Category:Framework,Category,Framework,,
+Skill:AWS,Skill,AWS,11089.0,Cloud
+Category:Cloud,Category,Cloud,,
+Skill:Docker,Skill,Docker,13193.0,DevOps
+Category:DevOps,Category,DevOps,,
+Skill:Hadoop,Skill,Hadoop,878.0,Data
+Category:Data,Category,Data,,
+Skill:Python,Skill,Python,15139.0,Language
+Category:Language,Category,Language,,
+Skill:SQL,Skill,SQL,12940.0,Language
+Skill:Snowflake,Skill,Snowflake,1711.0,Data
+Skill:Spark,Skill,Spark,1987.0,Data
+Skill:Git,Skill,Git,6366.0,DevOps
+Skill:MongoDB,Skill,MongoDB,4321.0,Data
+Skill:Node.js,Skill,Node.js,2425.0,Framework
+Skill:Generative AI,Skill,Generative AI,5483.0,AI
+Category:AI,Category,AI,,
+Skill:Angular,Skill,Angular,1177.0,Framework
+Skill:JavaScript,Skill,JavaScript,1693.0,Language
+Skill:TypeScript,Skill,TypeScript,3787.0,Language
+Skill:Azure,Skill,Azure,4576.0,Cloud
+Skill:Deep Learning,Skill,Deep Learning,3918.0,AI
+Skill:NLP,Skill,NLP,3432.0,AI
+Skill:R,Skill,R,863.0,Language
+Skill:Scikit-learn,Skill,Scikit-learn,2517.0,Library
+Category:Library,Category,Library,,
+Skill:CI/CD,Skill,CI/CD,1887.0,DevOps
+Skill:Manual Testing,Skill,Manual Testing,965.0,Testing
+Category:Testing,Category,Testing,,
+Skill:Pandas,Skill,Pandas,1892.0,Library
+Skill:Go,Skill,Go,967.0,Language
+Skill:FastAPI,Skill,FastAPI,3350.0,Framework
+Skill:Linux,Skill,Linux,3940.0,DevOps
+Skill:Selenium,Skill,Selenium,1156.0,Testing
+Skill:Django,Skill,Django,1899.0,Framework
+Skill:Java,Skill,Java,2581.0,Language
+Skill:Spring Boot,Skill,Spring Boot,964.0,Framework
+Skill:Excel,Skill,Excel,1790.0,Analytics
+Category:Analytics,Category,Analytics,,
+Skill:Tableau,Skill,Tableau,4073.0,Analytics
+Skill:Communication,Skill,Communication,4412.0,Soft
+Category:Soft,Category,Soft,,
+Skill:Cybersecurity,Skill,Cybersecurity,3094.0,Security
+Category:Security,Category,Security,,
+Skill:Kubernetes,Skill,Kubernetes,3476.0,DevOps
+Skill:Machine Learning,Skill,Machine Learning,3864.0,AI
+Skill:LLM,Skill,LLM,6066.0,AI
+Skill:PyTorch,Skill,PyTorch,4486.0,Library
+Skill:TensorFlow,Skill,TensorFlow,1486.0,Library
+Skill:jQuery,Skill,jQuery,924.0,Framework
+Skill:Kafka,Skill,Kafka,1528.0,Data
+Skill:Airflow,Skill,Airflow,1437.0,Data
+Skill:Power BI,Skill,Power BI,3108.0,Analytics
+Skill:Leadership,Skill,Leadership,1534.0,Soft
+Skill:MLOps,Skill,MLOps,1564.0,AI
+Skill:C++,Skill,C++,497.0,Language
+Skill:PHP,Skill,PHP,1152.0,Language
+Skill:GCP,Skill,GCP,1085.0,Cloud
+Skill:Terraform,Skill,Terraform,3056.0,DevOps
+Skill:LangChain,Skill,LangChain,4089.0,Library
+Skill:Prompt Engineering,Skill,Prompt Engineering,3987.0,AI
+Skill:Rust,Skill,Rust,139.0,Language
+Skill:Neo4j,Skill,Neo4j,48.0,Data
+Skill:Computer Vision,Skill,Computer Vision,165.0,AI
+Skill:Blockchain,Skill,Blockchain,56.0,Emerging
+Category:Emerging,Category,Emerging,,
+Role:Frontend Developer,Role,Frontend Developer,2062.0,
+Role:Data Engineer,Role,Data Engineer,2509.0,
+Role:Full Stack Developer,Role,Full Stack Developer,2153.0,
+Role:Ai Engineer,Role,Ai Engineer,3480.0,
+Role:Data Scientist,Role,Data Scientist,2115.0,
+Role:Qa Engineer,Role,Qa Engineer,2012.0,
+Role:Backend Developer,Role,Backend Developer,1956.0,
+Role:Devops Engineer,Role,Devops Engineer,2480.0,
+Role:Data Analyst,Role,Data Analyst,2065.0,
+Role:Security Analyst,Role,Security Analyst,2096.0,
+Role:Machine Learning Engineer,Role,Machine Learning Engineer,2354.0,
+Role:Business Analyst,Role,Business Analyst,2070.0,
+Role:Cloud Architect,Role,Cloud Architect,2088.0,
+Company:Amazon,Company,Amazon,,
+Company:Meesho,Company,Meesho,,
+Company:Capgemini,Company,Capgemini,,
+Company:Google,Company,Google,,
+Company:Cognizant,Company,Cognizant,,
+Company:Accenture,Company,Accenture,,
+Company:Tech Mahindra,Company,Tech Mahindra,,
+Company:Ibm,Company,Ibm,,
+Company:Wipro,Company,Wipro,,
+Company:Adobe,Company,Adobe,,
+Company:Hcltech,Company,Hcltech,,
+Company:Nvidia,Company,Nvidia,,
+Company:Flipkart,Company,Flipkart,,
+Company:Oracle,Company,Oracle,,
+Company:Paytm,Company,Paytm,,
+Company:Razorpay,Company,Razorpay,,
+Company:Microsoft,Company,Microsoft,,
+Company:Zoho,Company,Zoho,,
+Company:Salesforce,Company,Salesforce,,
+Company:Freshworks,Company,Freshworks,,
+Company:Phonepe,Company,Phonepe,,
+Company:Deloitte,Company,Deloitte,,
+Company:Infosys,Company,Infosys,,
+Company:Swiggy,Company,Swiggy,,
+Company:Tcs,Company,Tcs,,
+Certification:Google Professional ML Engineer,Certification,Google Professional ML Engineer,,
+Certification:TensorFlow Developer Certificate,Certification,TensorFlow Developer Certificate,,
+Certification:DeepLearning.AI Generative AI Specialization,Certification,DeepLearning.AI Generative AI Specialization,,
+Certification:AWS Certified Solutions Architect,Certification,AWS Certified Solutions Architect,,
+Certification:Azure Data Engineer Associate,Certification,Azure Data Engineer Associate,,
+Certification:CKA (Kubernetes),Certification,CKA (Kubernetes),,
+Certification:HashiCorp Terraform Associate,Certification,HashiCorp Terraform Associate,,
+Certification:Databricks Certified Data Engineer,Certification,Databricks Certified Data Engineer,,
+Certification:Microsoft PL-300 (Power BI),Certification,Microsoft PL-300 (Power BI),,
+Certification:CompTIA Security+,Certification,CompTIA Security+,,

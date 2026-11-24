@@ -1,0 +1,24 @@
+# Core (needed for the runnable demo pipeline)
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+networkx>=3.0
+matplotlib>=3.7
+scipy>=1.10
+# Full research stack (optional - code auto-falls back if missing)
+torch>=2.1
+pytorch-forecasting>=1.0      # Temporal Fusion Transformer
+xgboost>=2.0
+prophet>=1.1
+shap>=0.44
+lime>=0.2.0.1
+spacy>=3.7                    # python -m spacy download en_core_web_sm
+transformers>=4.38
+sentence-transformers>=2.5
+neo4j>=5.0
+# Data collection
+requests
+beautifulsoup4
+lxml
+selenium
+scrapy

@@ -1,0 +1,2514 @@
+src,dst,rel,weight
+Skill:React,Category:Framework,IN_CATEGORY,1.0
+Skill:React,Skill:Docker,CO_OCCURS,0.006
+Skill:React,Skill:Git,CO_OCCURS,1.0869
+Skill:React,Skill:MongoDB,CO_OCCURS,1.1002
+Skill:React,Skill:Node.js,CO_OCCURS,1.6044
+Skill:React,Skill:SQL,CO_OCCURS,0.001
+Skill:React,Skill:Angular,CO_OCCURS,1.6605
+Skill:React,Skill:JavaScript,CO_OCCURS,1.7874
+Skill:React,Skill:TypeScript,CO_OCCURS,1.7052
+Skill:React,Skill:Azure,CO_OCCURS,0.001
+Skill:React,Skill:jQuery,CO_OCCURS,1.6799
+Skill:React,Skill:PHP,CO_OCCURS,1.6995
+Skill:React,Skill:Communication,CO_OCCURS,0.001
+Skill:React,Skill:Excel,CO_OCCURS,0.001
+Skill:React,Skill:Tableau,CO_OCCURS,0.001
+Skill:React,Skill:C++,CO_OCCURS,0.0221
+Skill:React,Skill:Django,CO_OCCURS,0.001
+Skill:React,Skill:AWS,CO_OCCURS,0.001
+Skill:React,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:React,Skill:GCP,CO_OCCURS,0.001
+Skill:React,Skill:Terraform,CO_OCCURS,0.001
+Skill:React,Skill:Java,CO_OCCURS,0.001
+Skill:React,Skill:Leadership,CO_OCCURS,0.001
+Skill:React,Skill:Python,CO_OCCURS,0.001
+Skill:React,Skill:Airflow,CO_OCCURS,0.001
+Skill:React,Skill:Spark,CO_OCCURS,0.001
+Skill:React,Skill:Computer Vision,CO_OCCURS,0.376
+Skill:React,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:React,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:React,Skill:PyTorch,CO_OCCURS,0.001
+Skill:React,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:React,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:React,Skill:Go,CO_OCCURS,0.001
+Skill:React,Skill:Pandas,CO_OCCURS,0.001
+Skill:React,Skill:MLOps,CO_OCCURS,0.001
+Skill:React,Skill:Blockchain,CO_OCCURS,0.0985
+Skill:React,Skill:Power BI,CO_OCCURS,0.001
+Skill:React,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:React,Skill:FastAPI,CO_OCCURS,0.001
+Skill:React,Skill:NLP,CO_OCCURS,0.001
+Skill:React,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:React,Skill:Linux,CO_OCCURS,0.001
+Skill:React,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:React,Skill:Selenium,CO_OCCURS,0.001
+Skill:React,Skill:CI/CD,CO_OCCURS,0.001
+Skill:React,Skill:LLM,CO_OCCURS,0.001
+Skill:React,Skill:Generative AI,CO_OCCURS,0.001
+Skill:React,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:React,Skill:Snowflake,CO_OCCURS,0.001
+Skill:React,Skill:LangChain,CO_OCCURS,0.001
+Skill:React,Skill:Hadoop,CO_OCCURS,0.001
+Skill:React,Skill:Kafka,CO_OCCURS,0.001
+Skill:React,Skill:R,CO_OCCURS,0.001
+Skill:React,Skill:Neo4j,CO_OCCURS,0.001
+Skill:React,Skill:Rust,CO_OCCURS,0.001
+Skill:React,Role:Frontend Developer,REQUIRES,0.9035
+Skill:React,Role:Full Stack Developer,REQUIRES,0.902
+Skill:React,Role:Business Analyst,REQUIRES,0.014
+Skill:React,Role:Cloud Architect,REQUIRES,0.0172
+Skill:React,Role:Data Analyst,REQUIRES,0.0189
+Skill:React,Role:Machine Learning Engineer,REQUIRES,0.0246
+Skill:React,Role:Data Scientist,REQUIRES,0.0222
+Skill:React,Role:Data Engineer,REQUIRES,0.0191
+Skill:React,Role:Ai Engineer,REQUIRES,0.0184
+Skill:React,Role:Devops Engineer,REQUIRES,0.0206
+Skill:React,Role:Qa Engineer,REQUIRES,0.0199
+Skill:React,Role:Security Analyst,REQUIRES,0.0167
+Skill:React,Role:Backend Developer,REQUIRES,0.0204
+Category:Framework,Skill:Node.js,IN_CATEGORY,1.0
+Category:Framework,Skill:Angular,IN_CATEGORY,1.0
+Category:Framework,Skill:FastAPI,IN_CATEGORY,1.0
+Category:Framework,Skill:Django,IN_CATEGORY,1.0
+Category:Framework,Skill:Spring Boot,IN_CATEGORY,1.0
+Category:Framework,Skill:jQuery,IN_CATEGORY,1.0
+Skill:AWS,Category:Cloud,IN_CATEGORY,1.0
+Skill:AWS,Skill:Docker,CO_OCCURS,0.2052
+Skill:AWS,Skill:Hadoop,CO_OCCURS,0.8565
+Skill:AWS,Skill:Python,CO_OCCURS,0.133
+Skill:AWS,Skill:SQL,CO_OCCURS,0.001
+Skill:AWS,Skill:Snowflake,CO_OCCURS,0.7739
+Skill:AWS,Skill:Spark,CO_OCCURS,0.7738
+Skill:AWS,Skill:FastAPI,CO_OCCURS,0.001
+Skill:AWS,Skill:Git,CO_OCCURS,0.001
+Skill:AWS,Skill:Linux,CO_OCCURS,0.8567
+Skill:AWS,Skill:NLP,CO_OCCURS,0.001
+Skill:AWS,Skill:Selenium,CO_OCCURS,0.001
+Skill:AWS,Skill:Communication,CO_OCCURS,0.001
+Skill:AWS,Skill:Cybersecurity,CO_OCCURS,0.827
+Skill:AWS,Skill:TypeScript,CO_OCCURS,0.001
+Skill:AWS,Skill:Azure,CO_OCCURS,0.8111
+Skill:AWS,Skill:CI/CD,CO_OCCURS,0.3047
+Skill:AWS,Skill:Kubernetes,CO_OCCURS,0.8231
+Skill:AWS,Skill:Node.js,CO_OCCURS,0.001
+Skill:AWS,Skill:LLM,CO_OCCURS,0.0184
+Skill:AWS,Skill:Machine Learning,CO_OCCURS,0.4577
+Skill:AWS,Skill:PyTorch,CO_OCCURS,0.001
+Skill:AWS,Skill:Tableau,CO_OCCURS,0.001
+Skill:AWS,Skill:TensorFlow,CO_OCCURS,0.8053
+Skill:AWS,Skill:Kafka,CO_OCCURS,0.7948
+Skill:AWS,Skill:Airflow,CO_OCCURS,0.7997
+Skill:AWS,Skill:Deep Learning,CO_OCCURS,0.2714
+Skill:AWS,Skill:MLOps,CO_OCCURS,0.77
+Skill:AWS,Skill:GCP,CO_OCCURS,0.8189
+Skill:AWS,Skill:Django,CO_OCCURS,0.001
+Skill:AWS,Skill:C++,CO_OCCURS,0.001
+Skill:AWS,Skill:Power BI,CO_OCCURS,0.001
+Skill:AWS,Skill:Pandas,CO_OCCURS,0.001
+Skill:AWS,Skill:Terraform,CO_OCCURS,0.8311
+Skill:AWS,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:AWS,Skill:Go,CO_OCCURS,0.001
+Skill:AWS,Skill:Java,CO_OCCURS,0.001
+Skill:AWS,Skill:MongoDB,CO_OCCURS,0.001
+Skill:AWS,Skill:PHP,CO_OCCURS,0.001
+Skill:AWS,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:AWS,Skill:jQuery,CO_OCCURS,0.001
+Skill:AWS,Skill:JavaScript,CO_OCCURS,0.001
+Skill:AWS,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:AWS,Skill:Angular,CO_OCCURS,0.001
+Skill:AWS,Skill:Leadership,CO_OCCURS,0.001
+Skill:AWS,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:AWS,Skill:R,CO_OCCURS,0.001
+Skill:AWS,Skill:Blockchain,CO_OCCURS,0.001
+Skill:AWS,Skill:Excel,CO_OCCURS,0.001
+Skill:AWS,Skill:Computer Vision,CO_OCCURS,0.0761
+Skill:AWS,Skill:Generative AI,CO_OCCURS,0.001
+Skill:AWS,Skill:LangChain,CO_OCCURS,0.001
+Skill:AWS,Skill:Rust,CO_OCCURS,0.001
+Skill:AWS,Skill:Neo4j,CO_OCCURS,0.001
+Skill:AWS,Role:Data Engineer,REQUIRES,0.9119
+Skill:AWS,Role:Devops Engineer,REQUIRES,0.927
+Skill:AWS,Role:Security Analyst,REQUIRES,0.9194
+Skill:AWS,Role:Machine Learning Engineer,REQUIRES,0.9261
+Skill:AWS,Role:Cloud Architect,REQUIRES,0.9186
+Skill:AWS,Role:Data Analyst,REQUIRES,0.0271
+Skill:AWS,Role:Data Scientist,REQUIRES,0.0307
+Skill:AWS,Role:Backend Developer,REQUIRES,0.0251
+Skill:AWS,Role:Ai Engineer,REQUIRES,0.0276
+Skill:AWS,Role:Full Stack Developer,REQUIRES,0.0246
+Skill:AWS,Role:Qa Engineer,REQUIRES,0.0244
+Skill:AWS,Role:Business Analyst,REQUIRES,0.0237
+Skill:AWS,Role:Frontend Developer,REQUIRES,0.0291
+Skill:AWS,Certification:AWS Certified Solutions Architect,VALIDATES,1.0
+Category:Cloud,Skill:Azure,IN_CATEGORY,1.0
+Category:Cloud,Skill:GCP,IN_CATEGORY,1.0
+Skill:Docker,Category:DevOps,IN_CATEGORY,1.0
+Skill:Docker,Skill:Hadoop,CO_OCCURS,0.5955
+Skill:Docker,Skill:Python,CO_OCCURS,0.1704
+Skill:Docker,Skill:SQL,CO_OCCURS,0.001
+Skill:Docker,Skill:Snowflake,CO_OCCURS,0.5908
+Skill:Docker,Skill:Spark,CO_OCCURS,0.5624
+Skill:Docker,Skill:Git,CO_OCCURS,0.3705
+Skill:Docker,Skill:MongoDB,CO_OCCURS,0.584
+Skill:Docker,Skill:Node.js,CO_OCCURS,0.5384
+Skill:Docker,Skill:Generative AI,CO_OCCURS,0.204
+Skill:Docker,Skill:Azure,CO_OCCURS,0.0502
+Skill:Docker,Skill:Go,CO_OCCURS,0.5785
+Skill:Docker,Skill:FastAPI,CO_OCCURS,0.6445
+Skill:Docker,Skill:Linux,CO_OCCURS,0.001
+Skill:Docker,Skill:NLP,CO_OCCURS,0.2223
+Skill:Docker,Skill:Selenium,CO_OCCURS,0.001
+Skill:Docker,Skill:Django,CO_OCCURS,0.538
+Skill:Docker,Skill:Java,CO_OCCURS,0.001
+Skill:Docker,Skill:Spring Boot,CO_OCCURS,0.597
+Skill:Docker,Skill:CI/CD,CO_OCCURS,0.0476
+Skill:Docker,Skill:Kubernetes,CO_OCCURS,0.0784
+Skill:Docker,Skill:Deep Learning,CO_OCCURS,0.0538
+Skill:Docker,Skill:LLM,CO_OCCURS,0.4819
+Skill:Docker,Skill:Machine Learning,CO_OCCURS,0.234
+Skill:Docker,Skill:TensorFlow,CO_OCCURS,0.6122
+Skill:Docker,Skill:Airflow,CO_OCCURS,0.5878
+Skill:Docker,Skill:PyTorch,CO_OCCURS,0.6435
+Skill:Docker,Skill:MLOps,CO_OCCURS,0.5812
+Skill:Docker,Skill:PHP,CO_OCCURS,0.5799
+Skill:Docker,Skill:TypeScript,CO_OCCURS,0.0138
+Skill:Docker,Skill:C++,CO_OCCURS,0.001
+Skill:Docker,Skill:Terraform,CO_OCCURS,0.088
+Skill:Docker,Skill:LangChain,CO_OCCURS,0.4556
+Skill:Docker,Skill:Prompt Engineering,CO_OCCURS,0.4686
+Skill:Docker,Skill:JavaScript,CO_OCCURS,0.001
+Skill:Docker,Skill:Rust,CO_OCCURS,0.0588
+Skill:Docker,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:Docker,Skill:Pandas,CO_OCCURS,0.001
+Skill:Docker,Skill:R,CO_OCCURS,0.001
+Skill:Docker,Skill:Power BI,CO_OCCURS,0.001
+Skill:Docker,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Docker,Skill:jQuery,CO_OCCURS,0.001
+Skill:Docker,Skill:Communication,CO_OCCURS,0.001
+Skill:Docker,Skill:Kafka,CO_OCCURS,0.5851
+Skill:Docker,Skill:Tableau,CO_OCCURS,0.001
+Skill:Docker,Skill:Leadership,CO_OCCURS,0.001
+Skill:Docker,Skill:GCP,CO_OCCURS,0.001
+Skill:Docker,Skill:Angular,CO_OCCURS,0.001
+Skill:Docker,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:Docker,Skill:Computer Vision,CO_OCCURS,0.0285
+Skill:Docker,Skill:Excel,CO_OCCURS,0.001
+Skill:Docker,Skill:Blockchain,CO_OCCURS,0.001
+Skill:Docker,Skill:Neo4j,CO_OCCURS,0.068
+Skill:Docker,Role:Data Engineer,REQUIRES,0.8613
+Skill:Docker,Role:Full Stack Developer,REQUIRES,0.8611
+Skill:Docker,Role:Ai Engineer,REQUIRES,0.8819
+Skill:Docker,Role:Backend Developer,REQUIRES,0.865
+Skill:Docker,Role:Devops Engineer,REQUIRES,0.852
+Skill:Docker,Role:Machine Learning Engineer,REQUIRES,0.8713
+Skill:Docker,Role:Frontend Developer,REQUIRES,0.0184
+Skill:Docker,Role:Cloud Architect,REQUIRES,0.0216
+Skill:Docker,Role:Qa Engineer,REQUIRES,0.0124
+Skill:Docker,Role:Business Analyst,REQUIRES,0.0198
+Skill:Docker,Role:Security Analyst,REQUIRES,0.0148
+Skill:Docker,Role:Data Scientist,REQUIRES,0.018
+Skill:Docker,Role:Data Analyst,REQUIRES,0.0169
+Category:DevOps,Skill:Git,IN_CATEGORY,1.0
+Category:DevOps,Skill:CI/CD,IN_CATEGORY,1.0
+Category:DevOps,Skill:Linux,IN_CATEGORY,1.0
+Category:DevOps,Skill:Kubernetes,IN_CATEGORY,1.0
+Category:DevOps,Skill:Terraform,IN_CATEGORY,1.0
+Skill:Hadoop,Category:Data,IN_CATEGORY,1.0
+Skill:Hadoop,Skill:Python,CO_OCCURS,0.3326
+Skill:Hadoop,Skill:SQL,CO_OCCURS,0.6064
+Skill:Hadoop,Skill:Snowflake,CO_OCCURS,2.1531
+Skill:Hadoop,Skill:Spark,CO_OCCURS,2.289
+Skill:Hadoop,Skill:Java,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Selenium,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Kafka,CO_OCCURS,2.2685
+Skill:Hadoop,Skill:Airflow,CO_OCCURS,2.2952
+Skill:Hadoop,Skill:NLP,CO_OCCURS,0.001
+Skill:Hadoop,Skill:MLOps,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Pandas,CO_OCCURS,0.001
+Skill:Hadoop,Skill:R,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Linux,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Tableau,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Communication,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Generative AI,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Hadoop,Skill:MongoDB,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Leadership,CO_OCCURS,0.001
+Skill:Hadoop,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Azure,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Django,CO_OCCURS,0.001
+Skill:Hadoop,Skill:C++,CO_OCCURS,0.001
+Skill:Hadoop,Skill:TypeScript,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Git,CO_OCCURS,0.001
+Skill:Hadoop,Skill:GCP,CO_OCCURS,0.001
+Skill:Hadoop,Skill:CI/CD,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Node.js,CO_OCCURS,0.001
+Skill:Hadoop,Skill:LLM,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Angular,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Terraform,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Go,CO_OCCURS,0.001
+Skill:Hadoop,Skill:FastAPI,CO_OCCURS,0.001
+Skill:Hadoop,Skill:PHP,CO_OCCURS,0.001
+Skill:Hadoop,Skill:JavaScript,CO_OCCURS,0.001
+Skill:Hadoop,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Computer Vision,CO_OCCURS,0.017
+Skill:Hadoop,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Power BI,CO_OCCURS,0.001
+Skill:Hadoop,Skill:Rust,CO_OCCURS,0.1884
+Skill:Hadoop,Skill:LangChain,CO_OCCURS,0.001
+Skill:Hadoop,Role:Data Engineer,REQUIRES,0.3292
+Skill:Hadoop,Role:Qa Engineer,REQUIRES,0.0015
+Skill:Hadoop,Role:Data Scientist,REQUIRES,0.0033
+Skill:Hadoop,Role:Security Analyst,REQUIRES,0.0029
+Skill:Hadoop,Role:Machine Learning Engineer,REQUIRES,0.0021
+Skill:Hadoop,Role:Cloud Architect,REQUIRES,0.0014
+Skill:Hadoop,Role:Devops Engineer,REQUIRES,0.0028
+Skill:Hadoop,Role:Ai Engineer,REQUIRES,0.0017
+Skill:Hadoop,Role:Frontend Developer,REQUIRES,0.0029
+Skill:Hadoop,Role:Business Analyst,REQUIRES,0.001
+Skill:Hadoop,Role:Full Stack Developer,REQUIRES,0.0019
+Skill:Hadoop,Role:Data Analyst,REQUIRES,0.001
+Skill:Hadoop,Role:Backend Developer,REQUIRES,0.0005
+Category:Data,Skill:Snowflake,IN_CATEGORY,1.0
+Category:Data,Skill:Spark,IN_CATEGORY,1.0
+Category:Data,Skill:MongoDB,IN_CATEGORY,1.0
+Category:Data,Skill:Kafka,IN_CATEGORY,1.0
+Category:Data,Skill:Airflow,IN_CATEGORY,1.0
+Category:Data,Skill:Neo4j,IN_CATEGORY,1.0
+Skill:Python,Category:Language,IN_CATEGORY,1.0
+Skill:Python,Skill:SQL,CO_OCCURS,0.0061
+Skill:Python,Skill:Snowflake,CO_OCCURS,0.2954
+Skill:Python,Skill:Spark,CO_OCCURS,0.2928
+Skill:Python,Skill:Generative AI,CO_OCCURS,0.2031
+Skill:Python,Skill:CI/CD,CO_OCCURS,0.3064
+Skill:Python,Skill:Manual Testing,CO_OCCURS,0.3146
+Skill:Python,Skill:Pandas,CO_OCCURS,0.2706
+Skill:Python,Skill:Go,CO_OCCURS,0.2312
+Skill:Python,Skill:MongoDB,CO_OCCURS,0.001
+Skill:Python,Skill:FastAPI,CO_OCCURS,0.2844
+Skill:Python,Skill:Git,CO_OCCURS,0.001
+Skill:Python,Skill:Linux,CO_OCCURS,0.001
+Skill:Python,Skill:NLP,CO_OCCURS,0.2912
+Skill:Python,Skill:Selenium,CO_OCCURS,0.3067
+Skill:Python,Skill:Django,CO_OCCURS,0.2708
+Skill:Python,Skill:Java,CO_OCCURS,0.3046
+Skill:Python,Skill:Spring Boot,CO_OCCURS,0.258
+Skill:Python,Skill:Excel,CO_OCCURS,0.001
+Skill:Python,Skill:Tableau,CO_OCCURS,0.001
+Skill:Python,Skill:Communication,CO_OCCURS,0.001
+Skill:Python,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Python,Skill:TypeScript,CO_OCCURS,0.001
+Skill:Python,Skill:Azure,CO_OCCURS,0.001
+Skill:Python,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Python,Skill:Node.js,CO_OCCURS,0.001
+Skill:Python,Skill:Deep Learning,CO_OCCURS,0.2867
+Skill:Python,Skill:Machine Learning,CO_OCCURS,0.3032
+Skill:Python,Skill:Scikit-learn,CO_OCCURS,0.2588
+Skill:Python,Skill:R,CO_OCCURS,0.3009
+Skill:Python,Skill:Kafka,CO_OCCURS,0.3023
+Skill:Python,Skill:Airflow,CO_OCCURS,0.2833
+Skill:Python,Skill:LLM,CO_OCCURS,0.1811
+Skill:Python,Skill:PyTorch,CO_OCCURS,0.2832
+Skill:Python,Skill:TensorFlow,CO_OCCURS,0.264
+Skill:Python,Skill:Power BI,CO_OCCURS,0.001
+Skill:Python,Skill:MLOps,CO_OCCURS,0.2609
+Skill:Python,Skill:Leadership,CO_OCCURS,0.001
+Skill:Python,Skill:C++,CO_OCCURS,0.0066
+Skill:Python,Skill:Terraform,CO_OCCURS,0.001
+Skill:Python,Skill:LangChain,CO_OCCURS,0.1765
+Skill:Python,Skill:Prompt Engineering,CO_OCCURS,0.1767
+Skill:Python,Skill:Rust,CO_OCCURS,0.0491
+Skill:Python,Skill:jQuery,CO_OCCURS,0.001
+Skill:Python,Skill:Neo4j,CO_OCCURS,0.001
+Skill:Python,Skill:JavaScript,CO_OCCURS,0.001
+Skill:Python,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Python,Skill:PHP,CO_OCCURS,0.001
+Skill:Python,Skill:Blockchain,CO_OCCURS,0.001
+Skill:Python,Skill:Angular,CO_OCCURS,0.001
+Skill:Python,Skill:GCP,CO_OCCURS,0.001
+Skill:Python,Role:Data Engineer,REQUIRES,0.7258
+Skill:Python,Role:Ai Engineer,REQUIRES,0.7066
+Skill:Python,Role:Qa Engineer,REQUIRES,0.7127
+Skill:Python,Role:Backend Developer,REQUIRES,0.7081
+Skill:Python,Role:Devops Engineer,REQUIRES,0.7169
+Skill:Python,Role:Data Analyst,REQUIRES,0.7041
+Skill:Python,Role:Security Analyst,REQUIRES,0.7204
+Skill:Python,Role:Data Scientist,REQUIRES,0.7182
+Skill:Python,Role:Machine Learning Engineer,REQUIRES,0.709
+Skill:Python,Role:Business Analyst,REQUIRES,0.0126
+Skill:Python,Role:Full Stack Developer,REQUIRES,0.0116
+Skill:Python,Role:Frontend Developer,REQUIRES,0.0175
+Skill:Python,Role:Cloud Architect,REQUIRES,0.011
+Category:Language,Skill:SQL,IN_CATEGORY,1.0
+Category:Language,Skill:JavaScript,IN_CATEGORY,1.0
+Category:Language,Skill:TypeScript,IN_CATEGORY,1.0
+Category:Language,Skill:R,IN_CATEGORY,1.0
+Category:Language,Skill:Go,IN_CATEGORY,1.0
+Category:Language,Skill:Java,IN_CATEGORY,1.0
+Category:Language,Skill:C++,IN_CATEGORY,1.0
+Category:Language,Skill:PHP,IN_CATEGORY,1.0
+Category:Language,Skill:Rust,IN_CATEGORY,1.0
+Skill:SQL,Skill:Snowflake,CO_OCCURS,0.5794
+Skill:SQL,Skill:Spark,CO_OCCURS,0.5727
+Skill:SQL,Skill:Git,CO_OCCURS,0.001
+Skill:SQL,Skill:MongoDB,CO_OCCURS,0.5801
+Skill:SQL,Skill:Node.js,CO_OCCURS,0.5316
+Skill:SQL,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:SQL,Skill:NLP,CO_OCCURS,0.001
+Skill:SQL,Skill:R,CO_OCCURS,0.6108
+Skill:SQL,Skill:Scikit-learn,CO_OCCURS,0.5507
+Skill:SQL,Skill:CI/CD,CO_OCCURS,0.001
+Skill:SQL,Skill:Manual Testing,CO_OCCURS,0.6217
+Skill:SQL,Skill:Pandas,CO_OCCURS,0.5417
+Skill:SQL,Skill:Django,CO_OCCURS,0.5387
+Skill:SQL,Skill:FastAPI,CO_OCCURS,0.001
+Skill:SQL,Skill:Go,CO_OCCURS,0.5702
+Skill:SQL,Skill:Java,CO_OCCURS,0.6144
+Skill:SQL,Skill:Spring Boot,CO_OCCURS,0.5572
+Skill:SQL,Skill:Excel,CO_OCCURS,0.6268
+Skill:SQL,Skill:Tableau,CO_OCCURS,0.6004
+Skill:SQL,Skill:Selenium,CO_OCCURS,0.5782
+Skill:SQL,Skill:Kafka,CO_OCCURS,0.5797
+Skill:SQL,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:SQL,Skill:Airflow,CO_OCCURS,0.6063
+Skill:SQL,Skill:Communication,CO_OCCURS,0.2466
+Skill:SQL,Skill:Power BI,CO_OCCURS,0.6177
+Skill:SQL,Skill:Leadership,CO_OCCURS,0.6054
+Skill:SQL,Skill:TypeScript,CO_OCCURS,0.001
+Skill:SQL,Skill:C++,CO_OCCURS,0.0171
+Skill:SQL,Skill:PHP,CO_OCCURS,0.596
+Skill:SQL,Skill:GCP,CO_OCCURS,0.001
+Skill:SQL,Skill:MLOps,CO_OCCURS,0.001
+Skill:SQL,Skill:JavaScript,CO_OCCURS,0.001
+Skill:SQL,Skill:Generative AI,CO_OCCURS,0.001
+Skill:SQL,Skill:jQuery,CO_OCCURS,0.001
+Skill:SQL,Skill:PyTorch,CO_OCCURS,0.001
+Skill:SQL,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:SQL,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:SQL,Skill:Azure,CO_OCCURS,0.001
+Skill:SQL,Skill:Terraform,CO_OCCURS,0.001
+Skill:SQL,Skill:Blockchain,CO_OCCURS,0.0558
+Skill:SQL,Skill:Angular,CO_OCCURS,0.001
+Skill:SQL,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:SQL,Skill:Linux,CO_OCCURS,0.001
+Skill:SQL,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:SQL,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:SQL,Skill:Rust,CO_OCCURS,0.001
+Skill:SQL,Skill:LangChain,CO_OCCURS,0.001
+Skill:SQL,Skill:LLM,CO_OCCURS,0.001
+Skill:SQL,Skill:Neo4j,CO_OCCURS,0.1707
+Skill:SQL,Role:Data Engineer,REQUIRES,0.8541
+Skill:SQL,Role:Full Stack Developer,REQUIRES,0.8384
+Skill:SQL,Role:Data Scientist,REQUIRES,0.8572
+Skill:SQL,Role:Qa Engineer,REQUIRES,0.8613
+Skill:SQL,Role:Backend Developer,REQUIRES,0.8502
+Skill:SQL,Role:Data Analyst,REQUIRES,0.8479
+Skill:SQL,Role:Business Analyst,REQUIRES,0.8604
+Skill:SQL,Role:Ai Engineer,REQUIRES,0.0172
+Skill:SQL,Role:Machine Learning Engineer,REQUIRES,0.0187
+Skill:SQL,Role:Frontend Developer,REQUIRES,0.0165
+Skill:SQL,Role:Devops Engineer,REQUIRES,0.0145
+Skill:SQL,Role:Security Analyst,REQUIRES,0.0205
+Skill:SQL,Role:Cloud Architect,REQUIRES,0.0163
+Skill:Snowflake,Skill:Spark,CO_OCCURS,2.1105
+Skill:Snowflake,Skill:Node.js,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Leadership,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Tableau,CO_OCCURS,0.001
+Skill:Snowflake,Skill:TypeScript,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Airflow,CO_OCCURS,2.2467
+Skill:Snowflake,Skill:Kafka,CO_OCCURS,2.1891
+Skill:Snowflake,Skill:Linux,CO_OCCURS,0.001
+Skill:Snowflake,Skill:CI/CD,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Java,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Pandas,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Snowflake,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Terraform,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Communication,CO_OCCURS,0.001
+Skill:Snowflake,Skill:NLP,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Azure,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Git,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Power BI,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Django,CO_OCCURS,0.001
+Skill:Snowflake,Skill:C++,CO_OCCURS,0.001
+Skill:Snowflake,Skill:GCP,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Angular,CO_OCCURS,0.001
+Skill:Snowflake,Skill:JavaScript,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Computer Vision,CO_OCCURS,0.3053
+Skill:Snowflake,Skill:Selenium,CO_OCCURS,0.001
+Skill:Snowflake,Skill:MongoDB,CO_OCCURS,0.001
+Skill:Snowflake,Skill:PHP,CO_OCCURS,0.001
+Skill:Snowflake,Skill:jQuery,CO_OCCURS,0.001
+Skill:Snowflake,Skill:FastAPI,CO_OCCURS,0.001
+Skill:Snowflake,Skill:LLM,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Snowflake,Skill:R,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Go,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:Snowflake,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Excel,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Generative AI,CO_OCCURS,0.001
+Skill:Snowflake,Skill:MLOps,CO_OCCURS,0.001
+Skill:Snowflake,Skill:LangChain,CO_OCCURS,0.001
+Skill:Snowflake,Skill:Rust,CO_OCCURS,0.3097
+Skill:Snowflake,Role:Data Engineer,REQUIRES,0.5739
+Skill:Snowflake,Role:Data Analyst,REQUIRES,0.0107
+Skill:Snowflake,Role:Machine Learning Engineer,REQUIRES,0.0064
+Skill:Snowflake,Role:Data Scientist,REQUIRES,0.0104
+Skill:Snowflake,Role:Ai Engineer,REQUIRES,0.0126
+Skill:Snowflake,Role:Devops Engineer,REQUIRES,0.0125
+Skill:Snowflake,Role:Frontend Developer,REQUIRES,0.0121
+Skill:Snowflake,Role:Full Stack Developer,REQUIRES,0.007
+Skill:Snowflake,Role:Backend Developer,REQUIRES,0.0092
+Skill:Snowflake,Role:Security Analyst,REQUIRES,0.011
+Skill:Snowflake,Role:Business Analyst,REQUIRES,0.0092
+Skill:Snowflake,Role:Cloud Architect,REQUIRES,0.0096
+Skill:Snowflake,Role:Qa Engineer,REQUIRES,0.0084
+Skill:Spark,Skill:Kafka,CO_OCCURS,2.1301
+Skill:Spark,Skill:Airflow,CO_OCCURS,2.1634
+Skill:Spark,Skill:Node.js,CO_OCCURS,0.001
+Skill:Spark,Skill:Communication,CO_OCCURS,0.001
+Skill:Spark,Skill:Django,CO_OCCURS,0.001
+Skill:Spark,Skill:C++,CO_OCCURS,0.0991
+Skill:Spark,Skill:MLOps,CO_OCCURS,0.001
+Skill:Spark,Skill:Leadership,CO_OCCURS,0.001
+Skill:Spark,Skill:Tableau,CO_OCCURS,0.001
+Skill:Spark,Skill:FastAPI,CO_OCCURS,0.001
+Skill:Spark,Skill:Java,CO_OCCURS,0.001
+Skill:Spark,Skill:MongoDB,CO_OCCURS,0.001
+Skill:Spark,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Spark,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:Spark,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Spark,Skill:Linux,CO_OCCURS,0.001
+Skill:Spark,Skill:LLM,CO_OCCURS,0.001
+Skill:Spark,Skill:NLP,CO_OCCURS,0.001
+Skill:Spark,Skill:TypeScript,CO_OCCURS,0.001
+Skill:Spark,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Spark,Skill:CI/CD,CO_OCCURS,0.001
+Skill:Spark,Skill:Pandas,CO_OCCURS,0.001
+Skill:Spark,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Spark,Skill:Azure,CO_OCCURS,0.001
+Skill:Spark,Skill:GCP,CO_OCCURS,0.001
+Skill:Spark,Skill:Terraform,CO_OCCURS,0.001
+Skill:Spark,Skill:jQuery,CO_OCCURS,0.001
+Skill:Spark,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:Spark,Skill:R,CO_OCCURS,0.001
+Skill:Spark,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Spark,Skill:Excel,CO_OCCURS,0.001
+Skill:Spark,Skill:Computer Vision,CO_OCCURS,0.3634
+Skill:Spark,Skill:Power BI,CO_OCCURS,0.001
+Skill:Spark,Skill:Angular,CO_OCCURS,0.001
+Skill:Spark,Skill:Generative AI,CO_OCCURS,0.001
+Skill:Spark,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Spark,Skill:Selenium,CO_OCCURS,0.001
+Skill:Spark,Skill:Rust,CO_OCCURS,0.2472
+Skill:Spark,Skill:JavaScript,CO_OCCURS,0.001
+Skill:Spark,Skill:Git,CO_OCCURS,0.001
+Skill:Spark,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:Spark,Skill:PHP,CO_OCCURS,0.001
+Skill:Spark,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Spark,Skill:Go,CO_OCCURS,0.001
+Skill:Spark,Skill:LangChain,CO_OCCURS,0.001
+Skill:Spark,Role:Data Engineer,REQUIRES,0.6632
+Skill:Spark,Role:Security Analyst,REQUIRES,0.0115
+Skill:Spark,Role:Business Analyst,REQUIRES,0.013
+Skill:Spark,Role:Backend Developer,REQUIRES,0.0102
+Skill:Spark,Role:Ai Engineer,REQUIRES,0.0135
+Skill:Spark,Role:Full Stack Developer,REQUIRES,0.0111
+Skill:Spark,Role:Cloud Architect,REQUIRES,0.0139
+Skill:Spark,Role:Machine Learning Engineer,REQUIRES,0.0123
+Skill:Spark,Role:Data Scientist,REQUIRES,0.0118
+Skill:Spark,Role:Frontend Developer,REQUIRES,0.0107
+Skill:Spark,Role:Data Analyst,REQUIRES,0.015
+Skill:Spark,Role:Devops Engineer,REQUIRES,0.0093
+Skill:Spark,Role:Qa Engineer,REQUIRES,0.0109
+Skill:Spark,Certification:Databricks Certified Data Engineer,VALIDATES,1.0
+Skill:Git,Skill:MongoDB,CO_OCCURS,1.0706
+Skill:Git,Skill:Node.js,CO_OCCURS,1.0
+Skill:Git,Skill:Angular,CO_OCCURS,1.0683
+Skill:Git,Skill:JavaScript,CO_OCCURS,1.1413
+Skill:Git,Skill:TypeScript,CO_OCCURS,1.0895
+Skill:Git,Skill:Azure,CO_OCCURS,0.519
+Skill:Git,Skill:FastAPI,CO_OCCURS,0.1726
+Skill:Git,Skill:Linux,CO_OCCURS,0.1927
+Skill:Git,Skill:NLP,CO_OCCURS,0.001
+Skill:Git,Skill:Selenium,CO_OCCURS,0.001
+Skill:Git,Skill:Django,CO_OCCURS,1.0035
+Skill:Git,Skill:Java,CO_OCCURS,0.4586
+Skill:Git,Skill:Spring Boot,CO_OCCURS,1.0665
+Skill:Git,Skill:CI/CD,CO_OCCURS,0.5591
+Skill:Git,Skill:Kubernetes,CO_OCCURS,0.5473
+Skill:Git,Skill:jQuery,CO_OCCURS,1.0563
+Skill:Git,Skill:PHP,CO_OCCURS,1.0762
+Skill:Git,Skill:Terraform,CO_OCCURS,0.5585
+Skill:Git,Skill:Power BI,CO_OCCURS,0.001
+Skill:Git,Skill:Pandas,CO_OCCURS,0.001
+Skill:Git,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Git,Skill:Go,CO_OCCURS,1.0749
+Skill:Git,Skill:Airflow,CO_OCCURS,0.001
+Skill:Git,Skill:C++,CO_OCCURS,0.001
+Skill:Git,Skill:Leadership,CO_OCCURS,0.001
+Skill:Git,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Git,Skill:Communication,CO_OCCURS,0.001
+Skill:Git,Skill:Excel,CO_OCCURS,0.001
+Skill:Git,Skill:Tableau,CO_OCCURS,0.001
+Skill:Git,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:Git,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Git,Skill:Computer Vision,CO_OCCURS,0.14
+Skill:Git,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:Git,Skill:GCP,CO_OCCURS,0.001
+Skill:Git,Skill:Blockchain,CO_OCCURS,0.1461
+Skill:Git,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:Git,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Git,Skill:Kafka,CO_OCCURS,0.001
+Skill:Git,Skill:MLOps,CO_OCCURS,0.001
+Skill:Git,Skill:Generative AI,CO_OCCURS,0.001
+Skill:Git,Skill:Neo4j,CO_OCCURS,0.1461
+Skill:Git,Skill:LLM,CO_OCCURS,0.001
+Skill:Git,Skill:LangChain,CO_OCCURS,0.001
+Skill:Git,Skill:R,CO_OCCURS,0.001
+Skill:Git,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Git,Skill:Rust,CO_OCCURS,0.001
+Skill:Git,Role:Full Stack Developer,REQUIRES,0.7023
+Skill:Git,Role:Frontend Developer,REQUIRES,0.6979
+Skill:Git,Role:Devops Engineer,REQUIRES,0.7105
+Skill:Git,Role:Backend Developer,REQUIRES,0.7086
+Skill:Git,Role:Ai Engineer,REQUIRES,0.0135
+Skill:Git,Role:Business Analyst,REQUIRES,0.013
+Skill:Git,Role:Qa Engineer,REQUIRES,0.0159
+Skill:Git,Role:Cloud Architect,REQUIRES,0.011
+Skill:Git,Role:Data Engineer,REQUIRES,0.012
+Skill:Git,Role:Data Analyst,REQUIRES,0.0102
+Skill:Git,Role:Security Analyst,REQUIRES,0.0129
+Skill:Git,Role:Data Scientist,REQUIRES,0.0142
+Skill:Git,Role:Machine Learning Engineer,REQUIRES,0.0127
+Skill:MongoDB,Skill:Node.js,CO_OCCURS,1.6279
+Skill:MongoDB,Skill:Azure,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Go,CO_OCCURS,1.6455
+Skill:MongoDB,Skill:Django,CO_OCCURS,1.5941
+Skill:MongoDB,Skill:FastAPI,CO_OCCURS,0.7405
+Skill:MongoDB,Skill:Java,CO_OCCURS,1.0688
+Skill:MongoDB,Skill:Spring Boot,CO_OCCURS,1.686
+Skill:MongoDB,Skill:Communication,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Power BI,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Tableau,CO_OCCURS,0.001
+Skill:MongoDB,Skill:PHP,CO_OCCURS,1.7154
+Skill:MongoDB,Skill:TypeScript,CO_OCCURS,1.0824
+Skill:MongoDB,Skill:JavaScript,CO_OCCURS,1.1189
+Skill:MongoDB,Skill:NLP,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Airflow,CO_OCCURS,0.001
+Skill:MongoDB,Skill:jQuery,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Pandas,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Leadership,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Excel,CO_OCCURS,0.001
+Skill:MongoDB,Skill:C++,CO_OCCURS,0.068
+Skill:MongoDB,Skill:Angular,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Computer Vision,CO_OCCURS,0.072
+Skill:MongoDB,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Linux,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:MongoDB,Skill:PyTorch,CO_OCCURS,0.001
+Skill:MongoDB,Skill:GCP,CO_OCCURS,0.001
+Skill:MongoDB,Skill:CI/CD,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Kafka,CO_OCCURS,0.001
+Skill:MongoDB,Skill:R,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Blockchain,CO_OCCURS,0.0917
+Skill:MongoDB,Skill:Terraform,CO_OCCURS,0.001
+Skill:MongoDB,Skill:MLOps,CO_OCCURS,0.001
+Skill:MongoDB,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Selenium,CO_OCCURS,0.001
+Skill:MongoDB,Skill:LLM,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Generative AI,CO_OCCURS,0.001
+Skill:MongoDB,Skill:LangChain,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Rust,CO_OCCURS,0.001
+Skill:MongoDB,Skill:Neo4j,CO_OCCURS,0.001
+Skill:MongoDB,Role:Full Stack Developer,REQUIRES,0.9243
+Skill:MongoDB,Role:Backend Developer,REQUIRES,0.908
+Skill:MongoDB,Role:Data Analyst,REQUIRES,0.0189
+Skill:MongoDB,Role:Cloud Architect,REQUIRES,0.0225
+Skill:MongoDB,Role:Data Scientist,REQUIRES,0.0222
+Skill:MongoDB,Role:Business Analyst,REQUIRES,0.0198
+Skill:MongoDB,Role:Data Engineer,REQUIRES,0.0259
+Skill:MongoDB,Role:Machine Learning Engineer,REQUIRES,0.0234
+Skill:MongoDB,Role:Security Analyst,REQUIRES,0.0224
+Skill:MongoDB,Role:Qa Engineer,REQUIRES,0.0214
+Skill:MongoDB,Role:Ai Engineer,REQUIRES,0.019
+Skill:MongoDB,Role:Devops Engineer,REQUIRES,0.023
+Skill:MongoDB,Role:Frontend Developer,REQUIRES,0.0233
+Skill:Node.js,Skill:Azure,CO_OCCURS,0.001
+Skill:Node.js,Skill:CI/CD,CO_OCCURS,0.001
+Skill:Node.js,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Node.js,Skill:Linux,CO_OCCURS,0.001
+Skill:Node.js,Skill:PHP,CO_OCCURS,2.2259
+Skill:Node.js,Skill:TypeScript,CO_OCCURS,1.5977
+Skill:Node.js,Skill:JavaScript,CO_OCCURS,1.6726
+Skill:Node.js,Skill:Communication,CO_OCCURS,0.001
+Skill:Node.js,Skill:Excel,CO_OCCURS,0.001
+Skill:Node.js,Skill:Tableau,CO_OCCURS,0.001
+Skill:Node.js,Skill:jQuery,CO_OCCURS,0.001
+Skill:Node.js,Skill:LLM,CO_OCCURS,0.001
+Skill:Node.js,Skill:NLP,CO_OCCURS,0.001
+Skill:Node.js,Skill:Django,CO_OCCURS,0.001
+Skill:Node.js,Skill:Leadership,CO_OCCURS,0.001
+Skill:Node.js,Skill:FastAPI,CO_OCCURS,0.001
+Skill:Node.js,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Node.js,Skill:GCP,CO_OCCURS,0.001
+Skill:Node.js,Skill:Terraform,CO_OCCURS,0.001
+Skill:Node.js,Skill:C++,CO_OCCURS,0.0731
+Skill:Node.js,Skill:Angular,CO_OCCURS,0.001
+Skill:Node.js,Skill:Airflow,CO_OCCURS,0.001
+Skill:Node.js,Skill:Go,CO_OCCURS,0.001
+Skill:Node.js,Skill:Java,CO_OCCURS,0.001
+Skill:Node.js,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Node.js,Skill:Computer Vision,CO_OCCURS,0.336
+Skill:Node.js,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Node.js,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Node.js,Skill:Kafka,CO_OCCURS,0.001
+Skill:Node.js,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:Node.js,Skill:Power BI,CO_OCCURS,0.001
+Skill:Node.js,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:Node.js,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Node.js,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:Node.js,Skill:Selenium,CO_OCCURS,0.001
+Skill:Node.js,Skill:Pandas,CO_OCCURS,0.001
+Skill:Node.js,Skill:R,CO_OCCURS,0.001
+Skill:Node.js,Skill:Generative AI,CO_OCCURS,0.001
+Skill:Node.js,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Node.js,Skill:MLOps,CO_OCCURS,0.001
+Skill:Node.js,Skill:LangChain,CO_OCCURS,0.001
+Skill:Node.js,Skill:Rust,CO_OCCURS,0.001
+Skill:Node.js,Role:Full Stack Developer,REQUIRES,0.8843
+Skill:Node.js,Role:Devops Engineer,REQUIRES,0.0222
+Skill:Node.js,Role:Data Engineer,REQUIRES,0.0159
+Skill:Node.js,Role:Business Analyst,REQUIRES,0.0237
+Skill:Node.js,Role:Ai Engineer,REQUIRES,0.0201
+Skill:Node.js,Role:Cloud Architect,REQUIRES,0.0168
+Skill:Node.js,Role:Frontend Developer,REQUIRES,0.0184
+Skill:Node.js,Role:Backend Developer,REQUIRES,0.022
+Skill:Node.js,Role:Data Analyst,REQUIRES,0.0155
+Skill:Node.js,Role:Security Analyst,REQUIRES,0.0153
+Skill:Node.js,Role:Machine Learning Engineer,REQUIRES,0.0161
+Skill:Node.js,Role:Qa Engineer,REQUIRES,0.0184
+Skill:Node.js,Role:Data Scientist,REQUIRES,0.0246
+Skill:Generative AI,Category:AI,IN_CATEGORY,1.0
+Skill:Generative AI,Skill:LangChain,CO_OCCURS,1.1617
+Skill:Generative AI,Skill:NLP,CO_OCCURS,1.2931
+Skill:Generative AI,Skill:Prompt Engineering,CO_OCCURS,1.187
+Skill:Generative AI,Skill:Scikit-learn,CO_OCCURS,1.0535
+Skill:Generative AI,Skill:Pandas,CO_OCCURS,1.0441
+Skill:Generative AI,Skill:Deep Learning,CO_OCCURS,0.6036
+Skill:Generative AI,Skill:FastAPI,CO_OCCURS,1.0415
+Skill:Generative AI,Skill:PyTorch,CO_OCCURS,0.9429
+Skill:Generative AI,Skill:Selenium,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Machine Learning,CO_OCCURS,0.3605
+Skill:Generative AI,Skill:R,CO_OCCURS,1.1319
+Skill:Generative AI,Skill:LLM,CO_OCCURS,0.8877
+Skill:Generative AI,Skill:Java,CO_OCCURS,0.001
+Skill:Generative AI,Skill:jQuery,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Power BI,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Tableau,CO_OCCURS,0.001
+Skill:Generative AI,Skill:C++,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Linux,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Azure,CO_OCCURS,0.001
+Skill:Generative AI,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Django,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Terraform,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Computer Vision,CO_OCCURS,0.0415
+Skill:Generative AI,Skill:Go,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Angular,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Leadership,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Communication,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Generative AI,Skill:PHP,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Excel,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Kafka,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Blockchain,CO_OCCURS,0.001
+Skill:Generative AI,Skill:TypeScript,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Rust,CO_OCCURS,0.4849
+Skill:Generative AI,Skill:CI/CD,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Airflow,CO_OCCURS,0.001
+Skill:Generative AI,Skill:GCP,CO_OCCURS,0.001
+Skill:Generative AI,Skill:JavaScript,CO_OCCURS,0.001
+Skill:Generative AI,Skill:MLOps,CO_OCCURS,0.001
+Skill:Generative AI,Skill:Neo4j,CO_OCCURS,0.5186
+Skill:Generative AI,Role:Ai Engineer,REQUIRES,0.7014
+Skill:Generative AI,Role:Data Scientist,REQUIRES,0.6383
+Skill:Generative AI,Role:Devops Engineer,REQUIRES,0.0794
+Skill:Generative AI,Role:Backend Developer,REQUIRES,0.0624
+Skill:Generative AI,Role:Machine Learning Engineer,REQUIRES,0.0743
+Skill:Generative AI,Role:Qa Engineer,REQUIRES,0.0656
+Skill:Generative AI,Role:Data Analyst,REQUIRES,0.077
+Skill:Generative AI,Role:Security Analyst,REQUIRES,0.0611
+Skill:Generative AI,Role:Cloud Architect,REQUIRES,0.0699
+Skill:Generative AI,Role:Data Engineer,REQUIRES,0.0741
+Skill:Generative AI,Role:Business Analyst,REQUIRES,0.0754
+Skill:Generative AI,Role:Frontend Developer,REQUIRES,0.0679
+Skill:Generative AI,Role:Full Stack Developer,REQUIRES,0.0701
+Skill:Generative AI,Certification:DeepLearning.AI Generative AI Specialization,VALIDATES,1.0
+Category:AI,Skill:Deep Learning,IN_CATEGORY,1.0
+Category:AI,Skill:NLP,IN_CATEGORY,1.0
+Category:AI,Skill:Machine Learning,IN_CATEGORY,1.0
+Category:AI,Skill:LLM,IN_CATEGORY,1.0
+Category:AI,Skill:MLOps,IN_CATEGORY,1.0
+Category:AI,Skill:Prompt Engineering,IN_CATEGORY,1.0
+Category:AI,Skill:Computer Vision,IN_CATEGORY,1.0
+Skill:Angular,Skill:JavaScript,CO_OCCURS,1.7342
+Skill:Angular,Skill:TypeScript,CO_OCCURS,1.6493
+Skill:Angular,Skill:jQuery,CO_OCCURS,2.3756
+Skill:Angular,Skill:PHP,CO_OCCURS,0.001
+Skill:Angular,Skill:C++,CO_OCCURS,0.0563
+Skill:Angular,Skill:Azure,CO_OCCURS,0.001
+Skill:Angular,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Angular,Skill:Django,CO_OCCURS,0.001
+Skill:Angular,Skill:GCP,CO_OCCURS,0.001
+Skill:Angular,Skill:Airflow,CO_OCCURS,0.001
+Skill:Angular,Skill:Go,CO_OCCURS,0.001
+Skill:Angular,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Angular,Skill:Communication,CO_OCCURS,0.001
+Skill:Angular,Skill:Power BI,CO_OCCURS,0.001
+Skill:Angular,Skill:Tableau,CO_OCCURS,0.001
+Skill:Angular,Skill:Pandas,CO_OCCURS,0.001
+Skill:Angular,Skill:Computer Vision,CO_OCCURS,0.6794
+Skill:Angular,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:Angular,Skill:Linux,CO_OCCURS,0.001
+Skill:Angular,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Angular,Skill:R,CO_OCCURS,0.001
+Skill:Angular,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Angular,Skill:Java,CO_OCCURS,0.001
+Skill:Angular,Skill:FastAPI,CO_OCCURS,0.001
+Skill:Angular,Skill:NLP,CO_OCCURS,0.001
+Skill:Angular,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Angular,Skill:Selenium,CO_OCCURS,0.001
+Skill:Angular,Skill:CI/CD,CO_OCCURS,0.001
+Skill:Angular,Skill:Excel,CO_OCCURS,0.001
+Skill:Angular,Skill:Leadership,CO_OCCURS,0.001
+Skill:Angular,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:Angular,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Angular,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Angular,Skill:LangChain,CO_OCCURS,0.001
+Skill:Angular,Skill:LLM,CO_OCCURS,0.001
+Skill:Angular,Skill:Kafka,CO_OCCURS,0.001
+Skill:Angular,Skill:MLOps,CO_OCCURS,0.001
+Skill:Angular,Skill:Terraform,CO_OCCURS,0.001
+Skill:Angular,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:Angular,Role:Frontend Developer,REQUIRES,0.4806
+Skill:Angular,Role:Cloud Architect,REQUIRES,0.0038
+Skill:Angular,Role:Devops Engineer,REQUIRES,0.0056
+Skill:Angular,Role:Backend Developer,REQUIRES,0.0107
+Skill:Angular,Role:Business Analyst,REQUIRES,0.0058
+Skill:Angular,Role:Data Analyst,REQUIRES,0.0092
+Skill:Angular,Role:Data Scientist,REQUIRES,0.008
+Skill:Angular,Role:Ai Engineer,REQUIRES,0.006
+Skill:Angular,Role:Qa Engineer,REQUIRES,0.0055
+Skill:Angular,Role:Data Engineer,REQUIRES,0.006
+Skill:Angular,Role:Machine Learning Engineer,REQUIRES,0.0085
+Skill:Angular,Role:Security Analyst,REQUIRES,0.0062
+Skill:Angular,Role:Full Stack Developer,REQUIRES,0.007
+Skill:JavaScript,Skill:TypeScript,CO_OCCURS,1.7651
+Skill:JavaScript,Skill:PHP,CO_OCCURS,1.7991
+Skill:JavaScript,Skill:Pandas,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Selenium,CO_OCCURS,0.001
+Skill:JavaScript,Skill:jQuery,CO_OCCURS,1.815
+Skill:JavaScript,Skill:Java,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Linux,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Terraform,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Leadership,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:JavaScript,Skill:R,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Airflow,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Azure,CO_OCCURS,0.001
+Skill:JavaScript,Skill:GCP,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Go,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Tableau,CO_OCCURS,0.001
+Skill:JavaScript,Skill:FastAPI,CO_OCCURS,0.001
+Skill:JavaScript,Skill:CI/CD,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Excel,CO_OCCURS,0.001
+Skill:JavaScript,Skill:C++,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Communication,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Power BI,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Kafka,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Django,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:JavaScript,Skill:LLM,CO_OCCURS,0.001
+Skill:JavaScript,Skill:MLOps,CO_OCCURS,0.001
+Skill:JavaScript,Skill:PyTorch,CO_OCCURS,0.001
+Skill:JavaScript,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:JavaScript,Skill:LangChain,CO_OCCURS,0.001
+Skill:JavaScript,Skill:NLP,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Computer Vision,CO_OCCURS,0.5235
+Skill:JavaScript,Skill:Rust,CO_OCCURS,0.001
+Skill:JavaScript,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:JavaScript,Role:Frontend Developer,REQUIRES,0.3923
+Skill:JavaScript,Role:Full Stack Developer,REQUIRES,0.3748
+Skill:JavaScript,Role:Cloud Architect,REQUIRES,0.0038
+Skill:JavaScript,Role:Data Scientist,REQUIRES,0.0038
+Skill:JavaScript,Role:Ai Engineer,REQUIRES,0.002
+Skill:JavaScript,Role:Data Analyst,REQUIRES,0.0029
+Skill:JavaScript,Role:Data Engineer,REQUIRES,0.0024
+Skill:JavaScript,Role:Machine Learning Engineer,REQUIRES,0.0042
+Skill:JavaScript,Role:Devops Engineer,REQUIRES,0.0024
+Skill:JavaScript,Role:Security Analyst,REQUIRES,0.0038
+Skill:JavaScript,Role:Business Analyst,REQUIRES,0.0029
+Skill:JavaScript,Role:Backend Developer,REQUIRES,0.002
+Skill:JavaScript,Role:Qa Engineer,REQUIRES,0.004
+Skill:TypeScript,Skill:Communication,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Excel,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Leadership,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Power BI,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Tableau,CO_OCCURS,0.001
+Skill:TypeScript,Skill:PHP,CO_OCCURS,1.6593
+Skill:TypeScript,Skill:C++,CO_OCCURS,0.0328
+Skill:TypeScript,Skill:Django,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Pandas,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Selenium,CO_OCCURS,0.001
+Skill:TypeScript,Skill:jQuery,CO_OCCURS,1.6783
+Skill:TypeScript,Skill:Java,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Airflow,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Azure,CO_OCCURS,0.001
+Skill:TypeScript,Skill:CI/CD,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Linux,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Go,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Computer Vision,CO_OCCURS,0.4423
+Skill:TypeScript,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:TypeScript,Skill:GCP,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Blockchain,CO_OCCURS,0.2237
+Skill:TypeScript,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:TypeScript,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:TypeScript,Skill:PyTorch,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Terraform,CO_OCCURS,0.001
+Skill:TypeScript,Skill:NLP,CO_OCCURS,0.001
+Skill:TypeScript,Skill:FastAPI,CO_OCCURS,0.001
+Skill:TypeScript,Skill:R,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Kafka,CO_OCCURS,0.001
+Skill:TypeScript,Skill:MLOps,CO_OCCURS,0.001
+Skill:TypeScript,Skill:LLM,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Neo4j,CO_OCCURS,0.001
+Skill:TypeScript,Skill:LangChain,CO_OCCURS,0.001
+Skill:TypeScript,Skill:Rust,CO_OCCURS,0.001
+Skill:TypeScript,Role:Frontend Developer,REQUIRES,0.7997
+Skill:TypeScript,Role:Security Analyst,REQUIRES,0.0167
+Skill:TypeScript,Role:Business Analyst,REQUIRES,0.0164
+Skill:TypeScript,Role:Data Analyst,REQUIRES,0.0199
+Skill:TypeScript,Role:Full Stack Developer,REQUIRES,0.785
+Skill:TypeScript,Role:Qa Engineer,REQUIRES,0.0199
+Skill:TypeScript,Role:Devops Engineer,REQUIRES,0.0218
+Skill:TypeScript,Role:Backend Developer,REQUIRES,0.0174
+Skill:TypeScript,Role:Machine Learning Engineer,REQUIRES,0.0204
+Skill:TypeScript,Role:Cloud Architect,REQUIRES,0.0153
+Skill:TypeScript,Role:Data Scientist,REQUIRES,0.0137
+Skill:TypeScript,Role:Data Engineer,REQUIRES,0.0128
+Skill:TypeScript,Role:Ai Engineer,REQUIRES,0.0198
+Skill:Azure,Skill:CI/CD,CO_OCCURS,1.1008
+Skill:Azure,Skill:Kubernetes,CO_OCCURS,1.6484
+Skill:Azure,Skill:Linux,CO_OCCURS,1.316
+Skill:Azure,Skill:Cybersecurity,CO_OCCURS,1.0205
+Skill:Azure,Skill:GCP,CO_OCCURS,1.6324
+Skill:Azure,Skill:Terraform,CO_OCCURS,1.6772
+Skill:Azure,Skill:Tableau,CO_OCCURS,0.001
+Skill:Azure,Skill:C++,CO_OCCURS,0.001
+Skill:Azure,Skill:Java,CO_OCCURS,0.001
+Skill:Azure,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:Azure,Skill:Airflow,CO_OCCURS,0.001
+Skill:Azure,Skill:jQuery,CO_OCCURS,0.001
+Skill:Azure,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Azure,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Azure,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:Azure,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Azure,Skill:Selenium,CO_OCCURS,0.001
+Skill:Azure,Skill:Django,CO_OCCURS,0.001
+Skill:Azure,Skill:MLOps,CO_OCCURS,0.001
+Skill:Azure,Skill:Pandas,CO_OCCURS,0.001
+Skill:Azure,Skill:Communication,CO_OCCURS,0.001
+Skill:Azure,Skill:Power BI,CO_OCCURS,0.001
+Skill:Azure,Skill:Excel,CO_OCCURS,0.001
+Skill:Azure,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Azure,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Azure,Skill:PHP,CO_OCCURS,0.001
+Skill:Azure,Skill:Leadership,CO_OCCURS,0.001
+Skill:Azure,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:Azure,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Azure,Skill:LLM,CO_OCCURS,0.001
+Skill:Azure,Skill:FastAPI,CO_OCCURS,0.001
+Skill:Azure,Skill:Go,CO_OCCURS,0.001
+Skill:Azure,Skill:Kafka,CO_OCCURS,0.001
+Skill:Azure,Skill:R,CO_OCCURS,0.001
+Skill:Azure,Skill:NLP,CO_OCCURS,0.001
+Skill:Azure,Skill:Blockchain,CO_OCCURS,0.2351
+Skill:Azure,Skill:LangChain,CO_OCCURS,0.001
+Skill:Azure,Skill:Rust,CO_OCCURS,0.001
+Skill:Azure,Skill:Neo4j,CO_OCCURS,0.0708
+Skill:Azure,Role:Full Stack Developer,REQUIRES,0.0176
+Skill:Azure,Role:Devops Engineer,REQUIRES,0.8843
+Skill:Azure,Role:Cloud Architect,REQUIRES,0.8865
+Skill:Azure,Role:Qa Engineer,REQUIRES,0.0219
+Skill:Azure,Role:Machine Learning Engineer,REQUIRES,0.0217
+Skill:Azure,Role:Data Analyst,REQUIRES,0.0266
+Skill:Azure,Role:Data Engineer,REQUIRES,0.0231
+Skill:Azure,Role:Security Analyst,REQUIRES,0.02
+Skill:Azure,Role:Ai Engineer,REQUIRES,0.0218
+Skill:Azure,Role:Frontend Developer,REQUIRES,0.0199
+Skill:Azure,Role:Data Scientist,REQUIRES,0.0227
+Skill:Azure,Role:Backend Developer,REQUIRES,0.0199
+Skill:Azure,Role:Business Analyst,REQUIRES,0.0193
+Skill:Azure,Certification:Azure Data Engineer Associate,VALIDATES,1.0
+Skill:Deep Learning,Skill:NLP,CO_OCCURS,0.7624
+Skill:Deep Learning,Skill:R,CO_OCCURS,1.6459
+Skill:Deep Learning,Skill:Scikit-learn,CO_OCCURS,1.5362
+Skill:Deep Learning,Skill:Machine Learning,CO_OCCURS,1.7074
+Skill:Deep Learning,Skill:Pandas,CO_OCCURS,1.5363
+Skill:Deep Learning,Skill:LLM,CO_OCCURS,0.6655
+Skill:Deep Learning,Skill:TensorFlow,CO_OCCURS,1.6571
+Skill:Deep Learning,Skill:MLOps,CO_OCCURS,1.6794
+Skill:Deep Learning,Skill:PyTorch,CO_OCCURS,0.8324
+Skill:Deep Learning,Skill:Communication,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Excel,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Tableau,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:FastAPI,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Leadership,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Django,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Java,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Linux,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Selenium,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:GCP,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:C++,CO_OCCURS,0.0287
+Skill:Deep Learning,Skill:CI/CD,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Power BI,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:jQuery,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Go,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:PHP,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Kafka,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Airflow,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Blockchain,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Terraform,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:LangChain,CO_OCCURS,0.001
+Skill:Deep Learning,Skill:Rust,CO_OCCURS,0.001
+Skill:Deep Learning,Role:Data Scientist,REQUIRES,0.7697
+Skill:Deep Learning,Role:Machine Learning Engineer,REQUIRES,0.7914
+Skill:Deep Learning,Role:Data Analyst,REQUIRES,0.0203
+Skill:Deep Learning,Role:Ai Engineer,REQUIRES,0.0149
+Skill:Deep Learning,Role:Cloud Architect,REQUIRES,0.0187
+Skill:Deep Learning,Role:Backend Developer,REQUIRES,0.0184
+Skill:Deep Learning,Role:Devops Engineer,REQUIRES,0.0173
+Skill:Deep Learning,Role:Security Analyst,REQUIRES,0.0157
+Skill:Deep Learning,Role:Qa Engineer,REQUIRES,0.0169
+Skill:Deep Learning,Role:Business Analyst,REQUIRES,0.0193
+Skill:Deep Learning,Role:Full Stack Developer,REQUIRES,0.0176
+Skill:Deep Learning,Role:Frontend Developer,REQUIRES,0.0179
+Skill:Deep Learning,Role:Data Engineer,REQUIRES,0.0132
+Skill:Deep Learning,Certification:TensorFlow Developer Certificate,VALIDATES,1.0
+Skill:NLP,Skill:R,CO_OCCURS,1.4628
+Skill:NLP,Skill:Scikit-learn,CO_OCCURS,1.3485
+Skill:NLP,Skill:FastAPI,CO_OCCURS,1.2143
+Skill:NLP,Skill:Linux,CO_OCCURS,0.001
+Skill:NLP,Skill:Selenium,CO_OCCURS,0.001
+Skill:NLP,Skill:Machine Learning,CO_OCCURS,0.4961
+Skill:NLP,Skill:Pandas,CO_OCCURS,1.3802
+Skill:NLP,Skill:Airflow,CO_OCCURS,0.001
+Skill:NLP,Skill:LangChain,CO_OCCURS,1.2225
+Skill:NLP,Skill:Prompt Engineering,CO_OCCURS,1.2384
+Skill:NLP,Skill:Java,CO_OCCURS,0.001
+Skill:NLP,Skill:LLM,CO_OCCURS,0.9014
+Skill:NLP,Skill:PyTorch,CO_OCCURS,1.1086
+Skill:NLP,Skill:Leadership,CO_OCCURS,0.001
+Skill:NLP,Skill:Tableau,CO_OCCURS,0.001
+Skill:NLP,Skill:CI/CD,CO_OCCURS,0.001
+Skill:NLP,Skill:MLOps,CO_OCCURS,0.001
+Skill:NLP,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:NLP,Skill:C++,CO_OCCURS,0.1313
+Skill:NLP,Skill:Power BI,CO_OCCURS,0.001
+Skill:NLP,Skill:jQuery,CO_OCCURS,0.001
+Skill:NLP,Skill:Kafka,CO_OCCURS,0.001
+Skill:NLP,Skill:Computer Vision,CO_OCCURS,0.04
+Skill:NLP,Skill:Django,CO_OCCURS,0.001
+Skill:NLP,Skill:Communication,CO_OCCURS,0.001
+Skill:NLP,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:NLP,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:NLP,Skill:PHP,CO_OCCURS,0.001
+Skill:NLP,Skill:GCP,CO_OCCURS,0.001
+Skill:NLP,Skill:Excel,CO_OCCURS,0.001
+Skill:NLP,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:NLP,Skill:Go,CO_OCCURS,0.001
+Skill:NLP,Skill:Terraform,CO_OCCURS,0.001
+Skill:NLP,Skill:Neo4j,CO_OCCURS,0.0708
+Skill:NLP,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:NLP,Skill:Rust,CO_OCCURS,0.2115
+Skill:NLP,Role:Data Scientist,REQUIRES,0.5565
+Skill:NLP,Role:Devops Engineer,REQUIRES,0.0113
+Skill:NLP,Role:Data Engineer,REQUIRES,0.008
+Skill:NLP,Role:Ai Engineer,REQUIRES,0.5862
+Skill:NLP,Role:Backend Developer,REQUIRES,0.0072
+Skill:NLP,Role:Frontend Developer,REQUIRES,0.0131
+Skill:NLP,Role:Data Analyst,REQUIRES,0.0053
+Skill:NLP,Role:Business Analyst,REQUIRES,0.0111
+Skill:NLP,Role:Security Analyst,REQUIRES,0.0086
+Skill:NLP,Role:Qa Engineer,REQUIRES,0.0104
+Skill:NLP,Role:Machine Learning Engineer,REQUIRES,0.0076
+Skill:NLP,Role:Cloud Architect,REQUIRES,0.0072
+Skill:NLP,Role:Full Stack Developer,REQUIRES,0.0093
+Skill:R,Skill:Scikit-learn,CO_OCCURS,2.2623
+Skill:R,Skill:Pandas,CO_OCCURS,2.3061
+Skill:R,Skill:Machine Learning,CO_OCCURS,1.3849
+Skill:R,Skill:FastAPI,CO_OCCURS,0.001
+Skill:R,Skill:LangChain,CO_OCCURS,0.001
+Skill:R,Skill:PyTorch,CO_OCCURS,0.001
+Skill:R,Skill:Leadership,CO_OCCURS,0.001
+Skill:R,Skill:Kafka,CO_OCCURS,0.001
+Skill:R,Skill:Selenium,CO_OCCURS,0.001
+Skill:R,Skill:Linux,CO_OCCURS,0.001
+Skill:R,Skill:Power BI,CO_OCCURS,0.001
+Skill:R,Skill:C++,CO_OCCURS,0.001
+Skill:R,Skill:Tableau,CO_OCCURS,0.001
+Skill:R,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:R,Skill:Django,CO_OCCURS,0.001
+Skill:R,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:R,Skill:Excel,CO_OCCURS,0.001
+Skill:R,Skill:Communication,CO_OCCURS,0.001
+Skill:R,Skill:Java,CO_OCCURS,0.001
+Skill:R,Skill:PHP,CO_OCCURS,0.001
+Skill:R,Skill:Computer Vision,CO_OCCURS,0.2165
+Skill:R,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:R,Skill:Terraform,CO_OCCURS,0.001
+Skill:R,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:R,Skill:Airflow,CO_OCCURS,0.001
+Skill:R,Skill:GCP,CO_OCCURS,0.001
+Skill:R,Skill:LLM,CO_OCCURS,0.001
+Skill:R,Skill:MLOps,CO_OCCURS,0.001
+Skill:R,Skill:CI/CD,CO_OCCURS,0.001
+Skill:R,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:R,Skill:Go,CO_OCCURS,0.001
+Skill:R,Role:Data Scientist,REQUIRES,0.3617
+Skill:R,Role:Ai Engineer,REQUIRES,0.0046
+Skill:R,Role:Data Engineer,REQUIRES,0.0052
+Skill:R,Role:Machine Learning Engineer,REQUIRES,0.0042
+Skill:R,Role:Business Analyst,REQUIRES,0.0043
+Skill:R,Role:Full Stack Developer,REQUIRES,0.0028
+Skill:R,Role:Cloud Architect,REQUIRES,0.0034
+Skill:R,Role:Security Analyst,REQUIRES,0.0029
+Skill:R,Role:Data Analyst,REQUIRES,0.0044
+Skill:R,Role:Devops Engineer,REQUIRES,0.0028
+Skill:R,Role:Qa Engineer,REQUIRES,0.0035
+Skill:R,Role:Frontend Developer,REQUIRES,0.0024
+Skill:R,Role:Backend Developer,REQUIRES,0.0015
+Skill:Scikit-learn,Category:Library,IN_CATEGORY,1.0
+Skill:Scikit-learn,Skill:Machine Learning,CO_OCCURS,1.305
+Skill:Scikit-learn,Skill:Pandas,CO_OCCURS,2.1648
+Skill:Scikit-learn,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Leadership,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Excel,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Java,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Communication,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Power BI,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Tableau,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:CI/CD,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Django,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:MLOps,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Selenium,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Linux,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Airflow,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:jQuery,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:PHP,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:LLM,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:C++,CO_OCCURS,0.1435
+Skill:Scikit-learn,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Terraform,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Kafka,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Manual Testing,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:FastAPI,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:LangChain,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:GCP,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Go,CO_OCCURS,0.001
+Skill:Scikit-learn,Skill:Rust,CO_OCCURS,0.001
+Skill:Scikit-learn,Role:Data Scientist,REQUIRES,0.9267
+Skill:Scikit-learn,Role:Ai Engineer,REQUIRES,0.0201
+Skill:Scikit-learn,Role:Data Engineer,REQUIRES,0.0191
+Skill:Scikit-learn,Role:Qa Engineer,REQUIRES,0.0214
+Skill:Scikit-learn,Role:Data Analyst,REQUIRES,0.0184
+Skill:Scikit-learn,Role:Machine Learning Engineer,REQUIRES,0.0161
+Skill:Scikit-learn,Role:Business Analyst,REQUIRES,0.0208
+Skill:Scikit-learn,Role:Security Analyst,REQUIRES,0.0239
+Skill:Scikit-learn,Role:Frontend Developer,REQUIRES,0.0223
+Skill:Scikit-learn,Role:Full Stack Developer,REQUIRES,0.0218
+Skill:Scikit-learn,Role:Cloud Architect,REQUIRES,0.0244
+Skill:Scikit-learn,Role:Devops Engineer,REQUIRES,0.0198
+Skill:Scikit-learn,Role:Backend Developer,REQUIRES,0.0174
+Category:Library,Skill:Pandas,IN_CATEGORY,1.0
+Category:Library,Skill:PyTorch,IN_CATEGORY,1.0
+Category:Library,Skill:TensorFlow,IN_CATEGORY,1.0
+Category:Library,Skill:LangChain,IN_CATEGORY,1.0
+Skill:CI/CD,Skill:Manual Testing,CO_OCCURS,1.6753
+Skill:CI/CD,Skill:Pandas,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Kubernetes,CO_OCCURS,1.1372
+Skill:CI/CD,Skill:Linux,CO_OCCURS,0.8168
+Skill:CI/CD,Skill:Java,CO_OCCURS,1.0473
+Skill:CI/CD,Skill:Selenium,CO_OCCURS,1.6305
+Skill:CI/CD,Skill:Terraform,CO_OCCURS,1.1516
+Skill:CI/CD,Skill:Airflow,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:CI/CD,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Power BI,CO_OCCURS,0.001
+Skill:CI/CD,Skill:C++,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Kafka,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Django,CO_OCCURS,0.001
+Skill:CI/CD,Skill:FastAPI,CO_OCCURS,0.001
+Skill:CI/CD,Skill:MLOps,CO_OCCURS,0.001
+Skill:CI/CD,Skill:PyTorch,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Leadership,CO_OCCURS,0.001
+Skill:CI/CD,Skill:PHP,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Excel,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Communication,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Rust,CO_OCCURS,0.0111
+Skill:CI/CD,Skill:Tableau,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:CI/CD,Skill:GCP,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Go,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:CI/CD,Skill:LangChain,CO_OCCURS,0.001
+Skill:CI/CD,Skill:jQuery,CO_OCCURS,0.001
+Skill:CI/CD,Skill:LLM,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:CI/CD,Skill:Neo4j,CO_OCCURS,0.6689
+Skill:CI/CD,Role:Qa Engineer,REQUIRES,0.3976
+Skill:CI/CD,Role:Devops Engineer,REQUIRES,0.3915
+Skill:CI/CD,Role:Data Scientist,REQUIRES,0.0047
+Skill:CI/CD,Role:Data Engineer,REQUIRES,0.0064
+Skill:CI/CD,Role:Backend Developer,REQUIRES,0.0026
+Skill:CI/CD,Role:Machine Learning Engineer,REQUIRES,0.0038
+Skill:CI/CD,Role:Frontend Developer,REQUIRES,0.0039
+Skill:CI/CD,Role:Security Analyst,REQUIRES,0.0048
+Skill:CI/CD,Role:Data Analyst,REQUIRES,0.0068
+Skill:CI/CD,Role:Ai Engineer,REQUIRES,0.0043
+Skill:CI/CD,Role:Cloud Architect,REQUIRES,0.0038
+Skill:CI/CD,Role:Business Analyst,REQUIRES,0.0058
+Skill:CI/CD,Role:Full Stack Developer,REQUIRES,0.0042
+Skill:Manual Testing,Category:Testing,IN_CATEGORY,1.0
+Skill:Manual Testing,Skill:Pandas,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Java,CO_OCCURS,1.7676
+Skill:Manual Testing,Skill:Selenium,CO_OCCURS,2.3751
+Skill:Manual Testing,Skill:C++,CO_OCCURS,0.1548
+Skill:Manual Testing,Skill:FastAPI,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Tableau,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Linux,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Terraform,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Django,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Go,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Excel,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:PHP,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Airflow,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:GCP,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:jQuery,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Communication,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Power BI,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Leadership,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Kafka,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:LLM,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:MLOps,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:LangChain,CO_OCCURS,0.001
+Skill:Manual Testing,Skill:Rust,CO_OCCURS,0.2763
+Skill:Manual Testing,Role:Qa Engineer,REQUIRES,0.423
+Skill:Manual Testing,Role:Ai Engineer,REQUIRES,0.0046
+Skill:Manual Testing,Role:Data Analyst,REQUIRES,0.0058
+Skill:Manual Testing,Role:Security Analyst,REQUIRES,0.0057
+Skill:Manual Testing,Role:Backend Developer,REQUIRES,0.0056
+Skill:Manual Testing,Role:Devops Engineer,REQUIRES,0.004
+Skill:Manual Testing,Role:Full Stack Developer,REQUIRES,0.0028
+Skill:Manual Testing,Role:Machine Learning Engineer,REQUIRES,0.0038
+Skill:Manual Testing,Role:Cloud Architect,REQUIRES,0.0048
+Skill:Manual Testing,Role:Business Analyst,REQUIRES,0.0034
+Skill:Manual Testing,Role:Data Engineer,REQUIRES,0.0032
+Skill:Manual Testing,Role:Frontend Developer,REQUIRES,0.0029
+Skill:Manual Testing,Role:Data Scientist,REQUIRES,0.0033
+Category:Testing,Skill:Selenium,IN_CATEGORY,1.0
+Skill:Pandas,Skill:Machine Learning,CO_OCCURS,1.3427
+Skill:Pandas,Skill:LLM,CO_OCCURS,0.001
+Skill:Pandas,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Pandas,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Pandas,Skill:Selenium,CO_OCCURS,0.001
+Skill:Pandas,Skill:jQuery,CO_OCCURS,0.001
+Skill:Pandas,Skill:Communication,CO_OCCURS,0.001
+Skill:Pandas,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Pandas,Skill:Linux,CO_OCCURS,0.001
+Skill:Pandas,Skill:Leadership,CO_OCCURS,0.001
+Skill:Pandas,Skill:Java,CO_OCCURS,0.001
+Skill:Pandas,Skill:Terraform,CO_OCCURS,0.001
+Skill:Pandas,Skill:Kafka,CO_OCCURS,0.001
+Skill:Pandas,Skill:Tableau,CO_OCCURS,0.001
+Skill:Pandas,Skill:MLOps,CO_OCCURS,0.001
+Skill:Pandas,Skill:FastAPI,CO_OCCURS,0.001
+Skill:Pandas,Skill:LangChain,CO_OCCURS,0.001
+Skill:Pandas,Skill:Power BI,CO_OCCURS,0.001
+Skill:Pandas,Skill:C++,CO_OCCURS,0.0635
+Skill:Pandas,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Pandas,Skill:Excel,CO_OCCURS,0.001
+Skill:Pandas,Skill:Django,CO_OCCURS,0.001
+Skill:Pandas,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Pandas,Skill:PHP,CO_OCCURS,0.001
+Skill:Pandas,Skill:Airflow,CO_OCCURS,0.001
+Skill:Pandas,Skill:GCP,CO_OCCURS,0.001
+Skill:Pandas,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Pandas,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Pandas,Skill:Go,CO_OCCURS,0.001
+Skill:Pandas,Skill:Rust,CO_OCCURS,0.001
+Skill:Pandas,Role:Qa Engineer,REQUIRES,0.0179
+Skill:Pandas,Role:Data Scientist,REQUIRES,0.7092
+Skill:Pandas,Role:Machine Learning Engineer,REQUIRES,0.0144
+Skill:Pandas,Role:Frontend Developer,REQUIRES,0.0136
+Skill:Pandas,Role:Security Analyst,REQUIRES,0.0138
+Skill:Pandas,Role:Devops Engineer,REQUIRES,0.0129
+Skill:Pandas,Role:Data Engineer,REQUIRES,0.0163
+Skill:Pandas,Role:Data Analyst,REQUIRES,0.0097
+Skill:Pandas,Role:Ai Engineer,REQUIRES,0.017
+Skill:Pandas,Role:Business Analyst,REQUIRES,0.013
+Skill:Pandas,Role:Full Stack Developer,REQUIRES,0.0163
+Skill:Pandas,Role:Cloud Architect,REQUIRES,0.0158
+Skill:Pandas,Role:Backend Developer,REQUIRES,0.0092
+Skill:Go,Skill:Django,CO_OCCURS,2.2911
+Skill:Go,Skill:FastAPI,CO_OCCURS,1.4802
+Skill:Go,Skill:Java,CO_OCCURS,1.6878
+Skill:Go,Skill:Spring Boot,CO_OCCURS,2.3388
+Skill:Go,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Go,Skill:PHP,CO_OCCURS,0.001
+Skill:Go,Skill:Leadership,CO_OCCURS,0.001
+Skill:Go,Skill:Power BI,CO_OCCURS,0.001
+Skill:Go,Skill:Tableau,CO_OCCURS,0.001
+Skill:Go,Skill:jQuery,CO_OCCURS,0.001
+Skill:Go,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Go,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Go,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Go,Skill:LLM,CO_OCCURS,0.001
+Skill:Go,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Go,Skill:Communication,CO_OCCURS,0.001
+Skill:Go,Skill:LangChain,CO_OCCURS,0.001
+Skill:Go,Skill:Selenium,CO_OCCURS,0.001
+Skill:Go,Skill:Kafka,CO_OCCURS,0.001
+Skill:Go,Skill:Airflow,CO_OCCURS,0.001
+Skill:Go,Skill:Terraform,CO_OCCURS,0.001
+Skill:Go,Skill:C++,CO_OCCURS,0.0987
+Skill:Go,Skill:GCP,CO_OCCURS,0.001
+Skill:Go,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Go,Skill:Linux,CO_OCCURS,0.001
+Skill:Go,Skill:Rust,CO_OCCURS,0.4283
+Skill:Go,Skill:Excel,CO_OCCURS,0.001
+Skill:Go,Skill:MLOps,CO_OCCURS,0.001
+Skill:Go,Role:Backend Developer,REQUIRES,0.4136
+Skill:Go,Role:Business Analyst,REQUIRES,0.0053
+Skill:Go,Role:Full Stack Developer,REQUIRES,0.0056
+Skill:Go,Role:Machine Learning Engineer,REQUIRES,0.003
+Skill:Go,Role:Ai Engineer,REQUIRES,0.0055
+Skill:Go,Role:Security Analyst,REQUIRES,0.0062
+Skill:Go,Role:Qa Engineer,REQUIRES,0.004
+Skill:Go,Role:Data Engineer,REQUIRES,0.006
+Skill:Go,Role:Frontend Developer,REQUIRES,0.0068
+Skill:Go,Role:Devops Engineer,REQUIRES,0.0081
+Skill:Go,Role:Cloud Architect,REQUIRES,0.0081
+Skill:Go,Role:Data Scientist,REQUIRES,0.0057
+Skill:Go,Role:Data Analyst,REQUIRES,0.0048
+Skill:FastAPI,Skill:Linux,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Selenium,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Django,CO_OCCURS,1.3551
+Skill:FastAPI,Skill:Java,CO_OCCURS,0.8376
+Skill:FastAPI,Skill:Spring Boot,CO_OCCURS,1.3878
+Skill:FastAPI,Skill:LangChain,CO_OCCURS,1.3165
+Skill:FastAPI,Skill:Prompt Engineering,CO_OCCURS,1.3113
+Skill:FastAPI,Skill:PyTorch,CO_OCCURS,1.1827
+Skill:FastAPI,Skill:Power BI,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:FastAPI,Skill:PHP,CO_OCCURS,0.001
+Skill:FastAPI,Skill:LLM,CO_OCCURS,0.9623
+Skill:FastAPI,Skill:Tableau,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Neo4j,CO_OCCURS,0.2491
+Skill:FastAPI,Skill:C++,CO_OCCURS,0.1853
+Skill:FastAPI,Skill:Communication,CO_OCCURS,0.001
+Skill:FastAPI,Skill:jQuery,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Terraform,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Blockchain,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:FastAPI,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Kafka,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Excel,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Airflow,CO_OCCURS,0.001
+Skill:FastAPI,Skill:MLOps,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Leadership,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Rust,CO_OCCURS,0.498
+Skill:FastAPI,Skill:GCP,CO_OCCURS,0.001
+Skill:FastAPI,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:FastAPI,Role:Devops Engineer,REQUIRES,0.0093
+Skill:FastAPI,Role:Backend Developer,REQUIRES,0.5491
+Skill:FastAPI,Role:Ai Engineer,REQUIRES,0.5885
+Skill:FastAPI,Role:Frontend Developer,REQUIRES,0.0121
+Skill:FastAPI,Role:Data Scientist,REQUIRES,0.0095
+Skill:FastAPI,Role:Security Analyst,REQUIRES,0.0091
+Skill:FastAPI,Role:Data Analyst,REQUIRES,0.0053
+Skill:FastAPI,Role:Data Engineer,REQUIRES,0.0124
+Skill:FastAPI,Role:Machine Learning Engineer,REQUIRES,0.0068
+Skill:FastAPI,Role:Qa Engineer,REQUIRES,0.0065
+Skill:FastAPI,Role:Business Analyst,REQUIRES,0.0092
+Skill:FastAPI,Role:Full Stack Developer,REQUIRES,0.0102
+Skill:FastAPI,Role:Cloud Architect,REQUIRES,0.0139
+Skill:Linux,Skill:Selenium,CO_OCCURS,0.001
+Skill:Linux,Skill:Kubernetes,CO_OCCURS,1.3496
+Skill:Linux,Skill:Communication,CO_OCCURS,0.3582
+Skill:Linux,Skill:Cybersecurity,CO_OCCURS,1.3552
+Skill:Linux,Skill:Tableau,CO_OCCURS,0.001
+Skill:Linux,Skill:Terraform,CO_OCCURS,1.3601
+Skill:Linux,Skill:Airflow,CO_OCCURS,0.001
+Skill:Linux,Skill:GCP,CO_OCCURS,1.3199
+Skill:Linux,Skill:jQuery,CO_OCCURS,0.001
+Skill:Linux,Skill:PHP,CO_OCCURS,0.001
+Skill:Linux,Skill:C++,CO_OCCURS,0.001
+Skill:Linux,Skill:Kafka,CO_OCCURS,0.001
+Skill:Linux,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Linux,Skill:Leadership,CO_OCCURS,0.001
+Skill:Linux,Skill:Django,CO_OCCURS,0.001
+Skill:Linux,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Linux,Skill:Java,CO_OCCURS,0.001
+Skill:Linux,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Linux,Skill:Power BI,CO_OCCURS,0.001
+Skill:Linux,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Linux,Skill:LangChain,CO_OCCURS,0.001
+Skill:Linux,Skill:MLOps,CO_OCCURS,0.001
+Skill:Linux,Skill:LLM,CO_OCCURS,0.001
+Skill:Linux,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Linux,Skill:Blockchain,CO_OCCURS,0.184
+Skill:Linux,Skill:Excel,CO_OCCURS,0.001
+Skill:Linux,Skill:Rust,CO_OCCURS,0.001
+Skill:Linux,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Linux,Skill:Neo4j,CO_OCCURS,0.0869
+Skill:Linux,Role:Devops Engineer,REQUIRES,0.5544
+Skill:Linux,Role:Security Analyst,REQUIRES,0.5706
+Skill:Linux,Role:Cloud Architect,REQUIRES,0.5656
+Skill:Linux,Role:Data Engineer,REQUIRES,0.0068
+Skill:Linux,Role:Backend Developer,REQUIRES,0.0102
+Skill:Linux,Role:Business Analyst,REQUIRES,0.0058
+Skill:Linux,Role:Ai Engineer,REQUIRES,0.0101
+Skill:Linux,Role:Data Scientist,REQUIRES,0.0113
+Skill:Linux,Role:Full Stack Developer,REQUIRES,0.0116
+Skill:Linux,Role:Machine Learning Engineer,REQUIRES,0.0068
+Skill:Linux,Role:Qa Engineer,REQUIRES,0.0055
+Skill:Linux,Role:Frontend Developer,REQUIRES,0.0063
+Skill:Linux,Role:Data Analyst,REQUIRES,0.0073
+Skill:Selenium,Skill:Java,CO_OCCURS,1.7351
+Skill:Selenium,Skill:jQuery,CO_OCCURS,0.001
+Skill:Selenium,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Selenium,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Selenium,Skill:Terraform,CO_OCCURS,0.001
+Skill:Selenium,Skill:Django,CO_OCCURS,0.001
+Skill:Selenium,Skill:Communication,CO_OCCURS,0.001
+Skill:Selenium,Skill:Excel,CO_OCCURS,0.001
+Skill:Selenium,Skill:Tableau,CO_OCCURS,0.001
+Skill:Selenium,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Selenium,Skill:MLOps,CO_OCCURS,0.001
+Skill:Selenium,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Selenium,Skill:Airflow,CO_OCCURS,0.001
+Skill:Selenium,Skill:LLM,CO_OCCURS,0.001
+Skill:Selenium,Skill:Leadership,CO_OCCURS,0.001
+Skill:Selenium,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Selenium,Skill:C++,CO_OCCURS,0.001
+Skill:Selenium,Skill:Computer Vision,CO_OCCURS,0.2119
+Skill:Selenium,Skill:Kafka,CO_OCCURS,0.001
+Skill:Selenium,Skill:Rust,CO_OCCURS,0.001
+Skill:Selenium,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Selenium,Skill:PHP,CO_OCCURS,0.001
+Skill:Selenium,Skill:LangChain,CO_OCCURS,0.001
+Skill:Selenium,Skill:GCP,CO_OCCURS,0.001
+Skill:Selenium,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Selenium,Skill:Power BI,CO_OCCURS,0.001
+Skill:Selenium,Skill:Neo4j,CO_OCCURS,1.1589
+Skill:Selenium,Role:Devops Engineer,REQUIRES,0.0081
+Skill:Selenium,Role:Qa Engineer,REQUIRES,0.4881
+Skill:Selenium,Role:Frontend Developer,REQUIRES,0.0044
+Skill:Selenium,Role:Ai Engineer,REQUIRES,0.0075
+Skill:Selenium,Role:Cloud Architect,REQUIRES,0.0072
+Skill:Selenium,Role:Data Analyst,REQUIRES,0.0063
+Skill:Selenium,Role:Data Scientist,REQUIRES,0.008
+Skill:Selenium,Role:Machine Learning Engineer,REQUIRES,0.0072
+Skill:Selenium,Role:Data Engineer,REQUIRES,0.0056
+Skill:Selenium,Role:Business Analyst,REQUIRES,0.0048
+Skill:Selenium,Role:Backend Developer,REQUIRES,0.0061
+Skill:Selenium,Role:Security Analyst,REQUIRES,0.0048
+Skill:Selenium,Role:Full Stack Developer,REQUIRES,0.0051
+Skill:Django,Skill:Java,CO_OCCURS,1.7028
+Skill:Django,Skill:Spring Boot,CO_OCCURS,2.286
+Skill:Django,Skill:Communication,CO_OCCURS,0.001
+Skill:Django,Skill:Power BI,CO_OCCURS,0.001
+Skill:Django,Skill:Tableau,CO_OCCURS,0.001
+Skill:Django,Skill:C++,CO_OCCURS,0.001
+Skill:Django,Skill:Airflow,CO_OCCURS,0.001
+Skill:Django,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Django,Skill:PHP,CO_OCCURS,0.001
+Skill:Django,Skill:GCP,CO_OCCURS,0.001
+Skill:Django,Skill:MLOps,CO_OCCURS,0.001
+Skill:Django,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Django,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Django,Skill:Excel,CO_OCCURS,0.001
+Skill:Django,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Django,Skill:Terraform,CO_OCCURS,0.001
+Skill:Django,Skill:jQuery,CO_OCCURS,0.001
+Skill:Django,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Django,Skill:Kafka,CO_OCCURS,0.001
+Skill:Django,Skill:Leadership,CO_OCCURS,0.001
+Skill:Django,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Django,Skill:LLM,CO_OCCURS,0.001
+Skill:Django,Skill:LangChain,CO_OCCURS,0.001
+Skill:Django,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Django,Skill:Rust,CO_OCCURS,0.1101
+Skill:Django,Role:Backend Developer,REQUIRES,0.7541
+Skill:Django,Role:Qa Engineer,REQUIRES,0.0189
+Skill:Django,Role:Data Analyst,REQUIRES,0.0145
+Skill:Django,Role:Security Analyst,REQUIRES,0.0177
+Skill:Django,Role:Frontend Developer,REQUIRES,0.0141
+Skill:Django,Role:Full Stack Developer,REQUIRES,0.0172
+Skill:Django,Role:Cloud Architect,REQUIRES,0.0148
+Skill:Django,Role:Machine Learning Engineer,REQUIRES,0.0187
+Skill:Django,Role:Data Scientist,REQUIRES,0.0132
+Skill:Django,Role:Business Analyst,REQUIRES,0.0101
+Skill:Django,Role:Ai Engineer,REQUIRES,0.0181
+Skill:Django,Role:Devops Engineer,REQUIRES,0.0117
+Skill:Django,Role:Data Engineer,REQUIRES,0.0147
+Skill:Java,Skill:Spring Boot,CO_OCCURS,1.7646
+Skill:Java,Skill:C++,CO_OCCURS,0.1386
+Skill:Java,Skill:Airflow,CO_OCCURS,0.001
+Skill:Java,Skill:Power BI,CO_OCCURS,0.001
+Skill:Java,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Java,Skill:PHP,CO_OCCURS,0.001
+Skill:Java,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Java,Skill:LangChain,CO_OCCURS,0.001
+Skill:Java,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Java,Skill:Excel,CO_OCCURS,0.001
+Skill:Java,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Java,Skill:Terraform,CO_OCCURS,0.001
+Skill:Java,Skill:Communication,CO_OCCURS,0.001
+Skill:Java,Skill:Tableau,CO_OCCURS,0.001
+Skill:Java,Skill:Leadership,CO_OCCURS,0.001
+Skill:Java,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Java,Skill:GCP,CO_OCCURS,0.001
+Skill:Java,Skill:Kafka,CO_OCCURS,0.001
+Skill:Java,Skill:jQuery,CO_OCCURS,0.001
+Skill:Java,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Java,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Java,Skill:LLM,CO_OCCURS,0.001
+Skill:Java,Skill:MLOps,CO_OCCURS,0.001
+Skill:Java,Skill:Rust,CO_OCCURS,0.1398
+Skill:Java,Skill:Neo4j,CO_OCCURS,0.1734
+Skill:Java,Role:Backend Developer,REQUIRES,0.5987
+Skill:Java,Role:Qa Engineer,REQUIRES,0.583
+Skill:Java,Role:Data Engineer,REQUIRES,0.0108
+Skill:Java,Role:Full Stack Developer,REQUIRES,0.0074
+Skill:Java,Role:Ai Engineer,REQUIRES,0.0098
+Skill:Java,Role:Cloud Architect,REQUIRES,0.0077
+Skill:Java,Role:Business Analyst,REQUIRES,0.0097
+Skill:Java,Role:Data Scientist,REQUIRES,0.0109
+Skill:Java,Role:Frontend Developer,REQUIRES,0.0068
+Skill:Java,Role:Security Analyst,REQUIRES,0.0129
+Skill:Java,Role:Machine Learning Engineer,REQUIRES,0.0098
+Skill:Java,Role:Devops Engineer,REQUIRES,0.0097
+Skill:Java,Role:Data Analyst,REQUIRES,0.0063
+Skill:Spring Boot,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:PHP,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Tableau,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Computer Vision,CO_OCCURS,0.26
+Skill:Spring Boot,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:C++,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Communication,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Terraform,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:jQuery,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Excel,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Leadership,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Kafka,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Airflow,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:MLOps,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:LLM,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:LangChain,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Power BI,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Spring Boot,Skill:GCP,CO_OCCURS,0.001
+Skill:Spring Boot,Role:Backend Developer,REQUIRES,0.4162
+Skill:Spring Boot,Role:Machine Learning Engineer,REQUIRES,0.0059
+Skill:Spring Boot,Role:Devops Engineer,REQUIRES,0.0069
+Skill:Spring Boot,Role:Qa Engineer,REQUIRES,0.0045
+Skill:Spring Boot,Role:Security Analyst,REQUIRES,0.0048
+Skill:Spring Boot,Role:Business Analyst,REQUIRES,0.0063
+Skill:Spring Boot,Role:Data Engineer,REQUIRES,0.0052
+Skill:Spring Boot,Role:Data Scientist,REQUIRES,0.0043
+Skill:Spring Boot,Role:Full Stack Developer,REQUIRES,0.0046
+Skill:Spring Boot,Role:Data Analyst,REQUIRES,0.0039
+Skill:Spring Boot,Role:Cloud Architect,REQUIRES,0.0038
+Skill:Spring Boot,Role:Ai Engineer,REQUIRES,0.0063
+Skill:Spring Boot,Role:Frontend Developer,REQUIRES,0.0082
+Skill:Excel,Category:Analytics,IN_CATEGORY,1.0
+Skill:Excel,Skill:Tableau,CO_OCCURS,1.7786
+Skill:Excel,Skill:Communication,CO_OCCURS,1.4275
+Skill:Excel,Skill:Leadership,CO_OCCURS,1.696
+Skill:Excel,Skill:Power BI,CO_OCCURS,1.767
+Skill:Excel,Skill:C++,CO_OCCURS,0.2561
+Skill:Excel,Skill:Kafka,CO_OCCURS,0.001
+Skill:Excel,Skill:GCP,CO_OCCURS,0.001
+Skill:Excel,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Excel,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Excel,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Excel,Skill:jQuery,CO_OCCURS,0.001
+Skill:Excel,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Excel,Skill:Terraform,CO_OCCURS,0.001
+Skill:Excel,Skill:PHP,CO_OCCURS,0.001
+Skill:Excel,Skill:LLM,CO_OCCURS,0.001
+Skill:Excel,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Excel,Skill:LangChain,CO_OCCURS,0.001
+Skill:Excel,Skill:MLOps,CO_OCCURS,0.001
+Skill:Excel,Skill:Airflow,CO_OCCURS,0.001
+Skill:Excel,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Excel,Skill:Rust,CO_OCCURS,0.1692
+Skill:Excel,Role:Data Analyst,REQUIRES,0.4048
+Skill:Excel,Role:Business Analyst,REQUIRES,0.3981
+Skill:Excel,Role:Qa Engineer,REQUIRES,0.0084
+Skill:Excel,Role:Devops Engineer,REQUIRES,0.0048
+Skill:Excel,Role:Frontend Developer,REQUIRES,0.0053
+Skill:Excel,Role:Cloud Architect,REQUIRES,0.0077
+Skill:Excel,Role:Full Stack Developer,REQUIRES,0.0051
+Skill:Excel,Role:Security Analyst,REQUIRES,0.0057
+Skill:Excel,Role:Ai Engineer,REQUIRES,0.0046
+Skill:Excel,Role:Data Scientist,REQUIRES,0.0047
+Skill:Excel,Role:Data Engineer,REQUIRES,0.0036
+Skill:Excel,Role:Backend Developer,REQUIRES,0.0041
+Skill:Excel,Role:Machine Learning Engineer,REQUIRES,0.0034
+Category:Analytics,Skill:Tableau,IN_CATEGORY,1.0
+Category:Analytics,Skill:Power BI,IN_CATEGORY,1.0
+Skill:Tableau,Skill:LLM,CO_OCCURS,0.001
+Skill:Tableau,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Tableau,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Tableau,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Tableau,Skill:Communication,CO_OCCURS,1.3792
+Skill:Tableau,Skill:Power BI,CO_OCCURS,1.7452
+Skill:Tableau,Skill:Leadership,CO_OCCURS,1.6751
+Skill:Tableau,Skill:Cybersecurity,CO_OCCURS,0.001
+Skill:Tableau,Skill:C++,CO_OCCURS,0.0608
+Skill:Tableau,Skill:Kafka,CO_OCCURS,0.001
+Skill:Tableau,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Tableau,Skill:GCP,CO_OCCURS,0.001
+Skill:Tableau,Skill:PHP,CO_OCCURS,0.001
+Skill:Tableau,Skill:LangChain,CO_OCCURS,0.001
+Skill:Tableau,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Tableau,Skill:Airflow,CO_OCCURS,0.001
+Skill:Tableau,Skill:Blockchain,CO_OCCURS,0.001
+Skill:Tableau,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Tableau,Skill:Terraform,CO_OCCURS,0.001
+Skill:Tableau,Skill:jQuery,CO_OCCURS,0.001
+Skill:Tableau,Skill:MLOps,CO_OCCURS,0.001
+Skill:Tableau,Skill:Rust,CO_OCCURS,0.2226
+Skill:Tableau,Skill:Neo4j,CO_OCCURS,0.305
+Skill:Tableau,Role:Data Analyst,REQUIRES,0.8697
+Skill:Tableau,Role:Machine Learning Engineer,REQUIRES,0.0149
+Skill:Tableau,Role:Business Analyst,REQUIRES,0.8754
+Skill:Tableau,Role:Security Analyst,REQUIRES,0.0215
+Skill:Tableau,Role:Cloud Architect,REQUIRES,0.0139
+Skill:Tableau,Role:Ai Engineer,REQUIRES,0.0207
+Skill:Tableau,Role:Backend Developer,REQUIRES,0.0164
+Skill:Tableau,Role:Data Engineer,REQUIRES,0.0187
+Skill:Tableau,Role:Qa Engineer,REQUIRES,0.0214
+Skill:Tableau,Role:Full Stack Developer,REQUIRES,0.0214
+Skill:Tableau,Role:Data Scientist,REQUIRES,0.0175
+Skill:Tableau,Role:Devops Engineer,REQUIRES,0.0165
+Skill:Tableau,Role:Frontend Developer,REQUIRES,0.0184
+Skill:Communication,Category:Soft,IN_CATEGORY,1.0
+Skill:Communication,Skill:Cybersecurity,CO_OCCURS,0.7696
+Skill:Communication,Skill:Power BI,CO_OCCURS,1.3942
+Skill:Communication,Skill:Leadership,CO_OCCURS,1.311
+Skill:Communication,Skill:C++,CO_OCCURS,0.0342
+Skill:Communication,Skill:Kafka,CO_OCCURS,0.001
+Skill:Communication,Skill:GCP,CO_OCCURS,0.001
+Skill:Communication,Skill:PHP,CO_OCCURS,0.001
+Skill:Communication,Skill:Kubernetes,CO_OCCURS,0.001
+Skill:Communication,Skill:MLOps,CO_OCCURS,0.001
+Skill:Communication,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Communication,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Communication,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Communication,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Communication,Skill:Blockchain,CO_OCCURS,0.001
+Skill:Communication,Skill:Terraform,CO_OCCURS,0.001
+Skill:Communication,Skill:jQuery,CO_OCCURS,0.001
+Skill:Communication,Skill:Airflow,CO_OCCURS,0.001
+Skill:Communication,Skill:LLM,CO_OCCURS,0.001
+Skill:Communication,Skill:Rust,CO_OCCURS,0.0556
+Skill:Communication,Skill:LangChain,CO_OCCURS,0.001
+Skill:Communication,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Communication,Skill:Neo4j,CO_OCCURS,0.001
+Skill:Communication,Role:Security Analyst,REQUIRES,0.6632
+Skill:Communication,Role:Data Analyst,REQUIRES,0.6717
+Skill:Communication,Role:Business Analyst,REQUIRES,0.6541
+Skill:Communication,Role:Machine Learning Engineer,REQUIRES,0.0123
+Skill:Communication,Role:Ai Engineer,REQUIRES,0.0115
+Skill:Communication,Role:Data Engineer,REQUIRES,0.0112
+Skill:Communication,Role:Cloud Architect,REQUIRES,0.0139
+Skill:Communication,Role:Frontend Developer,REQUIRES,0.0141
+Skill:Communication,Role:Full Stack Developer,REQUIRES,0.0107
+Skill:Communication,Role:Qa Engineer,REQUIRES,0.0114
+Skill:Communication,Role:Devops Engineer,REQUIRES,0.0157
+Skill:Communication,Role:Data Scientist,REQUIRES,0.0104
+Skill:Communication,Role:Backend Developer,REQUIRES,0.0097
+Category:Soft,Skill:Leadership,IN_CATEGORY,1.0
+Skill:Cybersecurity,Category:Security,IN_CATEGORY,1.0
+Skill:Cybersecurity,Skill:GCP,CO_OCCURS,1.7182
+Skill:Cybersecurity,Skill:Kubernetes,CO_OCCURS,1.053
+Skill:Cybersecurity,Skill:PHP,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:Terraform,CO_OCCURS,1.076
+Skill:Cybersecurity,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:Power BI,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:Leadership,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:Blockchain,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:C++,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:jQuery,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:Computer Vision,CO_OCCURS,0.1437
+Skill:Cybersecurity,Skill:MLOps,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:Kafka,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:LLM,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:Airflow,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:LangChain,CO_OCCURS,0.001
+Skill:Cybersecurity,Skill:Rust,CO_OCCURS,0.0275
+Skill:Cybersecurity,Role:Security Analyst,REQUIRES,0.6603
+Skill:Cybersecurity,Role:Cloud Architect,REQUIRES,0.6782
+Skill:Cybersecurity,Role:Backend Developer,REQUIRES,0.0123
+Skill:Cybersecurity,Role:Machine Learning Engineer,REQUIRES,0.0115
+Skill:Cybersecurity,Role:Data Analyst,REQUIRES,0.0136
+Skill:Cybersecurity,Role:Frontend Developer,REQUIRES,0.0053
+Skill:Cybersecurity,Role:Data Scientist,REQUIRES,0.0118
+Skill:Cybersecurity,Role:Ai Engineer,REQUIRES,0.0109
+Skill:Cybersecurity,Role:Business Analyst,REQUIRES,0.013
+Skill:Cybersecurity,Role:Data Engineer,REQUIRES,0.0108
+Skill:Cybersecurity,Role:Full Stack Developer,REQUIRES,0.0149
+Skill:Cybersecurity,Role:Qa Engineer,REQUIRES,0.0109
+Skill:Cybersecurity,Role:Devops Engineer,REQUIRES,0.0133
+Skill:Cybersecurity,Certification:CompTIA Security+,VALIDATES,1.0
+Skill:Kubernetes,Skill:GCP,CO_OCCURS,1.6127
+Skill:Kubernetes,Skill:Power BI,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:Terraform,CO_OCCURS,1.7455
+Skill:Kubernetes,Skill:jQuery,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:PHP,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:C++,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:Airflow,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:Leadership,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:LLM,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:MLOps,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:Machine Learning,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:TensorFlow,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:Kafka,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:Computer Vision,CO_OCCURS,0.0273
+Skill:Kubernetes,Skill:Blockchain,CO_OCCURS,0.1916
+Skill:Kubernetes,Skill:PyTorch,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:LangChain,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:Rust,CO_OCCURS,0.001
+Skill:Kubernetes,Skill:Neo4j,CO_OCCURS,0.058
+Skill:Kubernetes,Role:Devops Engineer,REQUIRES,0.6887
+Skill:Kubernetes,Role:Cloud Architect,REQUIRES,0.6724
+Skill:Kubernetes,Role:Data Analyst,REQUIRES,0.0179
+Skill:Kubernetes,Role:Business Analyst,REQUIRES,0.0116
+Skill:Kubernetes,Role:Machine Learning Engineer,REQUIRES,0.0144
+Skill:Kubernetes,Role:Ai Engineer,REQUIRES,0.0167
+Skill:Kubernetes,Role:Data Engineer,REQUIRES,0.0151
+Skill:Kubernetes,Role:Data Scientist,REQUIRES,0.0165
+Skill:Kubernetes,Role:Full Stack Developer,REQUIRES,0.0144
+Skill:Kubernetes,Role:Security Analyst,REQUIRES,0.0124
+Skill:Kubernetes,Role:Backend Developer,REQUIRES,0.0107
+Skill:Kubernetes,Role:Qa Engineer,REQUIRES,0.0149
+Skill:Kubernetes,Role:Frontend Developer,REQUIRES,0.0145
+Skill:Kubernetes,Certification:CKA (Kubernetes),VALIDATES,1.0
+Skill:Machine Learning,Skill:LLM,CO_OCCURS,0.7846
+Skill:Machine Learning,Skill:PyTorch,CO_OCCURS,1.029
+Skill:Machine Learning,Skill:TensorFlow,CO_OCCURS,1.8863
+Skill:Machine Learning,Skill:MLOps,CO_OCCURS,1.8628
+Skill:Machine Learning,Skill:Leadership,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:Terraform,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:C++,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:Power BI,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:jQuery,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:Kafka,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:PHP,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:Airflow,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:GCP,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:Blockchain,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:LangChain,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:Rust,CO_OCCURS,0.001
+Skill:Machine Learning,Role:Data Scientist,REQUIRES,0.5981
+Skill:Machine Learning,Role:Machine Learning Engineer,REQUIRES,1.0
+Skill:Machine Learning,Role:Qa Engineer,REQUIRES,0.0119
+Skill:Machine Learning,Role:Devops Engineer,REQUIRES,0.0101
+Skill:Machine Learning,Role:Data Engineer,REQUIRES,0.0104
+Skill:Machine Learning,Role:Full Stack Developer,REQUIRES,0.0079
+Skill:Machine Learning,Role:Frontend Developer,REQUIRES,0.0112
+Skill:Machine Learning,Role:Backend Developer,REQUIRES,0.0092
+Skill:Machine Learning,Role:Data Analyst,REQUIRES,0.0087
+Skill:Machine Learning,Role:Business Analyst,REQUIRES,0.0116
+Skill:Machine Learning,Role:Ai Engineer,REQUIRES,0.0118
+Skill:Machine Learning,Role:Cloud Architect,REQUIRES,0.0053
+Skill:Machine Learning,Role:Security Analyst,REQUIRES,0.0086
+Skill:Machine Learning,Certification:Google Professional ML Engineer,VALIDATES,1.0
+Skill:LLM,Skill:PyTorch,CO_OCCURS,1.2503
+Skill:LLM,Skill:TensorFlow,CO_OCCURS,1.0957
+Skill:LLM,Skill:LangChain,CO_OCCURS,1.0986
+Skill:LLM,Skill:Prompt Engineering,CO_OCCURS,1.1151
+Skill:LLM,Skill:MLOps,CO_OCCURS,1.1973
+Skill:LLM,Skill:PHP,CO_OCCURS,0.001
+Skill:LLM,Skill:GCP,CO_OCCURS,0.001
+Skill:LLM,Skill:Blockchain,CO_OCCURS,0.001
+Skill:LLM,Skill:Power BI,CO_OCCURS,0.001
+Skill:LLM,Skill:Rust,CO_OCCURS,0.3839
+Skill:LLM,Skill:Kafka,CO_OCCURS,0.001
+Skill:LLM,Skill:Leadership,CO_OCCURS,0.001
+Skill:LLM,Skill:jQuery,CO_OCCURS,0.001
+Skill:LLM,Skill:Computer Vision,CO_OCCURS,0.0011
+Skill:LLM,Skill:C++,CO_OCCURS,0.001
+Skill:LLM,Skill:Terraform,CO_OCCURS,0.001
+Skill:LLM,Skill:Airflow,CO_OCCURS,0.001
+Skill:LLM,Skill:Neo4j,CO_OCCURS,0.1944
+Skill:LLM,Role:Machine Learning Engineer,REQUIRES,0.6767
+Skill:LLM,Role:Ai Engineer,REQUIRES,0.7293
+Skill:LLM,Role:Data Engineer,REQUIRES,0.0841
+Skill:LLM,Role:Data Analyst,REQUIRES,0.0857
+Skill:LLM,Role:Backend Developer,REQUIRES,0.0762
+Skill:LLM,Role:Qa Engineer,REQUIRES,0.0651
+Skill:LLM,Role:Cloud Architect,REQUIRES,0.0891
+Skill:LLM,Role:Security Analyst,REQUIRES,0.0792
+Skill:LLM,Role:Full Stack Developer,REQUIRES,0.0799
+Skill:LLM,Role:Data Scientist,REQUIRES,0.0823
+Skill:LLM,Role:Devops Engineer,REQUIRES,0.0891
+Skill:LLM,Role:Frontend Developer,REQUIRES,0.0854
+Skill:LLM,Role:Business Analyst,REQUIRES,0.0831
+Skill:PyTorch,Skill:TensorFlow,CO_OCCURS,1.4116
+Skill:PyTorch,Skill:MLOps,CO_OCCURS,1.4391
+Skill:PyTorch,Skill:Prompt Engineering,CO_OCCURS,1.2465
+Skill:PyTorch,Skill:LangChain,CO_OCCURS,1.2241
+Skill:PyTorch,Skill:C++,CO_OCCURS,0.0558
+Skill:PyTorch,Skill:PHP,CO_OCCURS,0.001
+Skill:PyTorch,Skill:jQuery,CO_OCCURS,0.001
+Skill:PyTorch,Skill:Terraform,CO_OCCURS,0.001
+Skill:PyTorch,Skill:Airflow,CO_OCCURS,0.001
+Skill:PyTorch,Skill:Kafka,CO_OCCURS,0.001
+Skill:PyTorch,Skill:Leadership,CO_OCCURS,0.001
+Skill:PyTorch,Skill:Computer Vision,CO_OCCURS,0.1437
+Skill:PyTorch,Skill:GCP,CO_OCCURS,0.001
+Skill:PyTorch,Skill:Power BI,CO_OCCURS,0.001
+Skill:PyTorch,Skill:Rust,CO_OCCURS,0.2801
+Skill:PyTorch,Skill:Neo4j,CO_OCCURS,0.001
+Skill:PyTorch,Role:Machine Learning Engineer,REQUIRES,0.6801
+Skill:PyTorch,Role:Ai Engineer,REQUIRES,0.7362
+Skill:PyTorch,Role:Data Scientist,REQUIRES,0.0099
+Skill:PyTorch,Role:Data Engineer,REQUIRES,0.0159
+Skill:PyTorch,Role:Cloud Architect,REQUIRES,0.0105
+Skill:PyTorch,Role:Full Stack Developer,REQUIRES,0.0163
+Skill:PyTorch,Role:Qa Engineer,REQUIRES,0.0139
+Skill:PyTorch,Role:Frontend Developer,REQUIRES,0.0131
+Skill:PyTorch,Role:Security Analyst,REQUIRES,0.0124
+Skill:PyTorch,Role:Devops Engineer,REQUIRES,0.0169
+Skill:PyTorch,Role:Data Analyst,REQUIRES,0.0126
+Skill:PyTorch,Role:Business Analyst,REQUIRES,0.0164
+Skill:PyTorch,Role:Backend Developer,REQUIRES,0.0112
+Skill:TensorFlow,Skill:MLOps,CO_OCCURS,2.2308
+Skill:TensorFlow,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:C++,CO_OCCURS,0.0745
+Skill:TensorFlow,Skill:Kafka,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:Leadership,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:GCP,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:Power BI,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:Airflow,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:Terraform,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:PHP,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:Rust,CO_OCCURS,0.1322
+Skill:TensorFlow,Skill:jQuery,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:LangChain,CO_OCCURS,0.001
+Skill:TensorFlow,Role:Machine Learning Engineer,REQUIRES,0.5421
+Skill:TensorFlow,Role:Devops Engineer,REQUIRES,0.0052
+Skill:TensorFlow,Role:Data Engineer,REQUIRES,0.0072
+Skill:TensorFlow,Role:Business Analyst,REQUIRES,0.0077
+Skill:TensorFlow,Role:Backend Developer,REQUIRES,0.0092
+Skill:TensorFlow,Role:Qa Engineer,REQUIRES,0.0099
+Skill:TensorFlow,Role:Data Scientist,REQUIRES,0.0061
+Skill:TensorFlow,Role:Ai Engineer,REQUIRES,0.0092
+Skill:TensorFlow,Role:Full Stack Developer,REQUIRES,0.0107
+Skill:TensorFlow,Role:Security Analyst,REQUIRES,0.011
+Skill:TensorFlow,Role:Frontend Developer,REQUIRES,0.0068
+Skill:TensorFlow,Role:Cloud Architect,REQUIRES,0.0072
+Skill:TensorFlow,Role:Data Analyst,REQUIRES,0.0024
+Skill:jQuery,Skill:Terraform,CO_OCCURS,0.001
+Skill:jQuery,Skill:PHP,CO_OCCURS,0.001
+Skill:jQuery,Skill:Airflow,CO_OCCURS,0.001
+Skill:jQuery,Skill:C++,CO_OCCURS,0.001
+Skill:jQuery,Skill:GCP,CO_OCCURS,0.001
+Skill:jQuery,Skill:Leadership,CO_OCCURS,0.001
+Skill:jQuery,Skill:Computer Vision,CO_OCCURS,0.1482
+Skill:jQuery,Skill:Kafka,CO_OCCURS,0.001
+Skill:jQuery,Skill:Power BI,CO_OCCURS,0.001
+Skill:jQuery,Skill:LangChain,CO_OCCURS,0.001
+Skill:jQuery,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:jQuery,Skill:MLOps,CO_OCCURS,0.001
+Skill:jQuery,Skill:Rust,CO_OCCURS,0.1374
+Skill:jQuery,Role:Frontend Developer,REQUIRES,0.3919
+Skill:jQuery,Role:Full Stack Developer,REQUIRES,0.0037
+Skill:jQuery,Role:Devops Engineer,REQUIRES,0.004
+Skill:jQuery,Role:Ai Engineer,REQUIRES,0.0026
+Skill:jQuery,Role:Cloud Architect,REQUIRES,0.0043
+Skill:jQuery,Role:Security Analyst,REQUIRES,0.0052
+Skill:jQuery,Role:Backend Developer,REQUIRES,0.0046
+Skill:jQuery,Role:Data Scientist,REQUIRES,0.0043
+Skill:jQuery,Role:Business Analyst,REQUIRES,0.0068
+Skill:jQuery,Role:Qa Engineer,REQUIRES,0.0045
+Skill:jQuery,Role:Machine Learning Engineer,REQUIRES,0.0034
+Skill:jQuery,Role:Data Engineer,REQUIRES,0.0044
+Skill:jQuery,Role:Data Analyst,REQUIRES,0.0044
+Skill:Kafka,Skill:Airflow,CO_OCCURS,2.2038
+Skill:Kafka,Skill:Leadership,CO_OCCURS,0.001
+Skill:Kafka,Skill:Power BI,CO_OCCURS,0.001
+Skill:Kafka,Skill:C++,CO_OCCURS,0.0089
+Skill:Kafka,Skill:GCP,CO_OCCURS,0.001
+Skill:Kafka,Skill:Computer Vision,CO_OCCURS,0.156
+Skill:Kafka,Skill:Terraform,CO_OCCURS,0.001
+Skill:Kafka,Skill:PHP,CO_OCCURS,0.001
+Skill:Kafka,Skill:LangChain,CO_OCCURS,0.001
+Skill:Kafka,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Kafka,Skill:MLOps,CO_OCCURS,0.001
+Skill:Kafka,Skill:Rust,CO_OCCURS,0.1044
+Skill:Kafka,Role:Data Engineer,REQUIRES,0.5253
+Skill:Kafka,Role:Data Analyst,REQUIRES,0.0082
+Skill:Kafka,Role:Data Scientist,REQUIRES,0.008
+Skill:Kafka,Role:Security Analyst,REQUIRES,0.0072
+Skill:Kafka,Role:Backend Developer,REQUIRES,0.0072
+Skill:Kafka,Role:Business Analyst,REQUIRES,0.0082
+Skill:Kafka,Role:Machine Learning Engineer,REQUIRES,0.0102
+Skill:Kafka,Role:Cloud Architect,REQUIRES,0.0101
+Skill:Kafka,Role:Ai Engineer,REQUIRES,0.0075
+Skill:Kafka,Role:Qa Engineer,REQUIRES,0.008
+Skill:Kafka,Role:Full Stack Developer,REQUIRES,0.0046
+Skill:Kafka,Role:Frontend Developer,REQUIRES,0.0058
+Skill:Kafka,Role:Devops Engineer,REQUIRES,0.0085
+Skill:Airflow,Skill:MLOps,CO_OCCURS,0.001
+Skill:Airflow,Skill:Terraform,CO_OCCURS,0.001
+Skill:Airflow,Skill:PHP,CO_OCCURS,0.001
+Skill:Airflow,Skill:GCP,CO_OCCURS,0.001
+Skill:Airflow,Skill:C++,CO_OCCURS,0.1444
+Skill:Airflow,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Airflow,Skill:Leadership,CO_OCCURS,0.001
+Skill:Airflow,Skill:Power BI,CO_OCCURS,0.001
+Skill:Airflow,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Airflow,Skill:LangChain,CO_OCCURS,0.001
+Skill:Airflow,Skill:Rust,CO_OCCURS,0.0322
+Skill:Airflow,Role:Data Engineer,REQUIRES,0.5062
+Skill:Airflow,Role:Backend Developer,REQUIRES,0.0041
+Skill:Airflow,Role:Devops Engineer,REQUIRES,0.0073
+Skill:Airflow,Role:Cloud Architect,REQUIRES,0.0062
+Skill:Airflow,Role:Frontend Developer,REQUIRES,0.0048
+Skill:Airflow,Role:Full Stack Developer,REQUIRES,0.0074
+Skill:Airflow,Role:Qa Engineer,REQUIRES,0.0065
+Skill:Airflow,Role:Machine Learning Engineer,REQUIRES,0.0038
+Skill:Airflow,Role:Security Analyst,REQUIRES,0.0052
+Skill:Airflow,Role:Ai Engineer,REQUIRES,0.0066
+Skill:Airflow,Role:Data Analyst,REQUIRES,0.0073
+Skill:Airflow,Role:Business Analyst,REQUIRES,0.0101
+Skill:Airflow,Role:Data Scientist,REQUIRES,0.0047
+Skill:Power BI,Skill:Leadership,CO_OCCURS,1.6776
+Skill:Power BI,Skill:C++,CO_OCCURS,0.0481
+Skill:Power BI,Skill:GCP,CO_OCCURS,0.001
+Skill:Power BI,Skill:Blockchain,CO_OCCURS,0.0158
+Skill:Power BI,Skill:Terraform,CO_OCCURS,0.001
+Skill:Power BI,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Power BI,Skill:PHP,CO_OCCURS,0.001
+Skill:Power BI,Skill:Rust,CO_OCCURS,0.0875
+Skill:Power BI,Skill:MLOps,CO_OCCURS,0.001
+Skill:Power BI,Skill:LangChain,CO_OCCURS,0.001
+Skill:Power BI,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Power BI,Skill:Neo4j,CO_OCCURS,0.001
+Skill:Power BI,Role:Data Analyst,REQUIRES,0.6692
+Skill:Power BI,Role:Business Analyst,REQUIRES,0.6792
+Skill:Power BI,Role:Backend Developer,REQUIRES,0.0128
+Skill:Power BI,Role:Devops Engineer,REQUIRES,0.0137
+Skill:Power BI,Role:Frontend Developer,REQUIRES,0.0126
+Skill:Power BI,Role:Data Scientist,REQUIRES,0.0142
+Skill:Power BI,Role:Data Engineer,REQUIRES,0.0092
+Skill:Power BI,Role:Ai Engineer,REQUIRES,0.0135
+Skill:Power BI,Role:Cloud Architect,REQUIRES,0.0115
+Skill:Power BI,Role:Security Analyst,REQUIRES,0.0138
+Skill:Power BI,Role:Full Stack Developer,REQUIRES,0.0125
+Skill:Power BI,Role:Machine Learning Engineer,REQUIRES,0.0098
+Skill:Power BI,Role:Qa Engineer,REQUIRES,0.0159
+Skill:Power BI,Certification:Microsoft PL-300 (Power BI),VALIDATES,1.0
+Skill:Leadership,Skill:GCP,CO_OCCURS,0.001
+Skill:Leadership,Skill:C++,CO_OCCURS,0.0791
+Skill:Leadership,Skill:Terraform,CO_OCCURS,0.001
+Skill:Leadership,Skill:LangChain,CO_OCCURS,0.001
+Skill:Leadership,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Leadership,Skill:PHP,CO_OCCURS,0.001
+Skill:Leadership,Skill:MLOps,CO_OCCURS,0.001
+Skill:Leadership,Skill:Rust,CO_OCCURS,0.001
+Skill:Leadership,Role:Business Analyst,REQUIRES,0.6068
+Skill:Leadership,Role:Data Analyst,REQUIRES,0.0136
+Skill:Leadership,Role:Full Stack Developer,REQUIRES,0.0107
+Skill:Leadership,Role:Data Scientist,REQUIRES,0.0132
+Skill:Leadership,Role:Data Engineer,REQUIRES,0.0112
+Skill:Leadership,Role:Security Analyst,REQUIRES,0.0115
+Skill:Leadership,Role:Cloud Architect,REQUIRES,0.0067
+Skill:Leadership,Role:Devops Engineer,REQUIRES,0.0069
+Skill:Leadership,Role:Backend Developer,REQUIRES,0.0092
+Skill:Leadership,Role:Qa Engineer,REQUIRES,0.0134
+Skill:Leadership,Role:Machine Learning Engineer,REQUIRES,0.0098
+Skill:Leadership,Role:Ai Engineer,REQUIRES,0.0092
+Skill:Leadership,Role:Frontend Developer,REQUIRES,0.0078
+Skill:MLOps,Skill:C++,CO_OCCURS,0.001
+Skill:MLOps,Skill:Prompt Engineering,CO_OCCURS,0.0344
+Skill:MLOps,Skill:PHP,CO_OCCURS,0.001
+Skill:MLOps,Skill:Terraform,CO_OCCURS,0.001
+Skill:MLOps,Skill:GCP,CO_OCCURS,0.001
+Skill:MLOps,Skill:Rust,CO_OCCURS,0.001
+Skill:MLOps,Skill:LangChain,CO_OCCURS,0.001
+Skill:MLOps,Role:Machine Learning Engineer,REQUIRES,0.5514
+Skill:MLOps,Role:Data Engineer,REQUIRES,0.008
+Skill:MLOps,Role:Data Scientist,REQUIRES,0.0132
+Skill:MLOps,Role:Security Analyst,REQUIRES,0.011
+Skill:MLOps,Role:Data Analyst,REQUIRES,0.0131
+Skill:MLOps,Role:Backend Developer,REQUIRES,0.0061
+Skill:MLOps,Role:Full Stack Developer,REQUIRES,0.0084
+Skill:MLOps,Role:Ai Engineer,REQUIRES,0.0106
+Skill:MLOps,Role:Business Analyst,REQUIRES,0.0126
+Skill:MLOps,Role:Frontend Developer,REQUIRES,0.0131
+Skill:MLOps,Role:Devops Engineer,REQUIRES,0.0089
+Skill:MLOps,Role:Cloud Architect,REQUIRES,0.0053
+Skill:MLOps,Role:Qa Engineer,REQUIRES,0.0075
+Skill:C++,Skill:Terraform,CO_OCCURS,0.001
+Skill:C++,Skill:PHP,CO_OCCURS,0.001
+Skill:C++,Skill:GCP,CO_OCCURS,0.001
+Skill:C++,Skill:Prompt Engineering,CO_OCCURS,0.0544
+Skill:C++,Skill:Computer Vision,CO_OCCURS,0.7683
+Skill:C++,Skill:LangChain,CO_OCCURS,0.001
+Skill:C++,Role:Business Analyst,REQUIRES,0.0217
+Skill:C++,Role:Data Engineer,REQUIRES,0.0147
+Skill:C++,Role:Qa Engineer,REQUIRES,0.0159
+Skill:C++,Role:Frontend Developer,REQUIRES,0.0175
+Skill:C++,Role:Devops Engineer,REQUIRES,0.0177
+Skill:C++,Role:Ai Engineer,REQUIRES,0.0175
+Skill:C++,Role:Full Stack Developer,REQUIRES,0.0181
+Skill:C++,Role:Cloud Architect,REQUIRES,0.0153
+Skill:C++,Role:Security Analyst,REQUIRES,0.0134
+Skill:C++,Role:Machine Learning Engineer,REQUIRES,0.0161
+Skill:C++,Role:Data Analyst,REQUIRES,0.0155
+Skill:C++,Role:Data Scientist,REQUIRES,0.0175
+Skill:C++,Role:Backend Developer,REQUIRES,0.0184
+Skill:PHP,Skill:GCP,CO_OCCURS,0.001
+Skill:PHP,Skill:Terraform,CO_OCCURS,0.001
+Skill:PHP,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:PHP,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:PHP,Skill:LangChain,CO_OCCURS,0.001
+Skill:PHP,Role:Full Stack Developer,REQUIRES,0.4626
+Skill:PHP,Role:Data Analyst,REQUIRES,0.0034
+Skill:PHP,Role:Frontend Developer,REQUIRES,0.0044
+Skill:PHP,Role:Backend Developer,REQUIRES,0.0056
+Skill:PHP,Role:Cloud Architect,REQUIRES,0.0072
+Skill:PHP,Role:Devops Engineer,REQUIRES,0.0044
+Skill:PHP,Role:Qa Engineer,REQUIRES,0.006
+Skill:PHP,Role:Machine Learning Engineer,REQUIRES,0.0042
+Skill:PHP,Role:Security Analyst,REQUIRES,0.0048
+Skill:PHP,Role:Ai Engineer,REQUIRES,0.0055
+Skill:PHP,Role:Data Scientist,REQUIRES,0.008
+Skill:PHP,Role:Data Engineer,REQUIRES,0.0072
+Skill:PHP,Role:Business Analyst,REQUIRES,0.0082
+Skill:GCP,Skill:Terraform,CO_OCCURS,1.6348
+Skill:GCP,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:GCP,Skill:LangChain,CO_OCCURS,0.001
+Skill:GCP,Skill:Rust,CO_OCCURS,0.001
+Skill:GCP,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:GCP,Role:Cloud Architect,REQUIRES,0.4526
+Skill:GCP,Role:Business Analyst,REQUIRES,0.0043
+Skill:GCP,Role:Full Stack Developer,REQUIRES,0.0051
+Skill:GCP,Role:Security Analyst,REQUIRES,0.0038
+Skill:GCP,Role:Backend Developer,REQUIRES,0.0026
+Skill:GCP,Role:Machine Learning Engineer,REQUIRES,0.0068
+Skill:GCP,Role:Data Engineer,REQUIRES,0.0052
+Skill:GCP,Role:Frontend Developer,REQUIRES,0.0053
+Skill:GCP,Role:Qa Engineer,REQUIRES,0.004
+Skill:GCP,Role:Devops Engineer,REQUIRES,0.0044
+Skill:GCP,Role:Data Analyst,REQUIRES,0.0044
+Skill:GCP,Role:Ai Engineer,REQUIRES,0.0089
+Skill:GCP,Role:Data Scientist,REQUIRES,0.0038
+Skill:Terraform,Skill:Computer Vision,CO_OCCURS,0.001
+Skill:Terraform,Skill:Prompt Engineering,CO_OCCURS,0.001
+Skill:Terraform,Skill:Blockchain,CO_OCCURS,0.0327
+Skill:Terraform,Skill:LangChain,CO_OCCURS,0.001
+Skill:Terraform,Skill:Rust,CO_OCCURS,0.2221
+Skill:Terraform,Skill:Neo4j,CO_OCCURS,0.341
+Skill:Terraform,Role:Devops Engineer,REQUIRES,0.6169
+Skill:Terraform,Role:Cloud Architect,REQUIRES,0.6073
+Skill:Terraform,Role:Qa Engineer,REQUIRES,0.0084
+Skill:Terraform,Role:Business Analyst,REQUIRES,0.0121
+Skill:Terraform,Role:Backend Developer,REQUIRES,0.0092
+Skill:Terraform,Role:Security Analyst,REQUIRES,0.0119
+Skill:Terraform,Role:Machine Learning Engineer,REQUIRES,0.0115
+Skill:Terraform,Role:Data Engineer,REQUIRES,0.0088
+Skill:Terraform,Role:Frontend Developer,REQUIRES,0.0092
+Skill:Terraform,Role:Data Scientist,REQUIRES,0.0118
+Skill:Terraform,Role:Full Stack Developer,REQUIRES,0.0093
+Skill:Terraform,Role:Ai Engineer,REQUIRES,0.0124
+Skill:Terraform,Role:Data Analyst,REQUIRES,0.0082
+Skill:Terraform,Certification:HashiCorp Terraform Associate,VALIDATES,1.0
+Skill:LangChain,Skill:Prompt Engineering,CO_OCCURS,1.4267
+Skill:LangChain,Skill:Rust,CO_OCCURS,0.3728
+Skill:LangChain,Skill:Computer Vision,CO_OCCURS,0.0046
+Skill:LangChain,Skill:Neo4j,CO_OCCURS,0.4064
+Skill:LangChain,Role:Ai Engineer,REQUIRES,0.6879
+Skill:LangChain,Role:Qa Engineer,REQUIRES,0.0641
+Skill:LangChain,Role:Security Analyst,REQUIRES,0.0658
+Skill:LangChain,Role:Machine Learning Engineer,REQUIRES,0.0726
+Skill:LangChain,Role:Frontend Developer,REQUIRES,0.0679
+Skill:LangChain,Role:Data Scientist,REQUIRES,0.0572
+Skill:LangChain,Role:Data Analyst,REQUIRES,0.0659
+Skill:LangChain,Role:Backend Developer,REQUIRES,0.0619
+Skill:LangChain,Role:Devops Engineer,REQUIRES,0.0726
+Skill:LangChain,Role:Cloud Architect,REQUIRES,0.0637
+Skill:LangChain,Role:Business Analyst,REQUIRES,0.0585
+Skill:LangChain,Role:Full Stack Developer,REQUIRES,0.065
+Skill:LangChain,Role:Data Engineer,REQUIRES,0.0658
+Skill:Prompt Engineering,Skill:Rust,CO_OCCURS,0.5623
+Skill:Prompt Engineering,Skill:Computer Vision,CO_OCCURS,0.2266
+Skill:Prompt Engineering,Skill:Neo4j,CO_OCCURS,0.527
+Skill:Prompt Engineering,Role:Ai Engineer,REQUIRES,0.6859
+Skill:Prompt Engineering,Role:Machine Learning Engineer,REQUIRES,0.0756
+Skill:Prompt Engineering,Role:Qa Engineer,REQUIRES,0.0557
+Skill:Prompt Engineering,Role:Cloud Architect,REQUIRES,0.0508
+Skill:Prompt Engineering,Role:Backend Developer,REQUIRES,0.0557
+Skill:Prompt Engineering,Role:Security Analyst,REQUIRES,0.0587
+Skill:Prompt Engineering,Role:Frontend Developer,REQUIRES,0.0645
+Skill:Prompt Engineering,Role:Data Scientist,REQUIRES,0.0615
+Skill:Prompt Engineering,Role:Data Engineer,REQUIRES,0.0761
+Skill:Prompt Engineering,Role:Devops Engineer,REQUIRES,0.0609
+Skill:Prompt Engineering,Role:Data Analyst,REQUIRES,0.0557
+Skill:Prompt Engineering,Role:Business Analyst,REQUIRES,0.0604
+Skill:Prompt Engineering,Role:Full Stack Developer,REQUIRES,0.059
+Skill:Rust,Role:Ai Engineer,REQUIRES,0.0072
+Skill:Rust,Role:Qa Engineer,REQUIRES,0.0055
+Skill:Rust,Role:Data Engineer,REQUIRES,0.0052
+Skill:Rust,Role:Data Analyst,REQUIRES,0.0039
+Skill:Rust,Role:Business Analyst,REQUIRES,0.0072
+Skill:Rust,Role:Security Analyst,REQUIRES,0.0043
+Skill:Rust,Role:Full Stack Developer,REQUIRES,0.0028
+Skill:Rust,Role:Backend Developer,REQUIRES,0.0056
+Skill:Rust,Role:Devops Engineer,REQUIRES,0.0036
+Skill:Rust,Role:Cloud Architect,REQUIRES,0.0048
+Skill:Rust,Role:Frontend Developer,REQUIRES,0.0034
+Skill:Rust,Role:Data Scientist,REQUIRES,0.0028
+Skill:Rust,Role:Machine Learning Engineer,REQUIRES,0.0038
+Skill:Neo4j,Role:Ai Engineer,REQUIRES,0.0026
+Skill:Neo4j,Role:Frontend Developer,REQUIRES,0.0005
+Skill:Neo4j,Role:Full Stack Developer,REQUIRES,0.0019
+Skill:Neo4j,Role:Security Analyst,REQUIRES,0.0014
+Skill:Neo4j,Role:Data Scientist,REQUIRES,0.0009
+Skill:Neo4j,Role:Qa Engineer,REQUIRES,0.003
+Skill:Neo4j,Role:Business Analyst,REQUIRES,0.0024
+Skill:Neo4j,Role:Data Analyst,REQUIRES,0.0019
+Skill:Neo4j,Role:Data Engineer,REQUIRES,0.0016
+Skill:Neo4j,Role:Devops Engineer,REQUIRES,0.0024
+Skill:Neo4j,Role:Backend Developer,REQUIRES,0.001
+Skill:Neo4j,Role:Cloud Architect,REQUIRES,0.0005
+Skill:Neo4j,Role:Machine Learning Engineer,REQUIRES,0.0004
+Skill:Computer Vision,Role:Data Analyst,REQUIRES,0.0039
+Skill:Computer Vision,Role:Full Stack Developer,REQUIRES,0.0065
+Skill:Computer Vision,Role:Machine Learning Engineer,REQUIRES,0.0042
+Skill:Computer Vision,Role:Cloud Architect,REQUIRES,0.0077
+Skill:Computer Vision,Role:Business Analyst,REQUIRES,0.0029
+Skill:Computer Vision,Role:Devops Engineer,REQUIRES,0.0044
+Skill:Computer Vision,Role:Ai Engineer,REQUIRES,0.0066
+Skill:Computer Vision,Role:Backend Developer,REQUIRES,0.0046
+Skill:Computer Vision,Role:Frontend Developer,REQUIRES,0.0097
+Skill:Computer Vision,Role:Data Engineer,REQUIRES,0.0072
+Skill:Computer Vision,Role:Security Analyst,REQUIRES,0.0043
+Skill:Computer Vision,Role:Data Scientist,REQUIRES,0.0047
+Skill:Computer Vision,Role:Qa Engineer,REQUIRES,0.0055
+Skill:Blockchain,Category:Emerging,IN_CATEGORY,1.0
+Skill:Blockchain,Role:Business Analyst,REQUIRES,0.0019
+Skill:Blockchain,Role:Security Analyst,REQUIRES,0.0019
+Skill:Blockchain,Role:Frontend Developer,REQUIRES,0.0029
+Skill:Blockchain,Role:Full Stack Developer,REQUIRES,0.0014
+Skill:Blockchain,Role:Backend Developer,REQUIRES,0.0031
+Skill:Blockchain,Role:Machine Learning Engineer,REQUIRES,0.0013
+Skill:Blockchain,Role:Data Engineer,REQUIRES,0.002
+Skill:Blockchain,Role:Devops Engineer,REQUIRES,0.002
+Skill:Blockchain,Role:Data Scientist,REQUIRES,0.0019
+Skill:Blockchain,Role:Ai Engineer,REQUIRES,0.0009
+Skill:Blockchain,Role:Data Analyst,REQUIRES,0.0015
+Skill:Blockchain,Role:Cloud Architect,REQUIRES,0.0024
+Skill:Blockchain,Role:Qa Engineer,REQUIRES,0.0025
+Role:Frontend Developer,Company:Amazon,HIRES_FOR,75.0
+Role:Frontend Developer,Company:Google,HIRES_FOR,79.0
+Role:Frontend Developer,Company:Capgemini,HIRES_FOR,81.0
+Role:Frontend Developer,Company:Adobe,HIRES_FOR,75.0
+Role:Frontend Developer,Company:Phonepe,HIRES_FOR,93.0
+Role:Frontend Developer,Company:Nvidia,HIRES_FOR,94.0
+Role:Frontend Developer,Company:Hcltech,HIRES_FOR,78.0
+Role:Frontend Developer,Company:Tcs,HIRES_FOR,83.0
+Role:Frontend Developer,Company:Oracle,HIRES_FOR,98.0
+Role:Frontend Developer,Company:Microsoft,HIRES_FOR,90.0
+Role:Frontend Developer,Company:Infosys,HIRES_FOR,77.0
+Role:Frontend Developer,Company:Tech Mahindra,HIRES_FOR,101.0
+Role:Frontend Developer,Company:Razorpay,HIRES_FOR,80.0
+Role:Frontend Developer,Company:Freshworks,HIRES_FOR,75.0
+Role:Frontend Developer,Company:Paytm,HIRES_FOR,70.0
+Role:Frontend Developer,Company:Meesho,HIRES_FOR,86.0
+Role:Frontend Developer,Company:Salesforce,HIRES_FOR,83.0
+Role:Frontend Developer,Company:Accenture,HIRES_FOR,90.0
+Role:Frontend Developer,Company:Swiggy,HIRES_FOR,91.0
+Role:Frontend Developer,Company:Deloitte,HIRES_FOR,63.0
+Role:Frontend Developer,Company:Flipkart,HIRES_FOR,92.0
+Role:Frontend Developer,Company:Wipro,HIRES_FOR,84.0
+Role:Frontend Developer,Company:Zoho,HIRES_FOR,78.0
+Role:Frontend Developer,Company:Cognizant,HIRES_FOR,64.0
+Role:Frontend Developer,Company:Ibm,HIRES_FOR,82.0
+Role:Data Engineer,Company:Meesho,HIRES_FOR,95.0
+Role:Data Engineer,Company:Google,HIRES_FOR,108.0
+Role:Data Engineer,Company:Nvidia,HIRES_FOR,97.0
+Role:Data Engineer,Company:Microsoft,HIRES_FOR,97.0
+Role:Data Engineer,Company:Ibm,HIRES_FOR,95.0
+Role:Data Engineer,Company:Salesforce,HIRES_FOR,111.0
+Role:Data Engineer,Company:Wipro,HIRES_FOR,101.0
+Role:Data Engineer,Company:Capgemini,HIRES_FOR,102.0
+Role:Data Engineer,Company:Phonepe,HIRES_FOR,105.0
+Role:Data Engineer,Company:Flipkart,HIRES_FOR,102.0
+Role:Data Engineer,Company:Accenture,HIRES_FOR,89.0
+Role:Data Engineer,Company:Hcltech,HIRES_FOR,126.0
+Role:Data Engineer,Company:Zoho,HIRES_FOR,116.0
+Role:Data Engineer,Company:Tech Mahindra,HIRES_FOR,95.0
+Role:Data Engineer,Company:Cognizant,HIRES_FOR,106.0
+Role:Data Engineer,Company:Deloitte,HIRES_FOR,90.0
+Role:Data Engineer,Company:Oracle,HIRES_FOR,106.0
+Role:Data Engineer,Company:Razorpay,HIRES_FOR,104.0
+Role:Data Engineer,Company:Tcs,HIRES_FOR,103.0
+Role:Data Engineer,Company:Freshworks,HIRES_FOR,88.0
+Role:Data Engineer,Company:Amazon,HIRES_FOR,99.0
+Role:Data Engineer,Company:Adobe,HIRES_FOR,86.0
+Role:Data Engineer,Company:Paytm,HIRES_FOR,97.0
+Role:Data Engineer,Company:Swiggy,HIRES_FOR,87.0
+Role:Data Engineer,Company:Infosys,HIRES_FOR,104.0
+Role:Full Stack Developer,Company:Capgemini,HIRES_FOR,88.0
+Role:Full Stack Developer,Company:Google,HIRES_FOR,80.0
+Role:Full Stack Developer,Company:Paytm,HIRES_FOR,82.0
+Role:Full Stack Developer,Company:Tech Mahindra,HIRES_FOR,87.0
+Role:Full Stack Developer,Company:Amazon,HIRES_FOR,98.0
+Role:Full Stack Developer,Company:Swiggy,HIRES_FOR,80.0
+Role:Full Stack Developer,Company:Adobe,HIRES_FOR,83.0
+Role:Full Stack Developer,Company:Razorpay,HIRES_FOR,88.0
+Role:Full Stack Developer,Company:Accenture,HIRES_FOR,89.0
+Role:Full Stack Developer,Company:Meesho,HIRES_FOR,98.0
+Role:Full Stack Developer,Company:Freshworks,HIRES_FOR,84.0
+Role:Full Stack Developer,Company:Nvidia,HIRES_FOR,90.0
+Role:Full Stack Developer,Company:Cognizant,HIRES_FOR,101.0
+Role:Full Stack Developer,Company:Phonepe,HIRES_FOR,69.0
+Role:Full Stack Developer,Company:Ibm,HIRES_FOR,90.0
+Role:Full Stack Developer,Company:Microsoft,HIRES_FOR,91.0
+Role:Full Stack Developer,Company:Oracle,HIRES_FOR,98.0
+Role:Full Stack Developer,Company:Infosys,HIRES_FOR,93.0
+Role:Full Stack Developer,Company:Deloitte,HIRES_FOR,68.0
+Role:Full Stack Developer,Company:Hcltech,HIRES_FOR,86.0
+Role:Full Stack Developer,Company:Salesforce,HIRES_FOR,79.0
+Role:Full Stack Developer,Company:Tcs,HIRES_FOR,89.0
+Role:Full Stack Developer,Company:Wipro,HIRES_FOR,79.0
+Role:Full Stack Developer,Company:Zoho,HIRES_FOR,87.0
+Role:Full Stack Developer,Company:Flipkart,HIRES_FOR,76.0
+Role:Ai Engineer,Company:Meesho,HIRES_FOR,133.0
+Role:Ai Engineer,Company:Flipkart,HIRES_FOR,161.0
+Role:Ai Engineer,Company:Microsoft,HIRES_FOR,128.0
+Role:Ai Engineer,Company:Swiggy,HIRES_FOR,159.0
+Role:Ai Engineer,Company:Oracle,HIRES_FOR,126.0
+Role:Ai Engineer,Company:Wipro,HIRES_FOR,140.0
+Role:Ai Engineer,Company:Accenture,HIRES_FOR,155.0
+Role:Ai Engineer,Company:Ibm,HIRES_FOR,167.0
+Role:Ai Engineer,Company:Phonepe,HIRES_FOR,114.0
+Role:Ai Engineer,Company:Razorpay,HIRES_FOR,132.0
+Role:Ai Engineer,Company:Capgemini,HIRES_FOR,140.0
+Role:Ai Engineer,Company:Tech Mahindra,HIRES_FOR,149.0
+Role:Ai Engineer,Company:Freshworks,HIRES_FOR,122.0
+Role:Ai Engineer,Company:Nvidia,HIRES_FOR,137.0
+Role:Ai Engineer,Company:Tcs,HIRES_FOR,116.0
+Role:Ai Engineer,Company:Deloitte,HIRES_FOR,136.0
+Role:Ai Engineer,Company:Paytm,HIRES_FOR,133.0
+Role:Ai Engineer,Company:Zoho,HIRES_FOR,135.0
+Role:Ai Engineer,Company:Amazon,HIRES_FOR,144.0
+Role:Ai Engineer,Company:Cognizant,HIRES_FOR,145.0
+Role:Ai Engineer,Company:Google,HIRES_FOR,160.0
+Role:Ai Engineer,Company:Adobe,HIRES_FOR,137.0
+Role:Ai Engineer,Company:Salesforce,HIRES_FOR,135.0
+Role:Ai Engineer,Company:Infosys,HIRES_FOR,144.0
+Role:Ai Engineer,Company:Hcltech,HIRES_FOR,132.0
+Role:Data Scientist,Company:Cognizant,HIRES_FOR,65.0
+Role:Data Scientist,Company:Amazon,HIRES_FOR,86.0
+Role:Data Scientist,Company:Capgemini,HIRES_FOR,57.0
+Role:Data Scientist,Company:Razorpay,HIRES_FOR,83.0
+Role:Data Scientist,Company:Adobe,HIRES_FOR,88.0
+Role:Data Scientist,Company:Salesforce,HIRES_FOR,97.0
+Role:Data Scientist,Company:Zoho,HIRES_FOR,83.0
+Role:Data Scientist,Company:Meesho,HIRES_FOR,80.0
+Role:Data Scientist,Company:Oracle,HIRES_FOR,70.0
+Role:Data Scientist,Company:Paytm,HIRES_FOR,84.0
+Role:Data Scientist,Company:Ibm,HIRES_FOR,91.0
+Role:Data Scientist,Company:Wipro,HIRES_FOR,109.0
+Role:Data Scientist,Company:Deloitte,HIRES_FOR,85.0
+Role:Data Scientist,Company:Flipkart,HIRES_FOR,79.0
+Role:Data Scientist,Company:Tech Mahindra,HIRES_FOR,94.0
+Role:Data Scientist,Company:Infosys,HIRES_FOR,87.0
+Role:Data Scientist,Company:Freshworks,HIRES_FOR,85.0
+Role:Data Scientist,Company:Accenture,HIRES_FOR,93.0
+Role:Data Scientist,Company:Nvidia,HIRES_FOR,88.0
+Role:Data Scientist,Company:Google,HIRES_FOR,93.0
+Role:Data Scientist,Company:Phonepe,HIRES_FOR,70.0
+Role:Data Scientist,Company:Microsoft,HIRES_FOR,102.0
+Role:Data Scientist,Company:Tcs,HIRES_FOR,76.0
+Role:Data Scientist,Company:Hcltech,HIRES_FOR,88.0
+Role:Data Scientist,Company:Swiggy,HIRES_FOR,82.0
+Role:Qa Engineer,Company:Accenture,HIRES_FOR,76.0
+Role:Qa Engineer,Company:Ibm,HIRES_FOR,86.0
+Role:Qa Engineer,Company:Hcltech,HIRES_FOR,90.0
+Role:Qa Engineer,Company:Amazon,HIRES_FOR,95.0
+Role:Qa Engineer,Company:Swiggy,HIRES_FOR,67.0
+Role:Qa Engineer,Company:Adobe,HIRES_FOR,97.0
+Role:Qa Engineer,Company:Tech Mahindra,HIRES_FOR,86.0
+Role:Qa Engineer,Company:Microsoft,HIRES_FOR,71.0
+Role:Qa Engineer,Company:Infosys,HIRES_FOR,86.0
+Role:Qa Engineer,Company:Salesforce,HIRES_FOR,74.0
+Role:Qa Engineer,Company:Google,HIRES_FOR,70.0
+Role:Qa Engineer,Company:Flipkart,HIRES_FOR,76.0
+Role:Qa Engineer,Company:Zoho,HIRES_FOR,77.0
+Role:Qa Engineer,Company:Wipro,HIRES_FOR,79.0
+Role:Qa Engineer,Company:Meesho,HIRES_FOR,76.0
+Role:Qa Engineer,Company:Cognizant,HIRES_FOR,86.0
+Role:Qa Engineer,Company:Nvidia,HIRES_FOR,91.0
+Role:Qa Engineer,Company:Paytm,HIRES_FOR,83.0
+Role:Qa Engineer,Company:Phonepe,HIRES_FOR,95.0
+Role:Qa Engineer,Company:Tcs,HIRES_FOR,75.0
+Role:Qa Engineer,Company:Deloitte,HIRES_FOR,76.0
+Role:Qa Engineer,Company:Oracle,HIRES_FOR,71.0
+Role:Qa Engineer,Company:Razorpay,HIRES_FOR,78.0
+Role:Qa Engineer,Company:Freshworks,HIRES_FOR,79.0
+Role:Qa Engineer,Company:Capgemini,HIRES_FOR,72.0
+Role:Backend Developer,Company:Meesho,HIRES_FOR,84.0
+Role:Backend Developer,Company:Ibm,HIRES_FOR,87.0
+Role:Backend Developer,Company:Adobe,HIRES_FOR,80.0
+Role:Backend Developer,Company:Flipkart,HIRES_FOR,80.0
+Role:Backend Developer,Company:Capgemini,HIRES_FOR,72.0
+Role:Backend Developer,Company:Swiggy,HIRES_FOR,69.0
+Role:Backend Developer,Company:Paytm,HIRES_FOR,93.0
+Role:Backend Developer,Company:Deloitte,HIRES_FOR,74.0
+Role:Backend Developer,Company:Salesforce,HIRES_FOR,78.0
+Role:Backend Developer,Company:Freshworks,HIRES_FOR,72.0
+Role:Backend Developer,Company:Razorpay,HIRES_FOR,71.0
+Role:Backend Developer,Company:Cognizant,HIRES_FOR,67.0
+Role:Backend Developer,Company:Nvidia,HIRES_FOR,72.0
+Role:Backend Developer,Company:Amazon,HIRES_FOR,71.0
+Role:Backend Developer,Company:Google,HIRES_FOR,97.0
+Role:Backend Developer,Company:Infosys,HIRES_FOR,80.0
+Role:Backend Developer,Company:Zoho,HIRES_FOR,83.0
+Role:Backend Developer,Company:Tcs,HIRES_FOR,78.0
+Role:Backend Developer,Company:Wipro,HIRES_FOR,64.0
+Role:Backend Developer,Company:Microsoft,HIRES_FOR,79.0
+Role:Backend Developer,Company:Phonepe,HIRES_FOR,73.0
+Role:Backend Developer,Company:Oracle,HIRES_FOR,89.0
+Role:Backend Developer,Company:Accenture,HIRES_FOR,90.0
+Role:Backend Developer,Company:Tech Mahindra,HIRES_FOR,90.0
+Role:Backend Developer,Company:Hcltech,HIRES_FOR,63.0
+Role:Devops Engineer,Company:Tech Mahindra,HIRES_FOR,89.0
+Role:Devops Engineer,Company:Nvidia,HIRES_FOR,99.0
+Role:Devops Engineer,Company:Paytm,HIRES_FOR,96.0
+Role:Devops Engineer,Company:Wipro,HIRES_FOR,117.0
+Role:Devops Engineer,Company:Google,HIRES_FOR,92.0
+Role:Devops Engineer,Company:Ibm,HIRES_FOR,90.0
+Role:Devops Engineer,Company:Hcltech,HIRES_FOR,89.0
+Role:Devops Engineer,Company:Razorpay,HIRES_FOR,109.0
+Role:Devops Engineer,Company:Deloitte,HIRES_FOR,88.0
+Role:Devops Engineer,Company:Salesforce,HIRES_FOR,87.0
+Role:Devops Engineer,Company:Adobe,HIRES_FOR,98.0
+Role:Devops Engineer,Company:Zoho,HIRES_FOR,105.0
+Role:Devops Engineer,Company:Oracle,HIRES_FOR,98.0
+Role:Devops Engineer,Company:Freshworks,HIRES_FOR,111.0
+Role:Devops Engineer,Company:Accenture,HIRES_FOR,100.0
+Role:Devops Engineer,Company:Meesho,HIRES_FOR,100.0
+Role:Devops Engineer,Company:Amazon,HIRES_FOR,100.0
+Role:Devops Engineer,Company:Infosys,HIRES_FOR,102.0
+Role:Devops Engineer,Company:Phonepe,HIRES_FOR,94.0
+Role:Devops Engineer,Company:Flipkart,HIRES_FOR,80.0
+Role:Devops Engineer,Company:Tcs,HIRES_FOR,109.0
+Role:Devops Engineer,Company:Swiggy,HIRES_FOR,112.0
+Role:Devops Engineer,Company:Capgemini,HIRES_FOR,120.0
+Role:Devops Engineer,Company:Microsoft,HIRES_FOR,110.0
+Role:Devops Engineer,Company:Cognizant,HIRES_FOR,85.0
+Role:Data Analyst,Company:Wipro,HIRES_FOR,80.0
+Role:Data Analyst,Company:Cognizant,HIRES_FOR,75.0
+Role:Data Analyst,Company:Freshworks,HIRES_FOR,89.0
+Role:Data Analyst,Company:Capgemini,HIRES_FOR,90.0
+Role:Data Analyst,Company:Zoho,HIRES_FOR,104.0
+Role:Data Analyst,Company:Razorpay,HIRES_FOR,88.0
+Role:Data Analyst,Company:Infosys,HIRES_FOR,78.0
+Role:Data Analyst,Company:Tech Mahindra,HIRES_FOR,77.0
+Role:Data Analyst,Company:Deloitte,HIRES_FOR,97.0
+Role:Data Analyst,Company:Paytm,HIRES_FOR,76.0
+Role:Data Analyst,Company:Google,HIRES_FOR,91.0
+Role:Data Analyst,Company:Hcltech,HIRES_FOR,68.0
+Role:Data Analyst,Company:Ibm,HIRES_FOR,80.0
+Role:Data Analyst,Company:Accenture,HIRES_FOR,92.0
+Role:Data Analyst,Company:Flipkart,HIRES_FOR,68.0
+Role:Data Analyst,Company:Microsoft,HIRES_FOR,86.0
+Role:Data Analyst,Company:Phonepe,HIRES_FOR,96.0
+Role:Data Analyst,Company:Meesho,HIRES_FOR,71.0
+Role:Data Analyst,Company:Salesforce,HIRES_FOR,77.0
+Role:Data Analyst,Company:Adobe,HIRES_FOR,73.0
+Role:Data Analyst,Company:Tcs,HIRES_FOR,76.0
+Role:Data Analyst,Company:Oracle,HIRES_FOR,82.0
+Role:Data Analyst,Company:Swiggy,HIRES_FOR,82.0
+Role:Data Analyst,Company:Nvidia,HIRES_FOR,95.0
+Role:Data Analyst,Company:Amazon,HIRES_FOR,74.0
+Role:Security Analyst,Company:Nvidia,HIRES_FOR,74.0
+Role:Security Analyst,Company:Deloitte,HIRES_FOR,95.0
+Role:Security Analyst,Company:Tech Mahindra,HIRES_FOR,94.0
+Role:Security Analyst,Company:Wipro,HIRES_FOR,79.0
+Role:Security Analyst,Company:Flipkart,HIRES_FOR,74.0
+Role:Security Analyst,Company:Swiggy,HIRES_FOR,84.0
+Role:Security Analyst,Company:Amazon,HIRES_FOR,83.0
+Role:Security Analyst,Company:Tcs,HIRES_FOR,71.0
+Role:Security Analyst,Company:Google,HIRES_FOR,81.0
+Role:Security Analyst,Company:Ibm,HIRES_FOR,70.0
+Role:Security Analyst,Company:Accenture,HIRES_FOR,82.0
+Role:Security Analyst,Company:Infosys,HIRES_FOR,108.0
+Role:Security Analyst,Company:Adobe,HIRES_FOR,85.0
+Role:Security Analyst,Company:Meesho,HIRES_FOR,96.0
+Role:Security Analyst,Company:Salesforce,HIRES_FOR,75.0
+Role:Security Analyst,Company:Microsoft,HIRES_FOR,77.0
+Role:Security Analyst,Company:Cognizant,HIRES_FOR,82.0
+Role:Security Analyst,Company:Capgemini,HIRES_FOR,87.0
+Role:Security Analyst,Company:Paytm,HIRES_FOR,84.0
+Role:Security Analyst,Company:Oracle,HIRES_FOR,94.0
+Role:Security Analyst,Company:Phonepe,HIRES_FOR,84.0
+Role:Security Analyst,Company:Hcltech,HIRES_FOR,80.0
+Role:Security Analyst,Company:Zoho,HIRES_FOR,87.0
+Role:Security Analyst,Company:Razorpay,HIRES_FOR,89.0
+Role:Security Analyst,Company:Freshworks,HIRES_FOR,81.0
+Role:Machine Learning Engineer,Company:Oracle,HIRES_FOR,102.0
+Role:Machine Learning Engineer,Company:Zoho,HIRES_FOR,97.0
+Role:Machine Learning Engineer,Company:Phonepe,HIRES_FOR,84.0
+Role:Machine Learning Engineer,Company:Flipkart,HIRES_FOR,98.0
+Role:Machine Learning Engineer,Company:Infosys,HIRES_FOR,80.0
+Role:Machine Learning Engineer,Company:Paytm,HIRES_FOR,88.0
+Role:Machine Learning Engineer,Company:Accenture,HIRES_FOR,95.0
+Role:Machine Learning Engineer,Company:Amazon,HIRES_FOR,92.0
+Role:Machine Learning Engineer,Company:Google,HIRES_FOR,92.0
+Role:Machine Learning Engineer,Company:Meesho,HIRES_FOR,105.0
+Role:Machine Learning Engineer,Company:Freshworks,HIRES_FOR,98.0
+Role:Machine Learning Engineer,Company:Wipro,HIRES_FOR,124.0
+Role:Machine Learning Engineer,Company:Salesforce,HIRES_FOR,104.0
+Role:Machine Learning Engineer,Company:Hcltech,HIRES_FOR,78.0
+Role:Machine Learning Engineer,Company:Deloitte,HIRES_FOR,88.0
+Role:Machine Learning Engineer,Company:Capgemini,HIRES_FOR,81.0
+Role:Machine Learning Engineer,Company:Nvidia,HIRES_FOR,95.0
+Role:Machine Learning Engineer,Company:Razorpay,HIRES_FOR,96.0
+Role:Machine Learning Engineer,Company:Ibm,HIRES_FOR,88.0
+Role:Machine Learning Engineer,Company:Microsoft,HIRES_FOR,93.0
+Role:Machine Learning Engineer,Company:Cognizant,HIRES_FOR,89.0
+Role:Machine Learning Engineer,Company:Adobe,HIRES_FOR,104.0
+Role:Machine Learning Engineer,Company:Tech Mahindra,HIRES_FOR,87.0
+Role:Machine Learning Engineer,Company:Swiggy,HIRES_FOR,93.0
+Role:Machine Learning Engineer,Company:Tcs,HIRES_FOR,103.0
+Role:Business Analyst,Company:Oracle,HIRES_FOR,96.0
+Role:Business Analyst,Company:Capgemini,HIRES_FOR,80.0
+Role:Business Analyst,Company:Deloitte,HIRES_FOR,85.0
+Role:Business Analyst,Company:Wipro,HIRES_FOR,84.0
+Role:Business Analyst,Company:Zoho,HIRES_FOR,83.0
+Role:Business Analyst,Company:Salesforce,HIRES_FOR,77.0
+Role:Business Analyst,Company:Swiggy,HIRES_FOR,97.0
+Role:Business Analyst,Company:Paytm,HIRES_FOR,85.0
+Role:Business Analyst,Company:Razorpay,HIRES_FOR,64.0
+Role:Business Analyst,Company:Meesho,HIRES_FOR,95.0
+Role:Business Analyst,Company:Adobe,HIRES_FOR,84.0
+Role:Business Analyst,Company:Google,HIRES_FOR,84.0
+Role:Business Analyst,Company:Phonepe,HIRES_FOR,104.0
+Role:Business Analyst,Company:Infosys,HIRES_FOR,95.0
+Role:Business Analyst,Company:Cognizant,HIRES_FOR,80.0
+Role:Business Analyst,Company:Freshworks,HIRES_FOR,82.0
+Role:Business Analyst,Company:Ibm,HIRES_FOR,59.0
+Role:Business Analyst,Company:Nvidia,HIRES_FOR,80.0
+Role:Business Analyst,Company:Hcltech,HIRES_FOR,63.0
+Role:Business Analyst,Company:Flipkart,HIRES_FOR,91.0
+Role:Business Analyst,Company:Tcs,HIRES_FOR,85.0
+Role:Business Analyst,Company:Microsoft,HIRES_FOR,73.0
+Role:Business Analyst,Company:Tech Mahindra,HIRES_FOR,85.0
+Role:Business Analyst,Company:Amazon,HIRES_FOR,71.0
+Role:Business Analyst,Company:Accenture,HIRES_FOR,88.0
+Role:Cloud Architect,Company:Oracle,HIRES_FOR,78.0
+Role:Cloud Architect,Company:Tech Mahindra,HIRES_FOR,102.0
+Role:Cloud Architect,Company:Wipro,HIRES_FOR,84.0
+Role:Cloud Architect,Company:Flipkart,HIRES_FOR,85.0
+Role:Cloud Architect,Company:Adobe,HIRES_FOR,70.0
+Role:Cloud Architect,Company:Nvidia,HIRES_FOR,84.0
+Role:Cloud Architect,Company:Hcltech,HIRES_FOR,96.0
+Role:Cloud Architect,Company:Ibm,HIRES_FOR,92.0
+Role:Cloud Architect,Company:Salesforce,HIRES_FOR,83.0
+Role:Cloud Architect,Company:Capgemini,HIRES_FOR,69.0
+Role:Cloud Architect,Company:Meesho,HIRES_FOR,89.0
+Role:Cloud Architect,Company:Amazon,HIRES_FOR,79.0
+Role:Cloud Architect,Company:Zoho,HIRES_FOR,71.0
+Role:Cloud Architect,Company:Infosys,HIRES_FOR,91.0
+Role:Cloud Architect,Company:Phonepe,HIRES_FOR,82.0
+Role:Cloud Architect,Company:Swiggy,HIRES_FOR,89.0
+Role:Cloud Architect,Company:Tcs,HIRES_FOR,86.0
+Role:Cloud Architect,Company:Paytm,HIRES_FOR,90.0
+Role:Cloud Architect,Company:Freshworks,HIRES_FOR,83.0
+Role:Cloud Architect,Company:Deloitte,HIRES_FOR,78.0
+Role:Cloud Architect,Company:Cognizant,HIRES_FOR,77.0
+Role:Cloud Architect,Company:Google,HIRES_FOR,106.0
+Role:Cloud Architect,Company:Accenture,HIRES_FOR,77.0
+Role:Cloud Architect,Company:Microsoft,HIRES_FOR,64.0
+Role:Cloud Architect,Company:Razorpay,HIRES_FOR,83.0
