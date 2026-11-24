@@ -1,6 +1,5 @@
 # AI-Driven Job Market Analytics and Explainable Skill Trend Prediction using Transformer-Based Temporal Learning and Knowledge Graphs
 
-**Team:** Farisa Khan · Gajji Praveen Sai · Konakanchi Ananda Krishna · Gundla Aashritha
 
 > **Status note.** Sections 6–7 contain results from a *synthetic* dataset used to validate the pipeline. Replace them with results from your real data (`python src/run_pipeline.py --data ...`) before submission.
 
