@@ -25,8 +25,3 @@ Required columns after mapping: `title, company, location, description, date_pos
 `model_comparison.csv`, `skill_forecast.csv`, `global_importance.csv`, `local_explanations.json`, `recommendations.json`,
 `figures/*.png`, `neo4j/{nodes,edges}.csv + load_graph.cypher`, `powerbi/*.csv` (import all into Power BI Desktop; relate on `skill`).
 
-## What is verified vs. not (read this before the viva)
-* **Executed here:** whole pipeline on SYNTHETIC data with sklearn fallbacks (Naive, Seasonal-Naive, RF, HistGB-as-XGBoost, "HGTSP-lite").
-* **Written but NOT executed here (no PyTorch/internet in the build sandbox):** `hgtsp_torch.py` (the real transformer+GAT model),
-  LSTM, Prophet, TFT, SHAP, spaCy, SBERT, live scrapers, Neo4j driver. Run them on your machine; expect to fix small bugs.
-* Numbers in `REPORT.md` come from synthetic data. **Replace them with results on your real LinkedIn/Naukri data before submitting.**
