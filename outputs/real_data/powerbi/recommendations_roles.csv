@@ -1,0 +1,10 @@
+user,rank,role,score
+"Final-year CSE student (Python, SQL, ML basics)",1,Data Analyst,0.861
+"Final-year CSE student (Python, SQL, ML basics)",2,AI Engineer,0.721
+"Final-year CSE student (Python, SQL, ML basics)",3,Machine Learning Engineer,0.68
+"Web developer (JS, React, jQuery, PHP)",1,Frontend Developer,0.654
+"Web developer (JS, React, jQuery, PHP)",2,Web Developer,0.631
+"Web developer (JS, React, jQuery, PHP)",3,Full Stack Developer,0.568
+"Data analyst (Excel, SQL, Tableau)",1,Credit Analyst,0.892
+"Data analyst (Excel, SQL, Tableau)",2,Financial Analyst,0.835
+"Data analyst (Excel, SQL, Tableau)",3,Investment Analyst,0.813

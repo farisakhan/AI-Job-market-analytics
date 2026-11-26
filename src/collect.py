@@ -13,7 +13,7 @@ import numpy as np, pandas as pd
 from config import RAW, SEED
 from skills_catalog import SKILLS, ROLES
 
-UNIFIED_COLUMNS = ["job_id", "source", "title", "company", "location", "description", "date_posted", "salary"]
+UNIFIED_COLUMNS = ["job_id", "source", "country", "title", "company", "location", "description", "date_posted", "salary"]
 
 # ----------------------------------------------------------------------------- scrapers
 HEADERS = {"User-Agent": "Mozilla/5.0 (academic-research-bot; contact: you@college.edu)"}
@@ -84,21 +84,41 @@ def fetch_glassdoor_api(partner_id, key, query, pages=3):
     return rows
 
 def unify(frames):
-    """Merge per-source frames into one schema; missing cols -> NaN."""
+    """Merge per-source frames while preserving source and country."""
     df = pd.concat(frames, ignore_index=True)
+
     for c in UNIFIED_COLUMNS:
-        if c not in df: df[c] = np.nan
-    if df["job_id"].isna().all(): df["job_id"] = np.arange(len(df))
+        if c not in df:
+            df[c] = np.nan
+
+    if df["job_id"].isna().all():
+        df["job_id"] = np.arange(len(df))
+
+    df["source"] = df["source"].fillna("unknown").replace("", "unknown")
+    df["country"] = df["country"].fillna("Unknown").replace("", "Unknown")
+
     return df[UNIFIED_COLUMNS]
 
-def load_real(csv_path, source="linkedin", colmap=None):
-    """Load YOUR already-cleaned dataset (e.g. Kaggle LinkedIn postings). colmap maps your
-    column names -> unified names, e.g. {'job_title':'title','company_name':'company',
-    'job_description':'description','listed_time':'date_posted'}."""
+
+def load_real(csv_path, source="linkedin", colmap=None, country="India"):
+    """Load real job data and preserve source/country metadata."""
     df = pd.read_csv(csv_path)
-    if colmap: df = df.rename(columns=colmap)
-    df["source"] = source
+
+    if colmap:
+        df = df.rename(columns=colmap)
+
+    if "source" not in df.columns:
+        df["source"] = source
+    else:
+        df["source"] = df["source"].fillna(source).replace("", source)
+
+    if "country" not in df.columns:
+        df["country"] = country
+    else:
+        df["country"] = df["country"].fillna(country).replace("", country)
+
     return unify([df])
+
 
 # ----------------------------------------------------------------------------- synthetic data
 # demand trajectory per skill: (base share, yearly growth, seasonality amplitude, shock month or None)

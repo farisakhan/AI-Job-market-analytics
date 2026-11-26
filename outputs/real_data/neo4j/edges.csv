@@ -1,0 +1,1286 @@
+src,dst,rel,weight
+Skill:AWS,Category:Cloud,IN_CATEGORY,1.0
+Skill:AWS,Skill:Git,CO_OCCURS,1.829
+Skill:AWS,Skill:JavaScript,CO_OCCURS,0.489
+Skill:AWS,Skill:React,CO_OCCURS,1.2745
+Skill:AWS,Skill:SQL,CO_OCCURS,1.5294
+Skill:AWS,Skill:Azure,CO_OCCURS,2.2037
+Skill:AWS,Skill:CI/CD,CO_OCCURS,2.2189
+Skill:AWS,Skill:GCP,CO_OCCURS,2.4296
+Skill:AWS,Skill:Java,CO_OCCURS,1.3228
+Skill:AWS,Skill:Python,CO_OCCURS,1.5532
+Skill:AWS,Skill:Communication,CO_OCCURS,0.1745
+Skill:AWS,Skill:Machine Learning,CO_OCCURS,1.6737
+Skill:AWS,Skill:Docker,CO_OCCURS,2.0938
+Skill:AWS,Skill:Kubernetes,CO_OCCURS,2.1544
+Skill:AWS,Skill:MongoDB,CO_OCCURS,2.4113
+Skill:AWS,Skill:Leadership,CO_OCCURS,0.001
+Skill:AWS,Skill:Deep Learning,CO_OCCURS,1.77
+Skill:AWS,Skill:NLP,CO_OCCURS,1.8825
+Skill:AWS,Skill:Pandas,CO_OCCURS,2.0366
+Skill:AWS,Skill:Spark,CO_OCCURS,2.0015
+Skill:AWS,Skill:TensorFlow,CO_OCCURS,2.0015
+Skill:AWS,Skill:Computer Vision,CO_OCCURS,1.7001
+Skill:AWS,Skill:Hadoop,CO_OCCURS,2.1701
+Skill:AWS,Skill:LLM,CO_OCCURS,1.9566
+Skill:AWS,Skill:MLOps,CO_OCCURS,2.1236
+Skill:AWS,Skill:Power BI,CO_OCCURS,1.4612
+Skill:AWS,Skill:PyTorch,CO_OCCURS,1.9989
+Skill:AWS,Skill:Tableau,CO_OCCURS,1.8825
+Skill:AWS,Skill:Scikit-learn,CO_OCCURS,2.0366
+Skill:AWS,Skill:R,CO_OCCURS,0.7244
+Skill:AWS,Role:Software Engineer,REQUIRES,0.2154
+Skill:AWS,Role:Full Stack Developer,REQUIRES,0.5
+Skill:AWS,Role:Frontend Developer,REQUIRES,0.3333
+Skill:AWS,Role:Data Scientist,REQUIRES,0.3333
+Skill:AWS,Role:Machine Learning Engineer,REQUIRES,0.3333
+Skill:AWS,Role:Sales Professional,REQUIRES,0.0075
+Skill:AWS,Role:Product Manager,REQUIRES,0.0159
+Skill:AWS,Role:Financial Analyst,REQUIRES,0.0172
+Skill:AWS,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Skill:AWS,Role:Manufacturing Engineer,REQUIRES,0.125
+Category:Cloud,Skill:Azure,IN_CATEGORY,1.0
+Category:Cloud,Skill:GCP,IN_CATEGORY,1.0
+Skill:Git,Category:DevOps,IN_CATEGORY,1.0
+Skill:Git,Skill:JavaScript,CO_OCCURS,1.7436
+Skill:Git,Skill:React,CO_OCCURS,1.7406
+Skill:Git,Skill:SQL,CO_OCCURS,1.4358
+Skill:Git,Skill:Java,CO_OCCURS,1.2499
+Skill:Git,Skill:Communication,CO_OCCURS,0.2193
+Skill:Git,Skill:CI/CD,CO_OCCURS,2.4337
+Skill:Git,Skill:Docker,CO_OCCURS,2.1544
+Skill:Git,Skill:Python,CO_OCCURS,1.2987
+Skill:Git,Skill:Azure,CO_OCCURS,2.1197
+Skill:Git,Skill:GCP,CO_OCCURS,2.0972
+Skill:Git,Skill:Machine Learning,CO_OCCURS,1.3131
+Skill:Git,Skill:Kubernetes,CO_OCCURS,2.0327
+Skill:Git,Skill:Power BI,CO_OCCURS,1.8095
+Skill:Git,Skill:MLOps,CO_OCCURS,2.4074
+Skill:Git,Skill:PyTorch,CO_OCCURS,1.5094
+Skill:Git,Skill:TensorFlow,CO_OCCURS,1.438
+Skill:Git,Skill:Deep Learning,CO_OCCURS,0.9551
+Skill:Git,Skill:NLP,CO_OCCURS,1.4323
+Skill:Git,Role:Software Engineer,REQUIRES,0.2154
+Skill:Git,Role:Frontend Developer,REQUIRES,0.3333
+Skill:Git,Role:Data Scientist,REQUIRES,0.1587
+Skill:Git,Role:Machine Learning Engineer,REQUIRES,0.1852
+Skill:Git,Role:Mechanical Engineer,REQUIRES,0.0159
+Skill:Git,Role:QA Engineer,REQUIRES,0.1111
+Category:DevOps,Skill:Kubernetes,IN_CATEGORY,1.0
+Category:DevOps,Skill:CI/CD,IN_CATEGORY,1.0
+Category:DevOps,Skill:Docker,IN_CATEGORY,1.0
+Category:DevOps,Skill:Linux,IN_CATEGORY,1.0
+Category:DevOps,Skill:Terraform,IN_CATEGORY,1.0
+Skill:JavaScript,Category:Language,IN_CATEGORY,1.0
+Skill:JavaScript,Skill:React,CO_OCCURS,2.4548
+Skill:JavaScript,Skill:SQL,CO_OCCURS,0.5814
+Skill:JavaScript,Skill:Java,CO_OCCURS,1.7528
+Skill:JavaScript,Skill:Node.js,CO_OCCURS,2.4548
+Skill:JavaScript,Skill:PHP,CO_OCCURS,2.6108
+Skill:JavaScript,Skill:Python,CO_OCCURS,0.732
+Skill:JavaScript,Skill:C++,CO_OCCURS,1.6075
+Skill:JavaScript,Skill:Angular,CO_OCCURS,2.5883
+Skill:JavaScript,Skill:Communication,CO_OCCURS,0.001
+Skill:JavaScript,Role:Software Engineer,REQUIRES,0.4
+Skill:JavaScript,Role:Web Developer,REQUIRES,0.7
+Skill:JavaScript,Role:Machine Learning Engineer,REQUIRES,0.0741
+Skill:JavaScript,Role:Full Stack Developer,REQUIRES,1.0
+Skill:JavaScript,Role:Frontend Developer,REQUIRES,0.6667
+Skill:JavaScript,Role:Marketing Specialist,REQUIRES,0.0145
+Category:Language,Skill:SQL,IN_CATEGORY,1.0
+Category:Language,Skill:Java,IN_CATEGORY,1.0
+Category:Language,Skill:PHP,IN_CATEGORY,1.0
+Category:Language,Skill:Python,IN_CATEGORY,1.0
+Category:Language,Skill:C++,IN_CATEGORY,1.0
+Category:Language,Skill:Go,IN_CATEGORY,1.0
+Category:Language,Skill:TypeScript,IN_CATEGORY,1.0
+Category:Language,Skill:R,IN_CATEGORY,1.0
+Category:Language,Skill:Rust,IN_CATEGORY,1.0
+Skill:React,Category:Framework,IN_CATEGORY,1.0
+Skill:React,Skill:SQL,CO_OCCURS,1.0304
+Skill:React,Skill:Angular,CO_OCCURS,3.0372
+Skill:React,Skill:Communication,CO_OCCURS,0.001
+Skill:React,Skill:Java,CO_OCCURS,1.3145
+Skill:React,Skill:Python,CO_OCCURS,0.4188
+Skill:React,Skill:Node.js,CO_OCCURS,2.7496
+Skill:React,Skill:Docker,CO_OCCURS,2.0366
+Skill:React,Skill:TypeScript,CO_OCCURS,2.9239
+Skill:React,Role:Software Engineer,REQUIRES,0.3231
+Skill:React,Role:Web Developer,REQUIRES,0.15
+Skill:React,Role:Frontend Developer,REQUIRES,0.6667
+Skill:React,Role:Full Stack Developer,REQUIRES,0.5
+Skill:React,Role:AI Engineer,REQUIRES,0.3333
+Skill:React,Role:Sales Professional,REQUIRES,0.0075
+Skill:React,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Category:Framework,Skill:Node.js,IN_CATEGORY,1.0
+Category:Framework,Skill:Angular,IN_CATEGORY,1.0
+Category:Framework,Skill:Django,IN_CATEGORY,1.0
+Category:Framework,Skill:Spring Boot,IN_CATEGORY,1.0
+Category:Framework,Skill:jQuery,IN_CATEGORY,1.0
+Category:Framework,Skill:FastAPI,IN_CATEGORY,1.0
+Skill:SQL,Skill:Java,CO_OCCURS,1.0704
+Skill:SQL,Skill:Machine Learning,CO_OCCURS,1.3914
+Skill:SQL,Skill:MongoDB,CO_OCCURS,1.9283
+Skill:SQL,Skill:Node.js,CO_OCCURS,1.4358
+Skill:SQL,Skill:Communication,CO_OCCURS,0.001
+Skill:SQL,Skill:Python,CO_OCCURS,1.4686
+Skill:SQL,Skill:Leadership,CO_OCCURS,0.001
+Skill:SQL,Skill:Docker,CO_OCCURS,1.493
+Skill:SQL,Skill:Kubernetes,CO_OCCURS,1.5536
+Skill:SQL,Skill:Azure,CO_OCCURS,1.6029
+Skill:SQL,Skill:CI/CD,CO_OCCURS,1.6182
+Skill:SQL,Skill:GCP,CO_OCCURS,1.4722
+Skill:SQL,Skill:Deep Learning,CO_OCCURS,1.5747
+Skill:SQL,Skill:Excel,CO_OCCURS,0.2381
+Skill:SQL,Skill:PyTorch,CO_OCCURS,1.4722
+Skill:SQL,Skill:TensorFlow,CO_OCCURS,1.4697
+Skill:SQL,Skill:Power BI,CO_OCCURS,1.659
+Skill:SQL,Skill:R,CO_OCCURS,1.3132
+Skill:SQL,Skill:Tableau,CO_OCCURS,1.6871
+Skill:SQL,Skill:Generative AI,CO_OCCURS,1.6871
+Skill:SQL,Skill:LLM,CO_OCCURS,1.7613
+Skill:SQL,Skill:NLP,CO_OCCURS,1.464
+Skill:SQL,Skill:Hadoop,CO_OCCURS,1.6871
+Skill:SQL,Skill:MLOps,CO_OCCURS,1.9283
+Skill:SQL,Skill:Pandas,CO_OCCURS,1.7543
+Skill:SQL,Skill:Spark,CO_OCCURS,1.5343
+Skill:SQL,Skill:Scikit-learn,CO_OCCURS,1.4358
+Skill:SQL,Role:Software Engineer,REQUIRES,0.2154
+Skill:SQL,Role:Web Developer,REQUIRES,0.15
+Skill:SQL,Role:Full Stack Developer,REQUIRES,0.5
+Skill:SQL,Role:Data Scientist,REQUIRES,0.6984
+Skill:SQL,Role:Machine Learning Engineer,REQUIRES,0.3704
+Skill:SQL,Role:AI Engineer,REQUIRES,0.3333
+Skill:SQL,Role:Marketing Specialist,REQUIRES,0.0145
+Skill:SQL,Role:Sales Professional,REQUIRES,0.0075
+Skill:SQL,Role:Product Manager,REQUIRES,0.1111
+Skill:SQL,Role:Financial Analyst,REQUIRES,0.0862
+Skill:SQL,Role:Credit Analyst,REQUIRES,0.1429
+Skill:SQL,Role:Data Analyst,REQUIRES,1.0
+Skill:SQL,Role:HR Professional,REQUIRES,0.0141
+Skill:SQL,Role:Mechanical Engineer,REQUIRES,0.0159
+Skill:SQL,Role:QA Engineer,REQUIRES,0.1111
+Skill:Java,Skill:Node.js,CO_OCCURS,2.2589
+Skill:Java,Skill:PHP,CO_OCCURS,1.9813
+Skill:Java,Skill:Python,CO_OCCURS,1.2781
+Skill:Java,Skill:Azure,CO_OCCURS,0.9315
+Skill:Java,Skill:C++,CO_OCCURS,2.5466
+Skill:Java,Skill:Kubernetes,CO_OCCURS,1.7889
+Skill:Java,Skill:Machine Learning,CO_OCCURS,0.7329
+Skill:Java,Skill:PyTorch,CO_OCCURS,1.2657
+Skill:Java,Skill:Spark,CO_OCCURS,1.0119
+Skill:Java,Skill:TensorFlow,CO_OCCURS,1.3484
+Skill:Java,Skill:Angular,CO_OCCURS,2.0766
+Skill:Java,Skill:CI/CD,CO_OCCURS,1.6711
+Skill:Java,Skill:GCP,CO_OCCURS,1.0834
+Skill:Java,Skill:Spring Boot,CO_OCCURS,2.6644
+Skill:Java,Skill:MongoDB,CO_OCCURS,2.3178
+Skill:Java,Skill:Leadership,CO_OCCURS,0.001
+Skill:Java,Skill:NLP,CO_OCCURS,1.0062
+Skill:Java,Skill:Communication,CO_OCCURS,0.001
+Skill:Java,Skill:Docker,CO_OCCURS,1.546
+Skill:Java,Skill:Deep Learning,CO_OCCURS,0.7114
+Skill:Java,Skill:Tableau,CO_OCCURS,1.047
+Skill:Java,Skill:R,CO_OCCURS,0.6103
+Skill:Java,Role:Software Engineer,REQUIRES,0.4923
+Skill:Java,Role:Web Developer,REQUIRES,0.2
+Skill:Java,Role:Machine Learning Engineer,REQUIRES,0.1111
+Skill:Java,Role:Full Stack Developer,REQUIRES,0.5
+Skill:Java,Role:Data Scientist,REQUIRES,0.0952
+Skill:Java,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Skill:Java,Role:Mechanical Engineer,REQUIRES,0.0159
+Skill:Java,Role:QA Engineer,REQUIRES,0.1111
+Skill:Node.js,Role:Web Developer,REQUIRES,0.15
+Skill:Node.js,Role:Software Engineer,REQUIRES,0.0769
+Skill:Node.js,Role:Full Stack Developer,REQUIRES,0.5
+Skill:Node.js,Role:Frontend Developer,REQUIRES,0.3333
+Skill:PHP,Role:Web Developer,REQUIRES,0.5
+Skill:PHP,Role:Software Engineer,REQUIRES,0.0154
+Skill:Python,Skill:Azure,CO_OCCURS,1.6163
+Skill:Python,Skill:C++,CO_OCCURS,1.6509
+Skill:Python,Skill:Go,CO_OCCURS,0.8445
+Skill:Python,Skill:Kubernetes,CO_OCCURS,1.4994
+Skill:Python,Skill:Machine Learning,CO_OCCURS,1.709
+Skill:Python,Skill:PyTorch,CO_OCCURS,1.7971
+Skill:Python,Skill:Spark,CO_OCCURS,1.7649
+Skill:Python,Skill:TensorFlow,CO_OCCURS,1.8026
+Skill:Python,Skill:CI/CD,CO_OCCURS,1.6509
+Skill:Python,Skill:Django,CO_OCCURS,1.8741
+Skill:Python,Skill:GCP,CO_OCCURS,1.6228
+Skill:Python,Skill:Leadership,CO_OCCURS,0.001
+Skill:Python,Skill:NLP,CO_OCCURS,1.7527
+Skill:Python,Skill:Communication,CO_OCCURS,0.001
+Skill:Python,Skill:Docker,CO_OCCURS,1.4388
+Skill:Python,Skill:R,CO_OCCURS,1.4492
+Skill:Python,Skill:Computer Vision,CO_OCCURS,1.6329
+Skill:Python,Skill:Deep Learning,CO_OCCURS,1.8081
+Skill:Python,Skill:MongoDB,CO_OCCURS,1.2679
+Skill:Python,Skill:Excel,CO_OCCURS,0.001
+Skill:Python,Skill:Power BI,CO_OCCURS,1.4994
+Skill:Python,Skill:Tableau,CO_OCCURS,1.6329
+Skill:Python,Skill:Generative AI,CO_OCCURS,1.6329
+Skill:Python,Skill:LLM,CO_OCCURS,1.707
+Skill:Python,Skill:Pandas,CO_OCCURS,1.8741
+Skill:Python,Skill:Hadoop,CO_OCCURS,1.8
+Skill:Python,Skill:LangChain,CO_OCCURS,1.8741
+Skill:Python,Skill:MLOps,CO_OCCURS,1.7788
+Skill:Python,Skill:Scikit-learn,CO_OCCURS,1.7871
+Skill:Python,Role:Web Developer,REQUIRES,0.2
+Skill:Python,Role:Software Engineer,REQUIRES,0.3538
+Skill:Python,Role:Machine Learning Engineer,REQUIRES,0.8519
+Skill:Python,Role:Full Stack Developer,REQUIRES,0.5
+Skill:Python,Role:Data Scientist,REQUIRES,0.9683
+Skill:Python,Role:AI Engineer,REQUIRES,0.3333
+Skill:Python,Role:Product Manager,REQUIRES,0.0159
+Skill:Python,Role:Credit Analyst,REQUIRES,0.0714
+Skill:Python,Role:Investment Analyst,REQUIRES,0.0556
+Skill:Python,Role:Data Analyst,REQUIRES,1.0
+Skill:Python,Role:Financial Analyst,REQUIRES,0.0172
+Skill:Python,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Skill:Python,Role:Manufacturing Engineer,REQUIRES,0.125
+Skill:Azure,Skill:CI/CD,CO_OCCURS,2.4719
+Skill:Azure,Skill:GCP,CO_OCCURS,2.4719
+Skill:Azure,Skill:Communication,CO_OCCURS,0.1522
+Skill:Azure,Skill:Machine Learning,CO_OCCURS,1.7568
+Skill:Azure,Skill:Leadership,CO_OCCURS,0.001
+Skill:Azure,Skill:NLP,CO_OCCURS,2.0301
+Skill:Azure,Skill:Power BI,CO_OCCURS,1.8095
+Skill:Azure,Skill:R,CO_OCCURS,0.8721
+Skill:Azure,Skill:Tableau,CO_OCCURS,1.7424
+Skill:Azure,Skill:Deep Learning,CO_OCCURS,1.7353
+Skill:Azure,Skill:Pandas,CO_OCCURS,2.0507
+Skill:Azure,Skill:Spark,CO_OCCURS,1.8127
+Skill:Azure,Skill:TensorFlow,CO_OCCURS,2.1491
+Skill:Azure,Skill:Hadoop,CO_OCCURS,1.8478
+Skill:Azure,Skill:LLM,CO_OCCURS,2.5097
+Skill:Azure,Skill:MLOps,CO_OCCURS,2.4254
+Skill:Azure,Skill:PyTorch,CO_OCCURS,2.0665
+Skill:Azure,Skill:Generative AI,CO_OCCURS,2.1842
+Skill:Azure,Skill:Scikit-learn,CO_OCCURS,2.1842
+Skill:Azure,Skill:Docker,CO_OCCURS,1.6536
+Skill:Azure,Skill:Kubernetes,CO_OCCURS,1.7142
+Skill:Azure,Role:Software Engineer,REQUIRES,0.1231
+Skill:Azure,Role:Web Developer,REQUIRES,0.05
+Skill:Azure,Role:Data Scientist,REQUIRES,0.3333
+Skill:Azure,Role:Machine Learning Engineer,REQUIRES,0.2963
+Skill:Azure,Role:Product Manager,REQUIRES,0.0476
+Skill:Azure,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Skill:Azure,Role:QA Engineer,REQUIRES,0.2222
+Skill:C++,Skill:Leadership,CO_OCCURS,0.455
+Skill:C++,Skill:NLP,CO_OCCURS,1.7199
+Skill:C++,Skill:Communication,CO_OCCURS,0.001
+Skill:C++,Skill:Machine Learning,CO_OCCURS,1.3413
+Skill:C++,Skill:Deep Learning,CO_OCCURS,1.4251
+Skill:C++,Skill:TensorFlow,CO_OCCURS,2.0903
+Skill:C++,Skill:PyTorch,CO_OCCURS,2.1618
+Skill:C++,Role:Software Engineer,REQUIRES,0.1538
+Skill:C++,Role:Machine Learning Engineer,REQUIRES,0.0741
+Skill:C++,Role:Data Scientist,REQUIRES,0.0952
+Skill:C++,Role:Mechanical Engineer,REQUIRES,0.0159
+Skill:C++,Role:Other,REQUIRES,0.0769
+Skill:Go,Skill:Communication,CO_OCCURS,0.001
+Skill:Go,Role:Software Engineer,REQUIRES,0.0769
+Skill:Go,Role:Machine Learning Engineer,REQUIRES,0.037
+Skill:Go,Role:Data Scientist,REQUIRES,0.0159
+Skill:Go,Role:Marketing Specialist,REQUIRES,0.0145
+Skill:Go,Role:Sales Professional,REQUIRES,0.0301
+Skill:Go,Role:Product Manager,REQUIRES,0.0317
+Skill:Kafka,Category:Data,IN_CATEGORY,1.0
+Skill:Kafka,Role:Software Engineer,REQUIRES,0.0462
+Category:Data,Skill:Spark,IN_CATEGORY,1.0
+Category:Data,Skill:MongoDB,IN_CATEGORY,1.0
+Category:Data,Skill:Snowflake,IN_CATEGORY,1.0
+Category:Data,Skill:Hadoop,IN_CATEGORY,1.0
+Category:Data,Skill:Airflow,IN_CATEGORY,1.0
+Category:Data,Skill:Neo4j,IN_CATEGORY,1.0
+Skill:Kubernetes,Skill:Machine Learning,CO_OCCURS,1.6698
+Skill:Kubernetes,Skill:Communication,CO_OCCURS,0.2659
+Skill:Kubernetes,Skill:Docker,CO_OCCURS,3.6207
+Skill:Kubernetes,Skill:GCP,CO_OCCURS,2.5391
+Skill:Kubernetes,Skill:CI/CD,CO_OCCURS,2.9727
+Skill:Kubernetes,Role:Software Engineer,REQUIRES,0.0923
+Skill:Kubernetes,Role:Data Scientist,REQUIRES,0.0317
+Skill:Kubernetes,Role:AI Engineer,REQUIRES,0.3333
+Skill:Kubernetes,Role:Machine Learning Engineer,REQUIRES,0.2593
+Skill:Machine Learning,Category:AI,IN_CATEGORY,1.0
+Skill:Machine Learning,Skill:PyTorch,CO_OCCURS,2.102
+Skill:Machine Learning,Skill:Spark,CO_OCCURS,1.9505
+Skill:Machine Learning,Skill:TensorFlow,CO_OCCURS,2.1047
+Skill:Machine Learning,Skill:MongoDB,CO_OCCURS,1.5337
+Skill:Machine Learning,Skill:Communication,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:GCP,CO_OCCURS,1.7343
+Skill:Machine Learning,Skill:Deep Learning,CO_OCCURS,2.0963
+Skill:Machine Learning,Skill:Leadership,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:NLP,CO_OCCURS,2.0809
+Skill:Machine Learning,Skill:Excel,CO_OCCURS,0.001
+Skill:Machine Learning,Skill:Power BI,CO_OCCURS,1.5644
+Skill:Machine Learning,Skill:R,CO_OCCURS,1.2331
+Skill:Machine Learning,Skill:Tableau,CO_OCCURS,1.6408
+Skill:Machine Learning,Skill:Generative AI,CO_OCCURS,2.0657
+Skill:Machine Learning,Skill:LLM,CO_OCCURS,2.0597
+Skill:Machine Learning,Skill:Pandas,CO_OCCURS,2.0752
+Skill:Machine Learning,Skill:Computer Vision,CO_OCCURS,2.0657
+Skill:Machine Learning,Skill:Hadoop,CO_OCCURS,2.0657
+Skill:Machine Learning,Skill:LangChain,CO_OCCURS,2.1398
+Skill:Machine Learning,Skill:MLOps,CO_OCCURS,2.0445
+Skill:Machine Learning,Skill:CI/CD,CO_OCCURS,1.5112
+Skill:Machine Learning,Skill:Scikit-learn,CO_OCCURS,2.0528
+Skill:Machine Learning,Skill:Docker,CO_OCCURS,1.6092
+Skill:Machine Learning,Role:Software Engineer,REQUIRES,0.1077
+Skill:Machine Learning,Role:Machine Learning Engineer,REQUIRES,1.0
+Skill:Machine Learning,Role:Data Scientist,REQUIRES,0.7937
+Skill:Machine Learning,Role:AI Engineer,REQUIRES,1.0
+Skill:Machine Learning,Role:Sales Professional,REQUIRES,0.0075
+Skill:Machine Learning,Role:Product Manager,REQUIRES,0.0159
+Skill:Machine Learning,Role:Risk and Compliance Analyst,REQUIRES,0.4
+Skill:Machine Learning,Role:Financial Analyst,REQUIRES,0.0172
+Category:AI,Skill:NLP,IN_CATEGORY,1.0
+Category:AI,Skill:Computer Vision,IN_CATEGORY,1.0
+Category:AI,Skill:Deep Learning,IN_CATEGORY,1.0
+Category:AI,Skill:Generative AI,IN_CATEGORY,1.0
+Category:AI,Skill:LLM,IN_CATEGORY,1.0
+Category:AI,Skill:MLOps,IN_CATEGORY,1.0
+Category:AI,Skill:Prompt Engineering,IN_CATEGORY,1.0
+Skill:PyTorch,Category:Library,IN_CATEGORY,1.0
+Skill:PyTorch,Skill:Spark,CO_OCCURS,2.1957
+Skill:PyTorch,Skill:TensorFlow,CO_OCCURS,3.1339
+Skill:PyTorch,Skill:Communication,CO_OCCURS,0.1173
+Skill:PyTorch,Skill:Deep Learning,CO_OCCURS,2.406
+Skill:PyTorch,Skill:Computer Vision,CO_OCCURS,2.5184
+Skill:PyTorch,Skill:LLM,CO_OCCURS,2.4102
+Skill:PyTorch,Skill:NLP,CO_OCCURS,2.3753
+Skill:PyTorch,Skill:Pandas,CO_OCCURS,2.5391
+Skill:PyTorch,Skill:Scikit-learn,CO_OCCURS,3.0781
+Skill:PyTorch,Skill:R,CO_OCCURS,1.0239
+Skill:PyTorch,Skill:GCP,CO_OCCURS,2.0158
+Skill:PyTorch,Role:Software Engineer,REQUIRES,0.0308
+Skill:PyTorch,Role:Data Scientist,REQUIRES,0.2222
+Skill:PyTorch,Role:Machine Learning Engineer,REQUIRES,0.4074
+Category:Library,Skill:TensorFlow,IN_CATEGORY,1.0
+Category:Library,Skill:Pandas,IN_CATEGORY,1.0
+Category:Library,Skill:LangChain,IN_CATEGORY,1.0
+Category:Library,Skill:Scikit-learn,IN_CATEGORY,1.0
+Skill:Spark,Skill:TensorFlow,CO_OCCURS,2.4919
+Skill:Spark,Skill:Leadership,CO_OCCURS,0.0834
+Skill:Spark,Skill:Deep Learning,CO_OCCURS,2.0832
+Skill:Spark,Skill:NLP,CO_OCCURS,2.2238
+Skill:Spark,Skill:Pandas,CO_OCCURS,2.1311
+Skill:Spark,Skill:Communication,CO_OCCURS,0.001
+Skill:Spark,Skill:Hadoop,CO_OCCURS,3.2202
+Skill:Spark,Skill:Power BI,CO_OCCURS,1.438
+Skill:Spark,Skill:Tableau,CO_OCCURS,2.1593
+Skill:Spark,Skill:Scikit-learn,CO_OCCURS,2.6011
+Skill:Spark,Skill:R,CO_OCCURS,1.2889
+Skill:Spark,Role:Software Engineer,REQUIRES,0.0308
+Skill:Spark,Role:Data Scientist,REQUIRES,0.2698
+Skill:Spark,Role:Machine Learning Engineer,REQUIRES,0.2593
+Skill:Spark,Role:AI Engineer,REQUIRES,0.3333
+Skill:Spark,Role:Credit Analyst,REQUIRES,0.0714
+Skill:Spark,Role:Content Writer,REQUIRES,0.0149
+Skill:TensorFlow,Skill:Deep Learning,CO_OCCURS,2.4399
+Skill:TensorFlow,Skill:Leadership,CO_OCCURS,0.0834
+Skill:TensorFlow,Skill:NLP,CO_OCCURS,2.447
+Skill:TensorFlow,Skill:Communication,CO_OCCURS,0.001
+Skill:TensorFlow,Skill:GCP,CO_OCCURS,1.9444
+Skill:TensorFlow,Skill:Pandas,CO_OCCURS,2.8243
+Skill:TensorFlow,Skill:Computer Vision,CO_OCCURS,2.2647
+Skill:TensorFlow,Skill:Hadoop,CO_OCCURS,2.447
+Skill:TensorFlow,Skill:LLM,CO_OCCURS,2.5211
+Skill:TensorFlow,Skill:MLOps,CO_OCCURS,2.5058
+Skill:TensorFlow,Skill:Scikit-learn,CO_OCCURS,3.112
+Skill:TensorFlow,Skill:Generative AI,CO_OCCURS,2.2647
+Skill:TensorFlow,Role:Software Engineer,REQUIRES,0.0308
+Skill:TensorFlow,Role:Machine Learning Engineer,REQUIRES,0.4074
+Skill:TensorFlow,Role:Data Scientist,REQUIRES,0.254
+Skill:Angular,Role:Software Engineer,REQUIRES,0.1077
+Skill:Angular,Role:Full Stack Developer,REQUIRES,0.5
+Skill:Angular,Role:Web Developer,REQUIRES,0.05
+Skill:Angular,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Skill:Communication,Category:Soft,IN_CATEGORY,1.0
+Skill:Communication,Skill:GCP,CO_OCCURS,0.001
+Skill:Communication,Skill:CI/CD,CO_OCCURS,0.0119
+Skill:Communication,Skill:Docker,CO_OCCURS,0.2052
+Skill:Communication,Skill:R,CO_OCCURS,0.0566
+Skill:Communication,Skill:Spring Boot,CO_OCCURS,0.001
+Skill:Communication,Skill:MongoDB,CO_OCCURS,0.3221
+Skill:Communication,Skill:Deep Learning,CO_OCCURS,0.0093
+Skill:Communication,Skill:Excel,CO_OCCURS,0.3209
+Skill:Communication,Skill:Power BI,CO_OCCURS,0.1705
+Skill:Communication,Skill:Tableau,CO_OCCURS,0.0809
+Skill:Communication,Skill:Generative AI,CO_OCCURS,0.1987
+Skill:Communication,Skill:LLM,CO_OCCURS,0.2728
+Skill:Communication,Skill:Leadership,CO_OCCURS,0.1243
+Skill:Communication,Skill:NLP,CO_OCCURS,0.1297
+Skill:Communication,Skill:Computer Vision,CO_OCCURS,0.0809
+Skill:Communication,Skill:Hadoop,CO_OCCURS,0.001
+Skill:Communication,Skill:MLOps,CO_OCCURS,0.001
+Skill:Communication,Skill:Pandas,CO_OCCURS,0.001
+Skill:Communication,Skill:Scikit-learn,CO_OCCURS,0.001
+Skill:Communication,Skill:Blockchain,CO_OCCURS,0.0528
+Skill:Communication,Role:Software Engineer,REQUIRES,0.3846
+Skill:Communication,Role:Web Developer,REQUIRES,0.3
+Skill:Communication,Role:Frontend Developer,REQUIRES,0.6667
+Skill:Communication,Role:Data Scientist,REQUIRES,0.5397
+Skill:Communication,Role:Machine Learning Engineer,REQUIRES,0.4815
+Skill:Communication,Role:AI Engineer,REQUIRES,0.3333
+Skill:Communication,Role:Sales Professional,REQUIRES,0.5714
+Skill:Communication,Role:Marketing Specialist,REQUIRES,0.5652
+Skill:Communication,Role:Business Development Manager,REQUIRES,1.0
+Skill:Communication,Role:Product Manager,REQUIRES,0.4921
+Skill:Communication,Role:Financial Analyst,REQUIRES,0.5517
+Skill:Communication,Role:Investment Analyst,REQUIRES,0.7222
+Skill:Communication,Role:Credit Analyst,REQUIRES,0.5714
+Skill:Communication,Role:Risk and Compliance Analyst,REQUIRES,0.6
+Skill:Communication,Role:Other,REQUIRES,0.4615
+Skill:Communication,Role:HR Professional,REQUIRES,0.6197
+Skill:Communication,Role:Content Writer,REQUIRES,0.597
+Skill:Communication,Role:Mechanical Engineer,REQUIRES,0.4762
+Skill:Communication,Role:Manufacturing Engineer,REQUIRES,0.5
+Skill:Communication,Role:QA Engineer,REQUIRES,0.4444
+Category:Soft,Skill:Leadership,IN_CATEGORY,1.0
+Skill:CI/CD,Skill:GCP,CO_OCCURS,2.6036
+Skill:CI/CD,Skill:Docker,CO_OCCURS,2.9121
+Skill:CI/CD,Skill:Power BI,CO_OCCURS,2.0972
+Skill:CI/CD,Role:Software Engineer,REQUIRES,0.0615
+Skill:CI/CD,Role:Frontend Developer,REQUIRES,0.3333
+Skill:CI/CD,Role:Data Scientist,REQUIRES,0.0635
+Skill:CI/CD,Role:Machine Learning Engineer,REQUIRES,0.1852
+Skill:CI/CD,Role:QA Engineer,REQUIRES,0.1111
+Skill:Django,Role:Software Engineer,REQUIRES,0.0615
+Skill:Django,Role:Full Stack Developer,REQUIRES,0.5
+Skill:Django,Role:Data Scientist,REQUIRES,0.0317
+Skill:GCP,Skill:NLP,CO_OCCURS,1.7563
+Skill:GCP,Skill:MongoDB,CO_OCCURS,2.5773
+Skill:GCP,Skill:Docker,CO_OCCURS,2.3243
+Skill:GCP,Skill:Deep Learning,CO_OCCURS,1.3074
+Skill:GCP,Skill:Pandas,CO_OCCURS,2.3849
+Skill:GCP,Role:Software Engineer,REQUIRES,0.0923
+Skill:GCP,Role:Data Scientist,REQUIRES,0.1746
+Skill:GCP,Role:AI Engineer,REQUIRES,0.3333
+Skill:GCP,Role:Machine Learning Engineer,REQUIRES,0.2222
+Skill:GCP,Role:Product Manager,REQUIRES,0.0476
+Skill:Selenium,Category:Testing,IN_CATEGORY,1.0
+Skill:Selenium,Role:Software Engineer,REQUIRES,0.0308
+Skill:Selenium,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Skill:Selenium,Role:QA Engineer,REQUIRES,0.2222
+Category:Testing,Skill:Manual Testing,IN_CATEGORY,1.0
+Skill:Spring Boot,Role:Software Engineer,REQUIRES,0.1385
+Skill:Spring Boot,Role:Financial Analyst,REQUIRES,0.0172
+Skill:MongoDB,Role:Software Engineer,REQUIRES,0.0923
+Skill:MongoDB,Role:Data Scientist,REQUIRES,0.0635
+Skill:MongoDB,Role:Machine Learning Engineer,REQUIRES,0.037
+Skill:Leadership,Skill:NLP,CO_OCCURS,0.4832
+Skill:Leadership,Skill:Deep Learning,CO_OCCURS,0.001
+Skill:Leadership,Skill:Power BI,CO_OCCURS,0.3215
+Skill:Leadership,Skill:R,CO_OCCURS,0.001
+Skill:Leadership,Skill:Excel,CO_OCCURS,0.5452
+Skill:Leadership,Role:Software Engineer,REQUIRES,0.0769
+Skill:Leadership,Role:Machine Learning Engineer,REQUIRES,0.1111
+Skill:Leadership,Role:Data Scientist,REQUIRES,0.1429
+Skill:Leadership,Role:Sales Professional,REQUIRES,0.188
+Skill:Leadership,Role:Marketing Specialist,REQUIRES,0.058
+Skill:Leadership,Role:Business Development Manager,REQUIRES,1.0
+Skill:Leadership,Role:Product Manager,REQUIRES,0.3175
+Skill:Leadership,Role:Financial Analyst,REQUIRES,0.2241
+Skill:Leadership,Role:Investment Analyst,REQUIRES,0.1667
+Skill:Leadership,Role:HR Professional,REQUIRES,0.4225
+Skill:Leadership,Role:Content Writer,REQUIRES,0.1343
+Skill:Leadership,Role:Mechanical Engineer,REQUIRES,0.0159
+Skill:Leadership,Role:Other,REQUIRES,0.0769
+Skill:NLP,Skill:Deep Learning,CO_OCCURS,2.3916
+Skill:NLP,Skill:Generative AI,CO_OCCURS,2.4131
+Skill:NLP,Skill:LLM,CO_OCCURS,2.6207
+Skill:NLP,Skill:Power BI,CO_OCCURS,1.2499
+Skill:NLP,Skill:R,CO_OCCURS,1.2344
+Skill:NLP,Skill:Tableau,CO_OCCURS,1.8535
+Skill:NLP,Skill:Pandas,CO_OCCURS,2.4131
+Skill:NLP,Skill:Computer Vision,CO_OCCURS,2.4131
+Skill:NLP,Skill:Hadoop,CO_OCCURS,2.4131
+Skill:NLP,Skill:MLOps,CO_OCCURS,2.3178
+Skill:NLP,Role:Software Engineer,REQUIRES,0.0308
+Skill:NLP,Role:Machine Learning Engineer,REQUIRES,0.3704
+Skill:NLP,Role:Data Scientist,REQUIRES,0.3333
+Skill:NLP,Role:Sales Professional,REQUIRES,0.0075
+Skill:NLP,Role:Product Manager,REQUIRES,0.0159
+Skill:TypeScript,Role:Software Engineer,REQUIRES,0.0769
+Skill:TypeScript,Role:Full Stack Developer,REQUIRES,0.5
+Skill:TypeScript,Role:Frontend Developer,REQUIRES,0.3333
+Skill:Manual Testing,Role:Software Engineer,REQUIRES,0.0154
+Skill:Docker,Role:Software Engineer,REQUIRES,0.0923
+Skill:Docker,Role:Data Scientist,REQUIRES,0.0476
+Skill:Docker,Role:AI Engineer,REQUIRES,0.3333
+Skill:Docker,Role:Machine Learning Engineer,REQUIRES,0.2593
+Skill:R,Skill:Deep Learning,CO_OCCURS,1.4992
+Skill:R,Skill:Power BI,CO_OCCURS,1.8837
+Skill:R,Skill:Tableau,CO_OCCURS,2.2113
+Skill:R,Skill:Excel,CO_OCCURS,0.3495
+Skill:R,Skill:Hadoop,CO_OCCURS,1.6807
+Skill:R,Role:Software Engineer,REQUIRES,0.0154
+Skill:R,Role:Data Scientist,REQUIRES,0.4603
+Skill:R,Role:Machine Learning Engineer,REQUIRES,0.0741
+Skill:R,Role:Product Manager,REQUIRES,0.0635
+Skill:R,Role:Investment Analyst,REQUIRES,0.0556
+Skill:R,Role:Financial Analyst,REQUIRES,0.0172
+Skill:R,Role:HR Professional,REQUIRES,0.0423
+Skill:R,Role:QA Engineer,REQUIRES,0.1111
+Skill:R,Role:Mechanical Engineer,REQUIRES,0.127
+Skill:R,Role:Other,REQUIRES,0.0769
+Skill:R,Role:Manufacturing Engineer,REQUIRES,0.125
+Skill:Rust,Role:Software Engineer,REQUIRES,0.0154
+Skill:Rust,Role:Frontend Developer,REQUIRES,0.3333
+Skill:Rust,Role:Machine Learning Engineer,REQUIRES,0.037
+Skill:Snowflake,Role:Software Engineer,REQUIRES,0.0154
+Skill:Snowflake,Role:Data Scientist,REQUIRES,0.0159
+Skill:Snowflake,Role:Financial Analyst,REQUIRES,0.0172
+Skill:jQuery,Role:Software Engineer,REQUIRES,0.0154
+Skill:jQuery,Role:Web Developer,REQUIRES,0.15
+Skill:Linux,Role:Software Engineer,REQUIRES,0.0308
+Skill:Linux,Role:Full Stack Developer,REQUIRES,0.5
+Skill:Linux,Role:Machine Learning Engineer,REQUIRES,0.1111
+Skill:Computer Vision,Skill:Deep Learning,CO_OCCURS,2.5703
+Skill:Computer Vision,Role:Software Engineer,REQUIRES,0.0154
+Skill:Computer Vision,Role:Data Scientist,REQUIRES,0.0794
+Skill:Computer Vision,Role:Machine Learning Engineer,REQUIRES,0.2593
+Skill:Computer Vision,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Skill:FastAPI,Role:Software Engineer,REQUIRES,0.0154
+Skill:FastAPI,Role:AI Engineer,REQUIRES,0.3333
+Skill:FastAPI,Role:Data Scientist,REQUIRES,0.0317
+Skill:Terraform,Role:Software Engineer,REQUIRES,0.0308
+Skill:Terraform,Role:Machine Learning Engineer,REQUIRES,0.037
+Skill:Deep Learning,Skill:Power BI,CO_OCCURS,1.4251
+Skill:Deep Learning,Skill:Tableau,CO_OCCURS,1.8771
+Skill:Deep Learning,Skill:Generative AI,CO_OCCURS,2.3696
+Skill:Deep Learning,Skill:LLM,CO_OCCURS,2.1924
+Skill:Deep Learning,Skill:Pandas,CO_OCCURS,2.3414
+Skill:Deep Learning,Skill:Hadoop,CO_OCCURS,2.3696
+Skill:Deep Learning,Skill:Scikit-learn,CO_OCCURS,2.406
+Skill:Deep Learning,Role:Machine Learning Engineer,REQUIRES,0.5185
+Skill:Deep Learning,Role:Data Scientist,REQUIRES,0.5238
+Skill:Blockchain,Category:Emerging,IN_CATEGORY,1.0
+Skill:Blockchain,Role:Frontend Developer,REQUIRES,0.3333
+Skill:Blockchain,Role:Data Scientist,REQUIRES,0.0317
+Skill:Blockchain,Role:Marketing Specialist,REQUIRES,0.029
+Skill:Blockchain,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Skill:Blockchain,Role:Content Writer,REQUIRES,0.0448
+Skill:Excel,Category:Analytics,IN_CATEGORY,1.0
+Skill:Excel,Skill:Power BI,CO_OCCURS,0.835
+Skill:Excel,Skill:Tableau,CO_OCCURS,0.7454
+Skill:Excel,Role:Data Scientist,REQUIRES,0.0952
+Skill:Excel,Role:AI Engineer,REQUIRES,0.3333
+Skill:Excel,Role:Sales Professional,REQUIRES,0.1203
+Skill:Excel,Role:Marketing Specialist,REQUIRES,0.087
+Skill:Excel,Role:Business Development Manager,REQUIRES,1.0
+Skill:Excel,Role:Product Manager,REQUIRES,0.1429
+Skill:Excel,Role:Financial Analyst,REQUIRES,0.6207
+Skill:Excel,Role:Investment Analyst,REQUIRES,0.3889
+Skill:Excel,Role:Risk and Compliance Analyst,REQUIRES,0.4
+Skill:Excel,Role:Credit Analyst,REQUIRES,0.2143
+Skill:Excel,Role:HR Professional,REQUIRES,0.1268
+Skill:Excel,Role:Content Writer,REQUIRES,0.0448
+Skill:Excel,Role:Mechanical Engineer,REQUIRES,0.0952
+Skill:Excel,Role:Other,REQUIRES,0.0769
+Category:Analytics,Skill:Power BI,IN_CATEGORY,1.0
+Category:Analytics,Skill:Tableau,IN_CATEGORY,1.0
+Skill:Power BI,Skill:Tableau,CO_OCCURS,2.6362
+Skill:Power BI,Role:Data Scientist,REQUIRES,0.2857
+Skill:Power BI,Role:Machine Learning Engineer,REQUIRES,0.1111
+Skill:Power BI,Role:Product Manager,REQUIRES,0.0317
+Skill:Power BI,Role:Financial Analyst,REQUIRES,0.0862
+Skill:Power BI,Role:HR Professional,REQUIRES,0.0141
+Skill:Power BI,Role:Mechanical Engineer,REQUIRES,0.0159
+Skill:Power BI,Role:Manufacturing Engineer,REQUIRES,0.125
+Skill:Power BI,Role:QA Engineer,REQUIRES,0.1111
+Skill:Tableau,Skill:Hadoop,CO_OCCURS,2.6362
+Skill:Tableau,Role:Data Scientist,REQUIRES,0.3333
+Skill:Tableau,Role:Machine Learning Engineer,REQUIRES,0.037
+Skill:Tableau,Role:Product Manager,REQUIRES,0.0635
+Skill:Tableau,Role:Financial Analyst,REQUIRES,0.0345
+Skill:Generative AI,Skill:LLM,CO_OCCURS,3.537
+Skill:Generative AI,Role:Data Scientist,REQUIRES,0.1429
+Skill:Generative AI,Role:AI Engineer,REQUIRES,0.6667
+Skill:Generative AI,Role:Machine Learning Engineer,REQUIRES,0.0741
+Skill:Generative AI,Role:Product Manager,REQUIRES,0.0159
+Skill:LLM,Skill:Pandas,CO_OCCURS,2.9335
+Skill:LLM,Role:Data Scientist,REQUIRES,0.1111
+Skill:LLM,Role:AI Engineer,REQUIRES,0.3333
+Skill:LLM,Role:Machine Learning Engineer,REQUIRES,0.1111
+Skill:LLM,Role:Product Manager,REQUIRES,0.0159
+Skill:LLM,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Skill:Pandas,Role:Data Scientist,REQUIRES,0.1587
+Skill:Pandas,Role:AI Engineer,REQUIRES,0.3333
+Skill:Pandas,Role:Machine Learning Engineer,REQUIRES,0.1852
+Skill:Hadoop,Role:Data Scientist,REQUIRES,0.1429
+Skill:Hadoop,Role:Machine Learning Engineer,REQUIRES,0.1481
+Skill:Hadoop,Role:AI Engineer,REQUIRES,0.3333
+Skill:LangChain,Role:Data Scientist,REQUIRES,0.0317
+Skill:LangChain,Role:AI Engineer,REQUIRES,0.3333
+Skill:LangChain,Role:Machine Learning Engineer,REQUIRES,0.0741
+Skill:MLOps,Role:Data Scientist,REQUIRES,0.0794
+Skill:MLOps,Role:Machine Learning Engineer,REQUIRES,0.2222
+Skill:Scikit-learn,Role:Machine Learning Engineer,REQUIRES,0.2222
+Skill:Scikit-learn,Role:Data Scientist,REQUIRES,0.0952
+Skill:Airflow,Role:AI Engineer,REQUIRES,0.3333
+Skill:Airflow,Role:Data Scientist,REQUIRES,0.0476
+Skill:Neo4j,Role:Data Scientist,REQUIRES,0.0159
+Skill:Prompt Engineering,Role:Machine Learning Engineer,REQUIRES,0.037
+Skill:Cybersecurity,Category:Security,IN_CATEGORY,1.0
+Skill:Cybersecurity,Role:Product Manager,REQUIRES,0.0159
+Skill:Cybersecurity,Role:Risk and Compliance Analyst,REQUIRES,0.2
+Skill:Cybersecurity,Role:Investment Analyst,REQUIRES,0.0556
+Role:Software Engineer,Company:Box8,HIRES_FOR,2.0
+Role:Software Engineer,Company:Microsoft,HIRES_FOR,7.0
+Role:Software Engineer,Company:Linkedin,HIRES_FOR,2.0
+Role:Software Engineer,Company:Nissan Motor Corporation,HIRES_FOR,1.0
+Role:Software Engineer,Company:Furrl,HIRES_FOR,1.0
+Role:Software Engineer,Company:Publicis Sapient,HIRES_FOR,1.0
+Role:Software Engineer,Company:Uber,HIRES_FOR,1.0
+Role:Software Engineer,Company:Makemytrip,HIRES_FOR,1.0
+Role:Software Engineer,Company:Times Internet,HIRES_FOR,1.0
+Role:Software Engineer,Company:Konnect Insights,HIRES_FOR,1.0
+Role:Software Engineer,Company:Google,HIRES_FOR,2.0
+Role:Software Engineer,Company:Fi,HIRES_FOR,1.0
+Role:Software Engineer,Company:Intuit,HIRES_FOR,2.0
+Role:Software Engineer,Company:Bigbasket.Com,HIRES_FOR,1.0
+Role:Software Engineer,Company:Phonepe,HIRES_FOR,2.0
+Role:Software Engineer,Company:Xybion Digital,HIRES_FOR,1.0
+Role:Software Engineer,Company:Tech Mahindra,HIRES_FOR,1.0
+Role:Software Engineer,Company:Vista,HIRES_FOR,1.0
+Role:Software Engineer,Company:Fortanix,HIRES_FOR,1.0
+Role:Software Engineer,Company:Bharatx,HIRES_FOR,1.0
+Role:Software Engineer,Company:Impetus,HIRES_FOR,2.0
+Role:Software Engineer,Company:Oracle,HIRES_FOR,1.0
+Role:Software Engineer,Company:Soroco,HIRES_FOR,1.0
+Role:Software Engineer,Company:Wipro,HIRES_FOR,1.0
+Role:Software Engineer,Company:Indus Valley Partners,HIRES_FOR,1.0
+Role:Software Engineer,Company:Mindtickle,HIRES_FOR,1.0
+Role:Software Engineer,Company:Hcltech,HIRES_FOR,1.0
+Role:Software Engineer,Company:Mastercard,HIRES_FOR,1.0
+Role:Software Engineer,Company:Traveloka,HIRES_FOR,1.0
+Role:Software Engineer,Company:Nymble,HIRES_FOR,1.0
+Role:Software Engineer,Company:Infinite Computer Solutions,HIRES_FOR,1.0
+Role:Software Engineer,Company:Crunchy Fashion Private Limited,HIRES_FOR,1.0
+Role:Software Engineer,Company:Hypersonix Inc.,HIRES_FOR,1.0
+Role:Software Engineer,Company:Willware Technologies,HIRES_FOR,1.0
+Role:Software Engineer,Company:Houseware,HIRES_FOR,1.0
+Role:Software Engineer,Company:Gilbarco Veeder-Root,HIRES_FOR,1.0
+Role:Software Engineer,Company:Gvr Business Transforms,HIRES_FOR,1.0
+Role:Software Engineer,Company:Cytrion Software Solutions Pvt Ltd,HIRES_FOR,1.0
+Role:Software Engineer,Company:Hashone Careers,HIRES_FOR,1.0
+Role:Software Engineer,Company:Infihire,HIRES_FOR,1.0
+Role:Software Engineer,Company:Turvo Inc.,HIRES_FOR,1.0
+Role:Software Engineer,Company:Thena,HIRES_FOR,1.0
+Role:Software Engineer,Company:Insurancedekho,HIRES_FOR,1.0
+Role:Software Engineer,Company:Yo Hr Consultancy,HIRES_FOR,1.0
+Role:Software Engineer,Company:Multi Recruit,HIRES_FOR,1.0
+Role:Software Engineer,Company:Flair Labs,HIRES_FOR,1.0
+Role:Software Engineer,Company:Jar,HIRES_FOR,1.0
+Role:Software Engineer,Company:Upstox,HIRES_FOR,2.0
+Role:Software Engineer,Company:Yugen.Ai,HIRES_FOR,1.0
+Role:Software Engineer,Company:Fusion Plus Solutions Inc,HIRES_FOR,1.0
+Role:Software Engineer,Company:Jarvics Technologies,HIRES_FOR,1.0
+Role:Software Engineer,Company:Coforge,HIRES_FOR,1.0
+Role:Web Developer,Company:Mahe Technologies Private Limited,HIRES_FOR,1.0
+Role:Web Developer,Company:Optirisk India,HIRES_FOR,1.0
+Role:Web Developer,Company:Naukripay,HIRES_FOR,1.0
+Role:Web Developer,Company:Godrej Group,HIRES_FOR,1.0
+Role:Web Developer,Company:Sumago Infotech Pvt. Ltd.,HIRES_FOR,1.0
+Role:Web Developer,Company:Xerago,HIRES_FOR,1.0
+Role:Web Developer,Company:Livecristle,HIRES_FOR,1.0
+Role:Web Developer,Company:Acme Services,HIRES_FOR,1.0
+Role:Web Developer,Company:Tradenfill,HIRES_FOR,1.0
+Role:Web Developer,"Company:Dc Consultants(India,Usa,Australia,Gcc)",HIRES_FOR,1.0
+Role:Web Developer,Company:Rankmantra,HIRES_FOR,1.0
+Role:Web Developer,Company:Ramyoz,HIRES_FOR,1.0
+Role:Web Developer,Company:Times And Trends Academy,HIRES_FOR,1.0
+Role:Web Developer,Company:Careernet,HIRES_FOR,1.0
+Role:Web Developer,Company:Raga Designers,HIRES_FOR,1.0
+Role:Web Developer,Company:Ciel Hr,HIRES_FOR,1.0
+Role:Web Developer,Company:Teqto Infotech,HIRES_FOR,1.0
+Role:Web Developer,Company:Mindsphere It Solutions Pvt Ltd,HIRES_FOR,1.0
+Role:Web Developer,Company:Cn Solutions,HIRES_FOR,1.0
+Role:Web Developer,Company:Communication Crafts,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Google,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Indusind Bank,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Yo Hr Consultancy,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Liangtuang Technologies,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Tamcherry - Zaportiv,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Reach Skyline,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Vizolt Tech Solutions Pvt Ltd,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:H2O.Ai,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Meetrecord,HIRES_FOR,1.0
+Role:Machine Learning Engineer,"Company:Dubai Jobs, Gulf Jobs, Jobs In Dubai, Qatar, Kuwait - Boyen Haddin & The Giant Hr Consultant",HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:56 Secure,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:K-Ry Tech Advisory,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Infiniti Research Ltd.,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Forsta,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Tac Security,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Thire Global Services,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Hunt&Badge Consulting Pvt Ltd (A Hudson Rpo Company),HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Uprighthc Solutions Private Limited,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Qween Network Llp,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Quantiphi,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Infosys,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Linkedin,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Quantzig,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Nakad,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Nustar Technologies,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Applied Graphics Technologies,HIRES_FOR,1.0
+Role:Machine Learning Engineer,Company:Cotocus,HIRES_FOR,1.0
+Role:Full Stack Developer,Company:Cloud Counselage Pvt. Ltd.,HIRES_FOR,1.0
+Role:Full Stack Developer,Company:Gm Infotech,HIRES_FOR,1.0
+Role:Frontend Developer,Company:Altorise,HIRES_FOR,1.0
+Role:Frontend Developer,Company:Quantified Hr Private Limited,HIRES_FOR,1.0
+Role:Frontend Developer,Company:Buildbear Labs,HIRES_FOR,1.0
+Role:Data Scientist,Company:Urban Company,HIRES_FOR,1.0
+Role:Data Scientist,Company:Tata Technologies,HIRES_FOR,1.0
+Role:Data Scientist,Company:Genpact,HIRES_FOR,1.0
+Role:Data Scientist,Company:Ltimindtree,HIRES_FOR,3.0
+Role:Data Scientist,Company:Iqvia,HIRES_FOR,1.0
+Role:Data Scientist,Company:Endeavor,HIRES_FOR,1.0
+Role:Data Scientist,Company:Indusind Bank,HIRES_FOR,1.0
+Role:Data Scientist,Company:Tech Mahindra,HIRES_FOR,1.0
+Role:Data Scientist,Company:Spinny,HIRES_FOR,1.0
+Role:Data Scientist,Company:Fusemachines,HIRES_FOR,1.0
+Role:Data Scientist,Company:Infosys Finacle,HIRES_FOR,1.0
+Role:Data Scientist,Company:Joveo,HIRES_FOR,1.0
+Role:Data Scientist,Company:Google,HIRES_FOR,3.0
+Role:Data Scientist,Company:Tietoevry,HIRES_FOR,1.0
+Role:Data Scientist,Company:Philips,HIRES_FOR,1.0
+Role:Data Scientist,Company:Slb,HIRES_FOR,1.0
+Role:Data Scientist,Company:Epsilon India,HIRES_FOR,1.0
+Role:Data Scientist,Company:Braintrust,HIRES_FOR,1.0
+Role:Data Scientist,Company:Infovision Inc.,HIRES_FOR,1.0
+Role:Data Scientist,Company:Yo Hr Consultancy,HIRES_FOR,1.0
+Role:Data Scientist,Company:Ibm,HIRES_FOR,2.0
+Role:Data Scientist,Company:Optimum Data Analytics,HIRES_FOR,1.0
+Role:Data Scientist,Company:Ental,HIRES_FOR,1.0
+Role:Data Scientist,Company:Her Second Innings,HIRES_FOR,1.0
+Role:Data Scientist,Company:10Times,HIRES_FOR,1.0
+Role:Data Scientist,"Company:Iitjobs, Inc.",HIRES_FOR,1.0
+Role:Data Scientist,Company:Talent Socio(We'Re Hiring!!),HIRES_FOR,1.0
+Role:Data Scientist,Company:Pepsico,HIRES_FOR,1.0
+Role:Data Scientist,Company:Ripplesindia Group,HIRES_FOR,1.0
+Role:Data Scientist,Company:Artivatic.Ai,HIRES_FOR,1.0
+Role:Data Scientist,Company:Vardhman Tube Mills,HIRES_FOR,1.0
+Role:Data Scientist,Company:Tata Consultancy Services,HIRES_FOR,4.0
+Role:Data Scientist,Company:Ust,HIRES_FOR,1.0
+Role:Data Scientist,Company:Hcapital Technologies Private Limited,HIRES_FOR,1.0
+Role:Data Scientist,Company:Yum! Digital & Tech India,HIRES_FOR,1.0
+Role:Data Scientist,Company:Quantzig,HIRES_FOR,4.0
+Role:Data Scientist,Company:Teralanx Solutions,HIRES_FOR,1.0
+Role:Data Scientist,Company:Innowave,HIRES_FOR,1.0
+Role:Data Scientist,Company:Htc Global Services,HIRES_FOR,1.0
+Role:Data Scientist,Company:Quinstreet,HIRES_FOR,1.0
+Role:Data Scientist,Company:Freshworks,HIRES_FOR,1.0
+Role:Data Scientist,Company:True Tech Professionals,HIRES_FOR,1.0
+Role:Data Scientist,Company:Creative Synergies Group,HIRES_FOR,1.0
+Role:Data Scientist,Company:Simpl,HIRES_FOR,1.0
+Role:Data Scientist,Company:A.P. Moller - Maersk,HIRES_FOR,1.0
+Role:Data Scientist,Company:Virtusa,HIRES_FOR,1.0
+Role:Data Scientist,Company:Navi,HIRES_FOR,1.0
+Role:Data Scientist,Company:Carnot Technologies,HIRES_FOR,1.0
+Role:Data Scientist,Company:Equifax,HIRES_FOR,1.0
+Role:Data Scientist,Company:Confluent,HIRES_FOR,1.0
+Role:Data Scientist,Company:News Corp,HIRES_FOR,1.0
+Role:Data Scientist,Company:Dataeconomy,HIRES_FOR,1.0
+Role:AI Engineer,Company:Nexus Hire,HIRES_FOR,2.0
+Role:AI Engineer,Company:Capgemini,HIRES_FOR,1.0
+Role:Sales Professional,Company:Britannia Industries Limited,HIRES_FOR,1.0
+Role:Sales Professional,Company:Flipkart,HIRES_FOR,1.0
+Role:Sales Professional,Company:Ab Inbev Gcc India,HIRES_FOR,1.0
+Role:Sales Professional,Company:Linkedin,HIRES_FOR,1.0
+Role:Sales Professional,Company:Tata Cummins,HIRES_FOR,8.0
+Role:Sales Professional,Company:Swiggy,HIRES_FOR,3.0
+Role:Sales Professional,Company:Giva,HIRES_FOR,2.0
+Role:Sales Professional,Company:Orra Fine Jewellery,HIRES_FOR,1.0
+Role:Sales Professional,Company:Christian Louboutin,HIRES_FOR,1.0
+Role:Sales Professional,Company:Tata Communications,HIRES_FOR,1.0
+Role:Sales Professional,Company:Paytm,HIRES_FOR,4.0
+Role:Sales Professional,Company:Bacardi,HIRES_FOR,1.0
+Role:Sales Professional,Company:Welspun World,HIRES_FOR,1.0
+Role:Sales Professional,Company:Ferrero,HIRES_FOR,1.0
+Role:Sales Professional,Company:Ttk Prestige Ltd,HIRES_FOR,1.0
+Role:Sales Professional,Company:Schwing Stetter India,HIRES_FOR,1.0
+Role:Sales Professional,Company:Easemytrip.Com,HIRES_FOR,1.0
+Role:Sales Professional,Company:Texmo Industries,HIRES_FOR,1.0
+Role:Sales Professional,Company:Mahindra Group,HIRES_FOR,1.0
+Role:Sales Professional,Company:Homesfy Realty Ltd,HIRES_FOR,1.0
+Role:Sales Professional,Company:Carrier,HIRES_FOR,2.0
+Role:Sales Professional,Company:Elite Foods Pvt. Ltd.,HIRES_FOR,1.0
+Role:Sales Professional,Company:Zigsaw,HIRES_FOR,5.0
+Role:Sales Professional,Company:Disney+ Hotstar,HIRES_FOR,1.0
+Role:Sales Professional,Company:Saint-Gobain Group In India,HIRES_FOR,1.0
+Role:Sales Professional,Company:Airtel,HIRES_FOR,1.0
+Role:Sales Professional,Company:All - Accor Live Limitless,HIRES_FOR,1.0
+Role:Sales Professional,Company:Adidev Herbals,HIRES_FOR,1.0
+Role:Sales Professional,Company:Diageo India,HIRES_FOR,1.0
+Role:Sales Professional,Company:Sis India Ltd,HIRES_FOR,1.0
+Role:Sales Professional,Company:Treebo Hotels,HIRES_FOR,1.0
+Role:Sales Professional,Company:Kotak Life,HIRES_FOR,1.0
+Role:Sales Professional,Company:Candere By Kalyan Jewellers,HIRES_FOR,1.0
+Role:Sales Professional,Company:Lords Hotels & Resorts,HIRES_FOR,1.0
+Role:Sales Professional,Company:Naukripay,HIRES_FOR,1.0
+Role:Sales Professional,Company:Google,HIRES_FOR,1.0
+Role:Sales Professional,Company:Sarda Group,HIRES_FOR,1.0
+Role:Sales Professional,Company:Workafella,HIRES_FOR,1.0
+Role:Sales Professional,Company:Nike,HIRES_FOR,1.0
+Role:Sales Professional,Company:Aditya Birla Fashion And Retail Ltd.,HIRES_FOR,1.0
+Role:Sales Professional,Company:Adani Digital Labs,HIRES_FOR,1.0
+Role:Sales Professional,Company:The Aroma Trace,HIRES_FOR,1.0
+Role:Sales Professional,Company:Freshworks,HIRES_FOR,1.0
+Role:Sales Professional,Company:Reliance Industries Limited,HIRES_FOR,1.0
+Role:Sales Professional,Company:Ather Energy,HIRES_FOR,2.0
+Role:Sales Professional,Company:Denave,HIRES_FOR,1.0
+Role:Sales Professional,Company:Schbang,HIRES_FOR,1.0
+Role:Sales Professional,Company:Bennett Coleman & Co. Ltd. (The Times Of India),HIRES_FOR,1.0
+Role:Sales Professional,Company:Juspay,HIRES_FOR,1.0
+Role:Sales Professional,Company:Magicpin,HIRES_FOR,1.0
+Role:Sales Professional,Company:Nxtwave,HIRES_FOR,6.0
+Role:Sales Professional,Company:Hindustan Recruitment,HIRES_FOR,1.0
+Role:Sales Professional,Company:Thimblerr,HIRES_FOR,1.0
+Role:Sales Professional,Company:Makemytrip,HIRES_FOR,2.0
+Role:Sales Professional,Company:Redrob By Mckinley Rice,HIRES_FOR,1.0
+Role:Sales Professional,Company:Aditya Birla Capital,HIRES_FOR,5.0
+Role:Sales Professional,Company:Magicbricks,HIRES_FOR,1.0
+Role:Sales Professional,Company:Amazon,HIRES_FOR,3.0
+Role:Sales Professional,Company:Amber,HIRES_FOR,1.0
+Role:Sales Professional,Company:Bharatpe,HIRES_FOR,1.0
+Role:Sales Professional,Company:Design Arc Interiors,HIRES_FOR,1.0
+Role:Sales Professional,Company:Mantell Associates,HIRES_FOR,1.0
+Role:Sales Professional,Company:Delhivery,HIRES_FOR,1.0
+Role:Sales Professional,Company:Marquee Equity,HIRES_FOR,1.0
+Role:Sales Professional,Company:Technip Energies,HIRES_FOR,1.0
+Role:Sales Professional,Company:Multi Recruit,HIRES_FOR,1.0
+Role:Sales Professional,Company:Flutch,HIRES_FOR,1.0
+Role:Sales Professional,Company:Miracle Hub,HIRES_FOR,1.0
+Role:Sales Professional,Company:Yo Hr Consultancy,HIRES_FOR,1.0
+Role:Sales Professional,Company:Flags Communications Pvt. Ltd.,HIRES_FOR,1.0
+Role:Sales Professional,Company:Honour,HIRES_FOR,1.0
+Role:Sales Professional,Company:Pyjamahr,HIRES_FOR,1.0
+Role:Sales Professional,Company:Ueibi,HIRES_FOR,1.0
+Role:Sales Professional,Company:Pine Labs,HIRES_FOR,1.0
+Role:Sales Professional,Company:Sun Pharma,HIRES_FOR,1.0
+Role:Sales Professional,Company:Metaapply,HIRES_FOR,1.0
+Role:Sales Professional,Company:Obelisk Consulting,HIRES_FOR,1.0
+Role:Sales Professional,Company:Discover Financial Services,HIRES_FOR,1.0
+Role:Sales Professional,Company:Jainytic,HIRES_FOR,1.0
+Role:Sales Professional,Company:Wedmegood: India'S Top Wedding Planning App,HIRES_FOR,2.0
+Role:Sales Professional,Company:Unison International Consulting (The Recruitment Company),HIRES_FOR,1.0
+Role:Sales Professional,Company:Evolveminds-A Talent Agency,HIRES_FOR,1.0
+Role:Sales Professional,Company:Vasitum,HIRES_FOR,1.0
+Role:Sales Professional,Company:Radio Holland,HIRES_FOR,1.0
+Role:Sales Professional,Company:Peoplecert,HIRES_FOR,1.0
+Role:Sales Professional,Company:Yempover Inc,HIRES_FOR,1.0
+Role:Sales Professional,Company:Halma Plc,HIRES_FOR,1.0
+Role:Sales Professional,Company:Herbalife International India Pvt. Ltd.,HIRES_FOR,1.0
+Role:Sales Professional,Company:Imts Institute,HIRES_FOR,1.0
+Role:Sales Professional,Company:Brandope,HIRES_FOR,1.0
+Role:Sales Professional,"Company:Dubai Jobs, Gulf Jobs, Jobs In Dubai, Qatar, Kuwait - Boyen Haddin & The Giant Hr Consultant",HIRES_FOR,1.0
+Role:Sales Professional,Company:T-Hub,HIRES_FOR,1.0
+Role:Sales Professional,Company:Dimensions Hrd Consultants,HIRES_FOR,1.0
+Role:Sales Professional,Company:Rysyl,HIRES_FOR,1.0
+Role:Sales Professional,Company:Modifi,HIRES_FOR,1.0
+Role:Sales Professional,Company:Visa,HIRES_FOR,1.0
+Role:Sales Professional,Company:Biodeal Pharmaceuticals Limited,HIRES_FOR,1.0
+Role:Sales Professional,Company:Future Market Insights,HIRES_FOR,1.0
+Role:Sales Professional,Company:Allstarconsulting1,HIRES_FOR,1.0
+Role:Sales Professional,Company:Manvik Enterprises,HIRES_FOR,1.0
+Role:Sales Professional,Company:Others,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Zee Entertainment Enterprises Limited,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Firstcry.Com (Brainbees Solutions Pvt. Ltd.),HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Paytm,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Tata Consumer Products,HIRES_FOR,3.0
+Role:Marketing Specialist,Company:Zomato,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Voe Academy,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Career Kendra,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Unilever,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Airtel,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Mamaearth,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Sugar Cosmetics,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Wipro,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Welspun World,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Unacademy,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Mahe Technologies Private Limited,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Rebel Foods,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Adengage,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Puno,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Google,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Jar,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Votiko,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:All - Accor Live Limitless,HIRES_FOR,2.0
+Role:Marketing Specialist,Company:Spencer'S Retail,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Tiny Dot Foods,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Saffron String,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Global Ai Show,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Sheetal Jewellery House Llp,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Analytics Jobs,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:The Bombay Digital Company,HIRES_FOR,2.0
+Role:Marketing Specialist,Company:Global Blockchain Show,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Sourcegrids,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Tata Cliq,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Cyringe Digimedia,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Unicorn Tech Media,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Ed Explorars,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Super Scholar,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Tejoo Fashions,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Ok Lifecare Private Limited,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Pts Systems & Solutions Pvt. Ltd.,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Fire Bee Techno Services Pvt Ltd,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:The Retail Jeweller India,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Zoop.One,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Shree Balaji Agora Mall,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Marriott Hotels,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Courtyard By Marriott,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Hirefaast,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Zing Restaurants,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Instaastro,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Percoyo Private Limited,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Giftboxes.Store,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Performena,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Sumiso,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Kaleidoscope,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Carnera Technologies Inc.,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Artista Group,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Kolkata Sutra,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Pixelvide,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Gvr Business Transforms,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Unitile,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Rabin'S Photography,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:The Viral Fever,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Clerk-Tech,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Apna,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Ibcscorp,HIRES_FOR,1.0
+Role:Marketing Specialist,Company:Meril,HIRES_FOR,1.0
+Role:Business Development Manager,Company:Bureau,HIRES_FOR,1.0
+Role:Product Manager,Company:Utkarsh Small Finance Bank,HIRES_FOR,1.0
+Role:Product Manager,Company:Qikfox Cybersecurity Systems,HIRES_FOR,1.0
+Role:Product Manager,Company:Valgenesis,HIRES_FOR,2.0
+Role:Product Manager,Company:The Luxury Closet,HIRES_FOR,1.0
+Role:Product Manager,Company:Hike,HIRES_FOR,1.0
+Role:Product Manager,Company:Homesfy Realty Ltd,HIRES_FOR,1.0
+Role:Product Manager,Company:Dfm Foods Limited,HIRES_FOR,1.0
+Role:Product Manager,Company:Freshworks,HIRES_FOR,5.0
+Role:Product Manager,Company:Kodo,HIRES_FOR,1.0
+Role:Product Manager,Company:Radius,HIRES_FOR,1.0
+Role:Product Manager,Company:99Games,HIRES_FOR,1.0
+Role:Product Manager,Company:Ypredict.Ai,HIRES_FOR,1.0
+Role:Product Manager,Company:Experian,HIRES_FOR,2.0
+Role:Product Manager,Company:Zypp Electric,HIRES_FOR,1.0
+Role:Product Manager,Company:Jar,HIRES_FOR,1.0
+Role:Product Manager,Company:Talent Giants Consultancy Services,HIRES_FOR,1.0
+Role:Product Manager,Company:Mentorsity,HIRES_FOR,1.0
+Role:Product Manager,Company:Corpository - A Yubi Company,HIRES_FOR,1.0
+Role:Product Manager,Company:Pw (Physicswallah),HIRES_FOR,1.0
+Role:Product Manager,Company:Careerninja | Learntube,HIRES_FOR,1.0
+Role:Product Manager,Company:Guardant Health,HIRES_FOR,1.0
+Role:Product Manager,Company:Lollypop Design Studio,HIRES_FOR,1.0
+Role:Product Manager,Company:Win Home Inspection,HIRES_FOR,1.0
+Role:Product Manager,Company:Telus International Ai Data Solutions,HIRES_FOR,1.0
+Role:Product Manager,Company:Socialpilot,HIRES_FOR,1.0
+Role:Product Manager,Company:Airtel Digital,HIRES_FOR,1.0
+Role:Product Manager,Company:Tide,HIRES_FOR,1.0
+Role:Product Manager,Company:Google,HIRES_FOR,2.0
+Role:Product Manager,Company:Intas Pharmaceuticals,HIRES_FOR,1.0
+Role:Product Manager,Company:Zamp,HIRES_FOR,1.0
+Role:Product Manager,Company:Zeta,HIRES_FOR,1.0
+Role:Product Manager,Company:Eazy Erp Technologies Pvt Ltd,HIRES_FOR,1.0
+Role:Product Manager,Company:Adform,HIRES_FOR,1.0
+Role:Product Manager,Company:Mindtickle,HIRES_FOR,1.0
+Role:Product Manager,Company:Acme Services,HIRES_FOR,1.0
+Role:Product Manager,Company:Keka Hr,HIRES_FOR,1.0
+Role:Product Manager,Company:Sprinklr,HIRES_FOR,2.0
+Role:Product Manager,"Company:Dubai Jobs, Gulf Jobs, Jobs In Dubai, Qatar, Kuwait - Boyen Haddin & The Giant Hr Consultant",HIRES_FOR,1.0
+Role:Product Manager,Company:Vendasta,HIRES_FOR,1.0
+Role:Product Manager,Company:Healofy,HIRES_FOR,1.0
+Role:Product Manager,Company:Walletdoc,HIRES_FOR,1.0
+Role:Product Manager,Company:Winzo,HIRES_FOR,1.0
+Role:Product Manager,Company:Infiniti Research Ltd.,HIRES_FOR,2.0
+Role:Product Manager,Company:First American (India),HIRES_FOR,1.0
+Role:Product Manager,Company:Getinge,HIRES_FOR,1.0
+Role:Product Manager,Company:Alphasense,HIRES_FOR,1.0
+Role:Product Manager,Company:Teradata,HIRES_FOR,1.0
+Role:Product Manager,Company:Infosys,HIRES_FOR,1.0
+Role:Product Manager,Company:Indusind Bank,HIRES_FOR,1.0
+Role:Product Manager,Company:Vmock,HIRES_FOR,1.0
+Role:Product Manager,Company:Meesho,HIRES_FOR,1.0
+Role:Product Manager,Company:Innovaccer,HIRES_FOR,1.0
+Role:Product Manager,Company:Tesco Bengaluru,HIRES_FOR,1.0
+Role:Product Manager,Company:Discovered Mena,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Ltimindtree,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Iqvia,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Trueblue Inc.,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Syndigo,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Oracle,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Capgemini,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Wipro,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Amazon,HIRES_FOR,2.0
+Role:Financial Analyst,Company:Gep Worldwide,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Collabera,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Hcltech,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Bottomline,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Jpmorgan Chase & Co.,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Opus Global Services Llc,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Honeywell,HIRES_FOR,2.0
+Role:Financial Analyst,Company:Precision Medicine Group,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Talentahead India Pvt. Ltd.,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Acme Services,HIRES_FOR,2.0
+Role:Financial Analyst,Company:System Soft Technologies,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Equalizercm,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Gm Infotech,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Telamon Hr Solutions,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Agilité,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Nexg2En Cfo Llp,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Varel Energy Solutions,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Nexensus,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Multi Recruit,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Qualcomm,HIRES_FOR,1.0
+Role:Financial Analyst,"Company:Dubai Jobs, Gulf Jobs, Jobs In Dubai, Qatar, Kuwait - Boyen Haddin & The Giant Hr Consultant",HIRES_FOR,1.0
+Role:Financial Analyst,Company:Ptw,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Marquee Equity,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Teamware Solutions A Division Of Quantum Leap Consulting Pvt. Ltd,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Blucrest Capital Advisors Private Limited,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Bloom Energy,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Ridhira Living - Building World'S Largest Chain Of Wellness Themed Resort Living Communities,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Nec Software Solutions,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Fictiv,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Lennox,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Kroll,HIRES_FOR,1.0
+Role:Financial Analyst,Company:The Fashion Cosmo,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Nium,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Qrata,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Antal International,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Mott Macdonald,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Intouchcx,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Akmv Consultants,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Deel,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Lenskart.Com,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Ncr Atleos,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Moody'S Corporation,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Insightsoftware,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Ntt Ltd.,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Colgate-Palmolive,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Blackrock,HIRES_FOR,1.0
+Role:Financial Analyst,Company:Kingsmen India,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Marquee Equity,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Earnyoung,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Incred Global Wealth Limited,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Nomura,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Natixis Services In India,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Kotak Life,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Intellectual Capital Hr Consulting Pvt. Ltd.,HIRES_FOR,1.0
+Role:Investment Analyst,"Company:Dubai Jobs, Gulf Jobs, Jobs In Dubai, Qatar, Kuwait - Boyen Haddin & The Giant Hr Consultant",HIRES_FOR,2.0
+Role:Investment Analyst,Company:Talent Corner Hr Services Pvt Ltd,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Artha Venture Fund,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Risk Resources Llc,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Gm Infotech,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Colliers,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Antal International,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Pierian Services,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Aurum Equity Partners Llp,HIRES_FOR,1.0
+Role:Investment Analyst,Company:Hyperbola,HIRES_FOR,1.0
+Role:Credit Analyst,Company:Kotak Mahindra Bank,HIRES_FOR,1.0
+Role:Credit Analyst,Company:Doha Bank,HIRES_FOR,2.0
+Role:Credit Analyst,Company:Airtel,HIRES_FOR,1.0
+Role:Credit Analyst,Company:Acko,HIRES_FOR,1.0
+Role:Credit Analyst,Company:Acme Services,HIRES_FOR,1.0
+Role:Credit Analyst,Company:Vimerse Infotech Inc,HIRES_FOR,1.0
+Role:Credit Analyst,Company:Intuitive Apps Inc.,HIRES_FOR,2.0
+Role:Credit Analyst,Company:The Leaders Hive,HIRES_FOR,1.0
+Role:Credit Analyst,Company:Black Diamond Capital Management,HIRES_FOR,1.0
+Role:Credit Analyst,Company:Redrock Capital Advisors Private Limited,HIRES_FOR,1.0
+Role:Credit Analyst,Company:Elysium Capital,HIRES_FOR,1.0
+Role:Credit Analyst,Company:Sutherland,HIRES_FOR,1.0
+Role:Risk and Compliance Analyst,Company:Genpact,HIRES_FOR,1.0
+Role:Risk and Compliance Analyst,Company:Razorpay,HIRES_FOR,1.0
+Role:Risk and Compliance Analyst,Company:Games24X7,HIRES_FOR,1.0
+Role:Risk and Compliance Analyst,Company:Greentree Advisory Services Pvt Ltd,HIRES_FOR,1.0
+Role:Risk and Compliance Analyst,Company:Mclaren Strategic Solutions (Mss),HIRES_FOR,1.0
+Role:Data Analyst,Company:Forbes Advisor,HIRES_FOR,1.0
+Role:Other,Company:Goldman Sachs,HIRES_FOR,1.0
+Role:Other,Company:Mercom India (Formerly Mercom Communications India),HIRES_FOR,1.0
+Role:Other,Company:Tata Technologies,HIRES_FOR,2.0
+Role:Other,Company:Hcltech,HIRES_FOR,1.0
+Role:Other,"Company:First Brands Group, Llc",HIRES_FOR,1.0
+Role:Other,Company:Texas Instruments,HIRES_FOR,1.0
+Role:Other,Company:Collins Aerospace,HIRES_FOR,1.0
+Role:Other,"Company:Dubai Jobs, Gulf Jobs, Jobs In Dubai, Qatar, Kuwait - Boyen Haddin & The Giant Hr Consultant",HIRES_FOR,2.0
+Role:Other,Company:Everbest Job Placement,HIRES_FOR,1.0
+Role:Other,Company:Ge Aerospace,HIRES_FOR,1.0
+Role:Other,Company:Skf India,HIRES_FOR,1.0
+Role:HR Professional,Company:Whirlpool Corporation,HIRES_FOR,2.0
+Role:HR Professional,Company:Procter & Gamble,HIRES_FOR,1.0
+Role:HR Professional,Company:Larsen & Toubro,HIRES_FOR,1.0
+Role:HR Professional,Company:Hindustan Colas Private Limited,HIRES_FOR,1.0
+Role:HR Professional,Company:Transmission,HIRES_FOR,1.0
+Role:HR Professional,Company:Honeywell,HIRES_FOR,1.0
+Role:HR Professional,Company:Aditya Birla Group,HIRES_FOR,1.0
+Role:HR Professional,Company:Coforge,HIRES_FOR,1.0
+Role:HR Professional,Company:Eaton,HIRES_FOR,1.0
+Role:HR Professional,Company:Genpact,HIRES_FOR,3.0
+Role:HR Professional,Company:7-Eleven,HIRES_FOR,1.0
+Role:HR Professional,Company:Cockroach Labs,HIRES_FOR,1.0
+Role:HR Professional,Company:Pepsico,HIRES_FOR,3.0
+Role:HR Professional,Company:Trust,HIRES_FOR,1.0
+Role:HR Professional,Company:L'Oréal,HIRES_FOR,1.0
+Role:HR Professional,Company:Exl,HIRES_FOR,1.0
+Role:HR Professional,Company:Crompton Greaves Consumer Electricals Limited,HIRES_FOR,1.0
+Role:HR Professional,Company:Eventbrite,HIRES_FOR,1.0
+Role:HR Professional,Company:Porter,HIRES_FOR,1.0
+Role:HR Professional,Company:Meesho,HIRES_FOR,1.0
+Role:HR Professional,Company:Sartorius,HIRES_FOR,1.0
+Role:HR Professional,Company:Kpmg India,HIRES_FOR,1.0
+Role:HR Professional,Company:Flex,HIRES_FOR,1.0
+Role:HR Professional,Company:Pw (Physicswallah),HIRES_FOR,1.0
+Role:HR Professional,Company:Xpressbees (Busybees Logistics Solutions Pvt. Ltd.),HIRES_FOR,1.0
+Role:HR Professional,Company:Eclerx,HIRES_FOR,1.0
+Role:HR Professional,Company:Crescendo Global,HIRES_FOR,1.0
+Role:HR Professional,Company:Known-You Seed,HIRES_FOR,1.0
+Role:HR Professional,Company:Ascendion,HIRES_FOR,3.0
+Role:HR Professional,Company:Lakshhr,HIRES_FOR,1.0
+Role:HR Professional,Company:Carudyog,HIRES_FOR,1.0
+Role:HR Professional,Company:Nino Foods,HIRES_FOR,1.0
+Role:HR Professional,Company:Ultratech Cement,HIRES_FOR,1.0
+Role:HR Professional,Company:Fluence,HIRES_FOR,1.0
+Role:HR Professional,Company:Grand Hyatt Mumbai,HIRES_FOR,1.0
+Role:HR Professional,Company:Nxtwave,HIRES_FOR,2.0
+Role:HR Professional,Company:Truecaller,HIRES_FOR,1.0
+Role:HR Professional,Company:Diageo India,HIRES_FOR,1.0
+Role:HR Professional,Company:Sapphire Foods India Limited,HIRES_FOR,1.0
+Role:HR Professional,Company:Controlz,HIRES_FOR,1.0
+Role:HR Professional,Company:Avpn,HIRES_FOR,1.0
+Role:HR Professional,Company:Twenty20 Systems,HIRES_FOR,1.0
+Role:HR Professional,Company:Concentrix,HIRES_FOR,1.0
+Role:HR Professional,Company:Conviva,HIRES_FOR,1.0
+Role:HR Professional,Company:Pratech Global Private Limited,HIRES_FOR,1.0
+Role:HR Professional,Company:.Efficiently,HIRES_FOR,1.0
+Role:HR Professional,Company:Unison International Consulting (The Recruitment Company),HIRES_FOR,1.0
+Role:HR Professional,Company:Landmark Group,HIRES_FOR,1.0
+Role:HR Professional,Company:Mavenir,HIRES_FOR,1.0
+Role:HR Professional,Company:Business View Asia C/O 1St Clicks,HIRES_FOR,1.0
+Role:HR Professional,Company:Marriott Hotels,HIRES_FOR,1.0
+Role:HR Professional,Company:Antal International,HIRES_FOR,1.0
+Role:HR Professional,Company:Navi,HIRES_FOR,1.0
+Role:HR Professional,Company:Applied Materials India,HIRES_FOR,1.0
+Role:HR Professional,Company:Gsk,HIRES_FOR,1.0
+Role:HR Professional,Company:Nsl Textiles Limited,HIRES_FOR,1.0
+Role:HR Professional,Company:Amplifi Capital,HIRES_FOR,1.0
+Role:HR Professional,Company:Tessolve,HIRES_FOR,1.0
+Role:HR Professional,Company:Genesys,HIRES_FOR,1.0
+Role:HR Professional,Company:Talent Corner Hr Services Pvt Ltd,HIRES_FOR,1.0
+Role:HR Professional,Company:Valeo,HIRES_FOR,1.0
+Role:HR Professional,Company:Fpl Tata,HIRES_FOR,1.0
+Role:HR Professional,Company:Recykal.Com,HIRES_FOR,1.0
+Role:Content Writer,Company:Firstcry.Com (Brainbees Solutions Pvt. Ltd.),HIRES_FOR,3.0
+Role:Content Writer,Company:Unacademy,HIRES_FOR,1.0
+Role:Content Writer,Company:Associated Broadcasting Co. Pvt Ltd (Tv9),HIRES_FOR,1.0
+Role:Content Writer,Company:Mahe Technologies Private Limited,HIRES_FOR,1.0
+Role:Content Writer,Company:Simpl,HIRES_FOR,1.0
+Role:Content Writer,Company:Geny Medium,HIRES_FOR,1.0
+Role:Content Writer,Company:Dentsu Creative,HIRES_FOR,1.0
+Role:Content Writer,Company:Arcadis,HIRES_FOR,1.0
+Role:Content Writer,Company:Infosys,HIRES_FOR,1.0
+Role:Content Writer,Company:Ey,HIRES_FOR,2.0
+Role:Content Writer,Company:Media.Net,HIRES_FOR,1.0
+Role:Content Writer,Company:Smytten,HIRES_FOR,1.0
+Role:Content Writer,Company:Navi,HIRES_FOR,1.0
+Role:Content Writer,Company:Sugar Cosmetics,HIRES_FOR,1.0
+Role:Content Writer,Company:Ola Electric,HIRES_FOR,1.0
+Role:Content Writer,Company:One Little Farm,HIRES_FOR,1.0
+Role:Content Writer,Company:Social Donut,HIRES_FOR,1.0
+Role:Content Writer,Company:Hiveminds,HIRES_FOR,2.0
+Role:Content Writer,Company:Nielsen,HIRES_FOR,1.0
+Role:Content Writer,Company:Liqvd.Asia,HIRES_FOR,1.0
+Role:Content Writer,Company:What'S Up Wellness,HIRES_FOR,1.0
+Role:Content Writer,Company:Meru Data,HIRES_FOR,1.0
+Role:Content Writer,Company:Jd Institute Of Fashion Technology,HIRES_FOR,1.0
+Role:Content Writer,Company:Upstox,HIRES_FOR,2.0
+Role:Content Writer,Company:Light Up Beauty,HIRES_FOR,1.0
+Role:Content Writer,Company:Kratikal,HIRES_FOR,1.0
+Role:Content Writer,Company:Thirdbase,HIRES_FOR,1.0
+Role:Content Writer,Company:Livspace,HIRES_FOR,1.0
+Role:Content Writer,Company:Condé Nast,HIRES_FOR,1.0
+Role:Content Writer,Company:Fortune Business Insights™,HIRES_FOR,1.0
+Role:Content Writer,Company:Aftershoot,HIRES_FOR,1.0
+Role:Content Writer,Company:Avian We,HIRES_FOR,1.0
+Role:Content Writer,Company:Groww,HIRES_FOR,1.0
+Role:Content Writer,Company:Marcamor Consulting,HIRES_FOR,1.0
+Role:Content Writer,Company:Newj,HIRES_FOR,1.0
+Role:Content Writer,Company:Ok Lifecare Private Limited,HIRES_FOR,1.0
+Role:Content Writer,Company:Suganda Skincare,HIRES_FOR,1.0
+Role:Content Writer,Company:Dvio Digital,HIRES_FOR,1.0
+Role:Content Writer,Company:Ibm,HIRES_FOR,3.0
+Role:Content Writer,Company:Cvent,HIRES_FOR,1.0
+Role:Content Writer,Company:Jio Institute,HIRES_FOR,1.0
+Role:Content Writer,Company:Fashiontv India,HIRES_FOR,1.0
+Role:Content Writer,Company:Greenroom Now,HIRES_FOR,1.0
+Role:Content Writer,Company:Tmrw House Of Brands,HIRES_FOR,2.0
+Role:Content Writer,Company:Dc Department Of Human Resources,HIRES_FOR,1.0
+Role:Content Writer,Company:Growthschool,HIRES_FOR,1.0
+Role:Content Writer,Company:B3 - Brain Behind Brand,HIRES_FOR,1.0
+Role:Content Writer,Company:Indmoney,HIRES_FOR,1.0
+Role:Content Writer,Company:Planify Capital Limited,HIRES_FOR,1.0
+Role:Content Writer,Company:White Cloud Brands,HIRES_FOR,1.0
+Role:Content Writer,Company:Gracia Marcom,HIRES_FOR,1.0
+Role:Content Writer,Company:The Retail Jeweller India,HIRES_FOR,1.0
+Role:Content Writer,Company:Spektra Systems,HIRES_FOR,1.0
+Role:Content Writer,Company:Impactguru,HIRES_FOR,1.0
+Role:Content Writer,Company:Bajo Foods,HIRES_FOR,1.0
+Role:Content Writer,Company:Limelitt,HIRES_FOR,1.0
+Role:Content Writer,Company:Redrob By Mckinley Rice,HIRES_FOR,1.0
+Role:Content Writer,Company:Creativefuel,HIRES_FOR,1.0
+Role:Content Writer,Company:Graphy Inc.,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Ultratech Cement,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Emerson,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Ciel Hr,HIRES_FOR,2.0
+Role:Mechanical Engineer,Company:Tata Elxsi,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Infosys,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Vijaya Enterprises,HIRES_FOR,2.0
+Role:Mechanical Engineer,Company:Tata Technologies,HIRES_FOR,3.0
+Role:Mechanical Engineer,Company:Indovance Inc.,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Capgemini,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Valeo,HIRES_FOR,7.0
+Role:Mechanical Engineer,Company:Welspun World,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Visanswer,HIRES_FOR,6.0
+Role:Mechanical Engineer,Company:Acme Services,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Lmdmax Corp,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Krome Dispense,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Microgenesis Cadsoft Pvt. Ltd.,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Blue Horizons Strategic Engineering Pvt Ltd,HIRES_FOR,2.0
+Role:Mechanical Engineer,Company:Angel Recruitment,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Vijay Tanks & Vessels (P) Ltd.,HIRES_FOR,1.0
+Role:Mechanical Engineer,"Company:Dubai Jobs, Gulf Jobs, Jobs In Dubai, Qatar, Kuwait - Boyen Haddin & The Giant Hr Consultant",HIRES_FOR,2.0
+Role:Mechanical Engineer,Company:Benchmark Global Management Services,HIRES_FOR,2.0
+Role:Mechanical Engineer,Company:Eram Talent,HIRES_FOR,2.0
+Role:Mechanical Engineer,Company:Gvr Technolabs Private Limited,HIRES_FOR,2.0
+Role:Mechanical Engineer,Company:Om Engineers,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Naukripay,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Siemens Gamesa,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Liger Mobility,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Tractebel,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Novus Hi-Tech,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Swastik Placement Agency,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Able Design And Manufacturing Pvt Ltd,HIRES_FOR,3.0
+Role:Mechanical Engineer,Company:Wsp,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Infinitalent Consulting Pvt Ltd,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Ibcscorp,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Zeekers Technology Solutions Private Limited,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Management Careers,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Jts Group,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Rabatex Industries,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Molex,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Siemens,HIRES_FOR,1.0
+Role:Mechanical Engineer,Company:Ample Leap,HIRES_FOR,1.0
+Role:QA Engineer,Company:Google,HIRES_FOR,1.0
+Role:QA Engineer,Company:Viewsonic,HIRES_FOR,1.0
+Role:QA Engineer,Company:Ltimindtree,HIRES_FOR,2.0
+Role:QA Engineer,Company:Gogoro,HIRES_FOR,1.0
+Role:QA Engineer,Company:Ucal Polymer Industries Ltd,HIRES_FOR,1.0
+Role:QA Engineer,Company:Jupiter Business Services Pvt. Ltd.,HIRES_FOR,1.0
+Role:QA Engineer,"Company:Dubai Jobs, Gulf Jobs, Jobs In Dubai, Qatar, Kuwait - Boyen Haddin & The Giant Hr Consultant",HIRES_FOR,1.0
+Role:QA Engineer,"Company:Envipro Engineering Pvt Ltd (Envipro, Pune)",HIRES_FOR,1.0
+Role:Manufacturing Engineer,Company:Tata Technologies,HIRES_FOR,3.0
+Role:Manufacturing Engineer,Company:Ciel Hr,HIRES_FOR,1.0
+Role:Manufacturing Engineer,Company:Yield Engineering Systems,HIRES_FOR,1.0
+Role:Manufacturing Engineer,Company:Zf Group,HIRES_FOR,1.0
+Role:Manufacturing Engineer,Company:Actualize,HIRES_FOR,1.0
+Role:Manufacturing Engineer,Company:Avua,HIRES_FOR,1.0

@@ -1,0 +1,144 @@
+{
+  "Final-year CSE student (Python, SQL, ML basics)": {
+    "skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Git"
+    ],
+    "roles": [
+      {
+        "role": "Data Analyst",
+        "score": 0.861,
+        "cosine": 0.707,
+        "future_alignment": 1.0,
+        "graph_proximity": 0.97
+      },
+      {
+        "role": "AI Engineer",
+        "score": 0.721,
+        "cosine": 0.668,
+        "future_alignment": 0.875,
+        "graph_proximity": 0.632
+      },
+      {
+        "role": "Machine Learning Engineer",
+        "score": 0.68,
+        "cosine": 0.722,
+        "future_alignment": 0.697,
+        "graph_proximity": 0.586
+      }
+    ],
+    "target": "Data Analyst",
+    "gaps": [],
+    "companies": [
+      "Forbes Advisor"
+    ],
+    "explanations": [
+      "Data Analyst: score 0.861 = 0.45x skill-match 0.71 + 0.3x demand-alignment 1.00 + 0.25x graph-proximity 0.97",
+      "AI Engineer: score 0.721 = 0.45x skill-match 0.67 + 0.3x demand-alignment 0.87 + 0.25x graph-proximity 0.63",
+      "Machine Learning Engineer: score 0.680 = 0.45x skill-match 0.72 + 0.3x demand-alignment 0.70 + 0.25x graph-proximity 0.59"
+    ]
+  },
+  "Web developer (JS, React, jQuery, PHP)": {
+    "skills": [
+      "JavaScript",
+      "React",
+      "Git"
+    ],
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "score": 0.654,
+        "cosine": 0.772,
+        "future_alignment": 0.5,
+        "graph_proximity": 0.626
+      },
+      {
+        "role": "Web Developer",
+        "score": 0.631,
+        "cosine": 0.583,
+        "future_alignment": 0.771,
+        "graph_proximity": 0.548
+      },
+      {
+        "role": "Full Stack Developer",
+        "score": 0.568,
+        "cosine": 0.577,
+        "future_alignment": 0.571,
+        "graph_proximity": 0.549
+      }
+    ],
+    "target": "Frontend Developer",
+    "gaps": [
+      {
+        "skill": "Communication",
+        "course": "Search: 'Communication fundamentals' course",
+        "certification": null,
+        "attention": 0.918,
+        "why": "Required by Frontend Developer in 67% of postings; currently in the top 0% most-demanded skills (no forecast: history too short); closely related to your skills (proximity 0.01)."
+      },
+      {
+        "skill": "AWS",
+        "course": "AWS Cloud Practitioner Essentials",
+        "certification": "AWS Certified Solutions Architect",
+        "attention": 0.082,
+        "why": "Required by Frontend Developer in 33% of postings; currently in the top 50% most-demanded skills (no forecast: history too short); closely related to your skills (proximity 0.22)."
+      }
+    ],
+    "companies": [
+      "Altorise",
+      "Quantified Hr Private Limited",
+      "Buildbear Labs"
+    ],
+    "explanations": [
+      "Frontend Developer: score 0.654 = 0.45x skill-match 0.77 + 0.3x demand-alignment 0.50 + 0.25x graph-proximity 0.63",
+      "Web Developer: score 0.631 = 0.45x skill-match 0.58 + 0.3x demand-alignment 0.77 + 0.25x graph-proximity 0.55",
+      "Full Stack Developer: score 0.568 = 0.45x skill-match 0.58 + 0.3x demand-alignment 0.57 + 0.25x graph-proximity 0.55"
+    ]
+  },
+  "Data analyst (Excel, SQL, Tableau)": {
+    "skills": [
+      "Excel",
+      "SQL",
+      "Communication"
+    ],
+    "roles": [
+      {
+        "role": "Credit Analyst",
+        "score": 0.892,
+        "cosine": 0.85,
+        "future_alignment": 1.0,
+        "graph_proximity": 0.839
+      },
+      {
+        "role": "Financial Analyst",
+        "score": 0.835,
+        "cosine": 0.836,
+        "future_alignment": 0.926,
+        "graph_proximity": 0.724
+      },
+      {
+        "role": "Investment Analyst",
+        "score": 0.813,
+        "cosine": 0.763,
+        "future_alignment": 0.96,
+        "graph_proximity": 0.728
+      }
+    ],
+    "target": "Credit Analyst",
+    "gaps": [],
+    "companies": [
+      "Doha Bank",
+      "Intuitive Apps Inc.",
+      "Kotak Mahindra Bank",
+      "Airtel",
+      "Acko"
+    ],
+    "explanations": [
+      "Credit Analyst: score 0.892 = 0.45x skill-match 0.85 + 0.3x demand-alignment 1.00 + 0.25x graph-proximity 0.84",
+      "Financial Analyst: score 0.835 = 0.45x skill-match 0.84 + 0.3x demand-alignment 0.93 + 0.25x graph-proximity 0.72",
+      "Investment Analyst: score 0.813 = 0.45x skill-match 0.76 + 0.3x demand-alignment 0.96 + 0.25x graph-proximity 0.73"
+    ]
+  }
+}

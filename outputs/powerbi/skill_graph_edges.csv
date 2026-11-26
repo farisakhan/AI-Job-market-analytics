@@ -1,296 +1,1411 @@
 src,dst,weight
-AWS,Git,1.8289629717771703
-AWS,JavaScript,0.489039827839402
-AWS,React,1.2744622845085183
-AWS,SQL,1.5293545341373083
-AWS,Azure,2.203656421218581
-AWS,CI/CD,2.2189238933493693
-AWS,GCP,2.429644924665022
-AWS,Java,1.3228358687927337
-AWS,Python,1.5531756869775386
-AWS,Communication,0.17446207056556026
-AWS,Machine Learning,1.6736968428660464
-AWS,Docker,2.0937607503953632
-AWS,Kubernetes,2.1543853722117983
-AWS,MongoDB,2.4112957859968254
-AWS,Leadership,0.001
-AWS,Deep Learning,1.7699736733014662
-AWS,NLP,1.8824516567281564
-AWS,Pandas,2.036602336555415
-AWS,Spark,2.0015110167441446
-AWS,TensorFlow,2.0015110167441446
-AWS,Computer Vision,1.700130099934202
-AWS,Hadoop,2.170133729179937
-AWS,LLM,1.9565596288818783
-AWS,MLOps,2.1236137135450446
-AWS,Power BI,1.461238191651853
-AWS,PyTorch,1.9988620085725677
-AWS,Tableau,1.8824516567281564
-AWS,Scikit-learn,2.036602336555415
-AWS,R,0.7244159475892462
-Git,JavaScript,1.7435869181282713
-Git,React,1.7405520144331175
-Git,SQL,1.4358284761264846
-Git,Java,1.2499290979846462
-Git,Communication,0.21933833541385614
-Git,CI/CD,2.433699194993063
-Git,Docker,2.1543853722117983
-Git,Python,1.2987192621540782
-Git,Azure,2.119699814223908
-Git,GCP,2.0972269583718495
-Git,Machine Learning,1.3131079996061776
-Git,Kubernetes,2.0326884372342784
-Git,Power BI,1.809544885920069
-Git,MLOps,2.4073818866756893
-Git,PyTorch,1.5094402934697306
-Git,TensorFlow,1.4379813294875854
-Git,Deep Learning,0.9551295577640012
-Git,NLP,1.4322506547786007
-JavaScript,React,2.454752604190895
-JavaScript,SQL,0.5814131479704171
-JavaScript,Java,1.7528205940752168
-JavaScript,Node.js,2.454752604190895
-JavaScript,PHP,2.610756852667476
-JavaScript,Python,0.7319860064497916
-JavaScript,C++,1.6074547438036915
-JavaScript,Angular,2.5882839968154174
-JavaScript,Communication,0.001
-React,SQL,1.0303633680183204
-React,Angular,3.037234216863321
+React,Docker,0.005988283416777659
+React,Git,1.0868673494154308
+React,MongoDB,1.1002204018187476
+React,Node.js,1.604377753907737
+React,SQL,0.001
+React,Angular,1.6604918818945702
+React,JavaScript,1.7874005034217182
+React,TypeScript,1.7052387446840271
+React,Azure,0.001
+React,jQuery,1.6799145363433652
+React,PHP,1.699544018456877
 React,Communication,0.001
-React,Java,1.3144676191222173
-React,Python,0.4187961744507982
-React,Node.js,2.74955214441154
-React,Docker,2.036602336555415
-React,TypeScript,2.9239055315563176
-SQL,Java,1.0703687026320194
-SQL,Machine Learning,1.3913767135556507
-SQL,MongoDB,1.9283049612242789
-SQL,Node.js,1.4358284761264846
-SQL,Communication,0.001
-SQL,Python,1.4686182989494754
-SQL,Leadership,0.001
-SQL,Docker,1.4929868899664331
-SQL,Kubernetes,1.5536115117828682
-SQL,Azure,1.6028825607896506
-SQL,CI/CD,1.6181500329204392
-SQL,GCP,1.4721961202973592
-SQL,Deep Learning,1.5746649209807004
-SQL,Excel,0.23812528481414405
-SQL,PyTorch,1.4721961202973592
-SQL,TensorFlow,1.4697300278021657
-SQL,Power BI,1.6589720274406945
-SQL,R,1.3132261540341523
-SQL,Tableau,1.6871429044073905
-SQL,Generative AI,1.6871429044073905
-SQL,LLM,1.7612508765611126
-SQL,NLP,1.4639993530931807
-SQL,Hadoop,1.6871429044073905
-SQL,MLOps,1.9283049612242789
-SQL,Pandas,1.7542822072450193
-SQL,Spark,1.5342685489397367
-SQL,Scikit-learn,1.4358284761264846
-Java,Node.js,2.2589292279630686
-Java,PHP,1.9812974913647892
-Java,Python,1.2780999749513424
-Java,Azure,0.9314753668661117
-Java,C++,2.5466113004148494
-Java,Kubernetes,1.7889255987173331
-Java,Machine Learning,0.7328729244680193
-Java,PyTorch,1.2656774549527852
-Java,Spark,1.0118969341766855
-Java,TensorFlow,1.3483691707978984
-Java,Angular,2.076607671169114
-Java,CI/CD,1.6711425630609495
-Java,GCP,1.0833558981588305
-Java,Spring Boot,2.664394336071233
-Java,MongoDB,2.3177697279860023
-Java,Leadership,0.001
-Java,NLP,1.0061662594677006
-Java,Communication,0.001
-Java,Docker,1.5459794201069434
-Java,Deep Learning,0.711366719247056
-Java,Tableau,1.0469882539879556
-Java,R,0.6102706023756869
-Python,Azure,1.61625429775554
-Python,C++,1.6509398557434303
-Python,Go,0.8444639898764817
-Python,Kubernetes,1.4993899576162293
-Python,Machine Learning,1.7090036566981912
-Python,PyTorch,1.7971223659215116
-Python,Spark,1.764884115092648
-Python,TensorFlow,1.802624443075495
-Python,CI/CD,1.6509398557434303
-Python,Django,1.87408340705764
-Python,GCP,1.6227689787767339
-Python,Leadership,0.001
-Python,NLP,1.7527225500533723
-Python,Communication,0.001
-Python,Docker,1.4387653357997945
-Python,R,1.4492002130923738
-Python,Computer Vision,1.6329213502407518
-Python,Deep Learning,1.8081254392658428
-Python,MongoDB,1.2679476034873245
+React,Excel,0.001
+React,Tableau,0.001
+React,C++,0.022076536199764425
+React,Django,0.001
+React,AWS,0.001
+React,Cybersecurity,0.001
+React,GCP,0.001
+React,Terraform,0.001
+React,Java,0.001
+React,Leadership,0.001
+React,Python,0.001
+React,Airflow,0.001
+React,Spark,0.001
+React,Computer Vision,0.3760040566810566
+React,Machine Learning,0.001
+React,Deep Learning,0.001
+React,PyTorch,0.001
+React,TensorFlow,0.001
+React,Manual Testing,0.001
+React,Go,0.001
+React,Pandas,0.001
+React,MLOps,0.001
+React,Blockchain,0.09847435569329349
+React,Power BI,0.001
+React,Scikit-learn,0.001
+React,FastAPI,0.001
+React,NLP,0.001
+React,Prompt Engineering,0.001
+React,Linux,0.001
+React,Kubernetes,0.001
+React,Selenium,0.001
+React,CI/CD,0.001
+React,LLM,0.001
+React,Generative AI,0.001
+React,R,0.001
+React,Spring Boot,0.001
+React,Snowflake,0.001
+React,LangChain,0.001
+React,Hadoop,0.001
+React,Kafka,0.001
+React,Neo4j,0.001
+React,Rust,0.001
+AWS,Docker,0.20518304492119194
+AWS,Hadoop,0.8564805984328716
+AWS,Python,0.13300499277270214
+AWS,SQL,0.001
+AWS,Snowflake,0.773933677319721
+AWS,Spark,0.773817947073456
+AWS,FastAPI,0.001
+AWS,Git,0.001
+AWS,Linux,0.8566945825571101
+AWS,NLP,0.001
+AWS,Selenium,0.001
+AWS,Communication,0.001
+AWS,Cybersecurity,0.8270136357116421
+AWS,TypeScript,0.001
+AWS,Azure,0.8111210766174104
+AWS,CI/CD,0.30471053431917194
+AWS,Kubernetes,0.823106134217596
+AWS,Node.js,0.001
+AWS,LLM,0.01842129766252673
+AWS,Machine Learning,0.4577369309658891
+AWS,PyTorch,0.001
+AWS,Tableau,0.001
+AWS,TensorFlow,0.8052559530788033
+AWS,Kafka,0.7948172967205372
+AWS,Airflow,0.7996614977852508
+AWS,Deep Learning,0.27140974539835
+AWS,MLOps,0.7699580179737943
+AWS,GCP,0.8189396365612162
+AWS,Django,0.001
+AWS,C++,0.001
+AWS,Power BI,0.001
+AWS,Pandas,0.001
+AWS,Terraform,0.8310727137435474
+AWS,R,0.001
+AWS,Scikit-learn,0.001
+AWS,Go,0.001
+AWS,Java,0.001
+AWS,MongoDB,0.001
+AWS,PHP,0.001
+AWS,Spring Boot,0.001
+AWS,jQuery,0.001
+AWS,JavaScript,0.001
+AWS,Manual Testing,0.001
+AWS,Angular,0.001
+AWS,Leadership,0.001
+AWS,Prompt Engineering,0.001
+AWS,Blockchain,0.001
+AWS,Excel,0.001
+AWS,Computer Vision,0.07614781337998217
+AWS,Generative AI,0.001
+AWS,LangChain,0.001
+AWS,Rust,0.001
+AWS,Neo4j,0.001
+Docker,Hadoop,0.5955027347382151
+Docker,Python,0.17044959155987577
+Docker,SQL,0.001
+Docker,Snowflake,0.5908449657316007
+Docker,Spark,0.5623685859226513
+Docker,Git,0.37048960727839647
+Docker,MongoDB,0.5840474189968525
+Docker,Node.js,0.5384128712946995
+Docker,Generative AI,0.203955590297909
+Docker,Azure,0.0501692326157361
+Docker,Go,0.582344193361812
+Docker,FastAPI,0.6444796853706968
+Docker,Linux,0.001
+Docker,NLP,0.22232894335888295
+Docker,Selenium,0.001
+Docker,Django,0.5380334259033813
+Docker,Java,0.001
+Docker,Spring Boot,0.5969856336988981
+Docker,CI/CD,0.04764131319556662
+Docker,Kubernetes,0.07836361576455923
+Docker,Deep Learning,0.05381262202804749
+Docker,LLM,0.4818909888913197
+Docker,Machine Learning,0.23403838136311117
+Docker,TensorFlow,0.6121521273922429
+Docker,Airflow,0.5878046800129514
+Docker,PyTorch,0.6434803176791007
+Docker,MLOps,0.5811635385138234
+Docker,PHP,0.579873102958506
+Docker,TypeScript,0.013836485440090373
+Docker,C++,0.001
+Docker,Terraform,0.08801812336538753
+Docker,LangChain,0.45558536725732884
+Docker,Prompt Engineering,0.46864934211186754
+Docker,JavaScript,0.001
+Docker,Rust,0.058848716854769875
+Docker,Scikit-learn,0.001
+Docker,Pandas,0.001
+Docker,R,0.001
+Docker,Power BI,0.001
+Docker,Cybersecurity,0.001
+Docker,jQuery,0.001
+Docker,Communication,0.001
+Docker,Kafka,0.5850950469396581
+Docker,Tableau,0.001
+Docker,Leadership,0.001
+Docker,GCP,0.001
+Docker,Angular,0.001
+Docker,Manual Testing,0.001
+Docker,Computer Vision,0.028455774344786383
+Docker,Excel,0.001
+Docker,Blockchain,0.001
+Docker,Neo4j,0.06796111298029481
+Hadoop,Python,0.33256476129625767
+Hadoop,SQL,0.606415077049377
+Hadoop,Snowflake,2.1531291183906736
+Hadoop,Spark,2.288982719484106
+Hadoop,Java,0.001
+Hadoop,Selenium,0.001
+Hadoop,Kafka,2.2685227363935367
+Hadoop,Airflow,2.2952392620530877
+Hadoop,NLP,0.001
+Hadoop,MLOps,0.001
+Hadoop,Machine Learning,0.001
+Hadoop,Pandas,0.001
+Hadoop,R,0.001
+Hadoop,Scikit-learn,0.001
+Hadoop,Linux,0.001
+Hadoop,Tableau,0.001
+Hadoop,Communication,0.001
+Hadoop,Cybersecurity,0.001
+Hadoop,Deep Learning,0.001
+Hadoop,Generative AI,0.001
+Hadoop,Kubernetes,0.001
+Hadoop,MongoDB,0.001
+Hadoop,Leadership,0.001
+Hadoop,TensorFlow,0.001
+Hadoop,Spring Boot,0.001
+Hadoop,Azure,0.001
+Hadoop,Django,0.001
+Hadoop,C++,0.001
+Hadoop,TypeScript,0.001
+Hadoop,Git,0.001
+Hadoop,GCP,0.001
+Hadoop,CI/CD,0.001
+Hadoop,Node.js,0.001
+Hadoop,LLM,0.001
+Hadoop,Angular,0.001
+Hadoop,Terraform,0.001
+Hadoop,Go,0.001
+Hadoop,FastAPI,0.001
+Hadoop,PHP,0.001
+Hadoop,JavaScript,0.001
+Hadoop,PyTorch,0.001
+Hadoop,Computer Vision,0.01695541774121559
+Hadoop,Prompt Engineering,0.001
+Hadoop,Power BI,0.001
+Hadoop,Rust,0.18842695851110458
+Hadoop,LangChain,0.001
+Python,SQL,0.006071684940579937
+Python,Snowflake,0.29536364053610265
+Python,Spark,0.29280395386161284
+Python,Generative AI,0.2030917459248888
+Python,CI/CD,0.30644825460566444
+Python,Manual Testing,0.31457312445064406
+Python,Pandas,0.270607184751219
+Python,Go,0.23571743850104207
+Python,MongoDB,0.001
+Python,FastAPI,0.28436066743460287
+Python,Git,0.001
+Python,Linux,0.001
+Python,NLP,0.291174717030756
+Python,Selenium,0.3066827172685599
+Python,Django,0.27083118899749076
+Python,Java,0.3045781135438855
+Python,Spring Boot,0.25801826054105825
 Python,Excel,0.001
-Python,Power BI,1.4993899576162293
-Python,Tableau,1.6329213502407518
-Python,Generative AI,1.6329213502407518
-Python,LLM,1.7070293223944737
-Python,Pandas,1.87408340705764
-Python,Hadoop,1.799975434903918
-Python,LangChain,1.87408340705764
-Python,MLOps,1.778773227253315
-Python,Scikit-learn,1.78707203006801
-Azure,CI/CD,2.4719204078132604
-Azure,GCP,2.4719204078132604
-Azure,Communication,0.1521990325762275
-Azure,Machine Learning,1.7567943205345395
-Azure,Leadership,0.001
-Azure,NLP,2.030087655534221
-Azure,Power BI,1.8095448859200687
-Azure,R,0.8720519463953108
-Azure,Tableau,1.7424055830824403
-Azure,Deep Learning,1.735288115313576
-Azure,Pandas,2.050706942736957
-Azure,Spark,1.8126747789289963
-Azure,TensorFlow,2.1491470155502093
-Azure,Hadoop,1.8477660987402664
-Azure,LLM,2.5096607357961074
-Azure,MLOps,2.425400392178368
-Azure,PyTorch,2.066455299705096
-Azure,Generative AI,2.1842383353614796
-Azure,Scikit-learn,2.1842383353614796
-Azure,Docker,1.6536100842993091
-Azure,Kubernetes,1.714234706115744
-C++,Leadership,0.4549992231147587
-C++,NLP,1.7199327272303815
-C++,Communication,0.001
-C++,Machine Learning,1.341278876572874
-C++,Deep Learning,1.4251331870097368
-C++,TensorFlow,2.090306515527276
-C++,PyTorch,2.1617654795094206
-Go,Communication,0.001
-Kubernetes,Machine Learning,1.6697829435449099
-Kubernetes,Communication,0.2658583510487489
-Kubernetes,Docker,3.6207224410052254
-Kubernetes,GCP,2.5390597106508888
-Kubernetes,CI/CD,2.9726956957257498
-Machine Learning,PyTorch,2.1020462448077986
-Machine Learning,Spark,1.950544573152117
-Machine Learning,TensorFlow,2.104695252979375
-Machine Learning,MongoDB,1.5336507692203298
-Machine Learning,Communication,0.001
-Machine Learning,GCP,1.734321464682481
-Machine Learning,Deep Learning,2.0963014608509067
-Machine Learning,Leadership,0.001
-Machine Learning,NLP,2.080946072767712
-Machine Learning,Excel,0.001
-Machine Learning,Power BI,1.5644224278870835
-Machine Learning,R,1.233065291932641
-Machine Learning,Tableau,1.6407954066716575
-Machine Learning,Generative AI,2.0656786006369234
-Machine Learning,LLM,2.0597438651171087
-Machine Learning,Pandas,2.075248051653074
-Machine Learning,Computer Vision,2.0656786006369234
-Machine Learning,Hadoop,2.0656786006369234
-Machine Learning,LangChain,2.1397865727906455
-Machine Learning,MLOps,2.044476392986321
-Machine Learning,CI/CD,1.5111779133682712
-Machine Learning,Scikit-learn,2.052775195801016
-Machine Learning,Docker,1.609158321728475
-PyTorch,Spark,2.195667031185102
-PyTorch,TensorFlow,3.1339366697780324
-PyTorch,Communication,0.11730365672561163
-PyTorch,Deep Learning,2.405962440021463
-PyTorch,Computer Vision,2.518440423448153
-PyTorch,LLM,2.41022683880792
-PyTorch,NLP,2.3753395798074797
-PyTorch,Pandas,2.5390597106508888
-PyTorch,Scikit-learn,3.078056211383576
-PyTorch,R,1.0239324776880296
-PyTorch,GCP,2.0158115668863408
-Spark,TensorFlow,2.4919328473282745
-Spark,Leadership,0.08343566668227552
-Spark,Deep Learning,2.083189047758412
-Spark,NLP,2.2238379081517983
-Spark,Pandas,2.131128510047531
+Python,Tableau,0.001
+Python,Communication,0.001
+Python,Cybersecurity,0.001
+Python,TypeScript,0.001
+Python,Azure,0.001
+Python,Kubernetes,0.001
+Python,Node.js,0.001
+Python,Deep Learning,0.2866886379624069
+Python,Machine Learning,0.3031746045415653
+Python,Scikit-learn,0.2588255473547848
+Python,R,0.3068660077735252
+Python,Kafka,0.30227433030635226
+Python,Airflow,0.28331978381652656
+Python,LLM,0.1811285075493251
+Python,PyTorch,0.28320672730168367
+Python,TensorFlow,0.2639740796098034
+Python,Power BI,0.001
+Python,MLOps,0.2609346321264499
+Python,Leadership,0.001
+Python,C++,0.0065661570295248006
+Python,Terraform,0.001
+Python,LangChain,0.17646751332230526
+Python,Prompt Engineering,0.17667707114106482
+Python,Rust,0.04909427863655251
+Python,jQuery,0.001
+Python,Neo4j,0.001
+Python,JavaScript,0.001
+Python,Computer Vision,0.001
+Python,PHP,0.001
+Python,Blockchain,0.001
+Python,Angular,0.001
+Python,GCP,0.001
+SQL,Snowflake,0.579368614177406
+SQL,Spark,0.5727226128091703
+SQL,Git,0.001
+SQL,MongoDB,0.5800790404630392
+SQL,Node.js,0.5316306880192622
+SQL,Deep Learning,0.001
+SQL,NLP,0.001
+SQL,R,0.6118959300892208
+SQL,Scikit-learn,0.5507247526982496
+SQL,CI/CD,0.001
+SQL,Manual Testing,0.6216692242948092
+SQL,Pandas,0.541671398075627
+SQL,Django,0.5386784719055026
+SQL,FastAPI,0.001
+SQL,Go,0.5705449302101242
+SQL,Java,0.6144076374255452
+SQL,Spring Boot,0.5572376311255772
+SQL,Excel,0.6267578265545579
+SQL,Tableau,0.6003783715002619
+SQL,Selenium,0.5782448992555242
+SQL,Kafka,0.5797248137368498
+SQL,Machine Learning,0.001
+SQL,Airflow,0.6063038459025726
+SQL,Communication,0.2465581564497184
+SQL,Power BI,0.6176660538455071
+SQL,Leadership,0.6054132273260525
+SQL,TypeScript,0.001
+SQL,C++,0.017118360563571675
+SQL,PHP,0.5959735541525749
+SQL,GCP,0.001
+SQL,MLOps,0.001
+SQL,JavaScript,0.001
+SQL,Generative AI,0.001
+SQL,jQuery,0.001
+SQL,PyTorch,0.001
+SQL,Cybersecurity,0.001
+SQL,Kubernetes,0.001
+SQL,Azure,0.001
+SQL,Terraform,0.001
+SQL,Blockchain,0.05577585207425379
+SQL,Angular,0.001
+SQL,Computer Vision,0.001
+SQL,Linux,0.001
+SQL,TensorFlow,0.001
+SQL,Prompt Engineering,0.001
+SQL,Rust,0.001
+SQL,LangChain,0.001
+SQL,LLM,0.001
+SQL,Neo4j,0.17070581874823076
+Snowflake,Spark,2.1104600911901676
+Snowflake,Node.js,0.001
+Snowflake,Leadership,0.001
+Snowflake,Tableau,0.001
+Snowflake,TypeScript,0.001
+Snowflake,Airflow,2.2467297337174683
+Snowflake,Kafka,2.189122721038579
+Snowflake,Linux,0.001
+Snowflake,CI/CD,0.001
+Snowflake,Kubernetes,0.001
+Snowflake,Java,0.001
+Snowflake,Pandas,0.001
+Snowflake,Scikit-learn,0.001
+Snowflake,Deep Learning,0.001
+Snowflake,Machine Learning,0.001
+Snowflake,TensorFlow,0.001
+Snowflake,Terraform,0.001
+Snowflake,Spring Boot,0.001
+Snowflake,Communication,0.001
+Snowflake,NLP,0.001
+Snowflake,Azure,0.001
+Snowflake,Git,0.001
+Snowflake,Power BI,0.001
+Snowflake,Django,0.001
+Snowflake,C++,0.001
+Snowflake,GCP,0.001
+Snowflake,Angular,0.001
+Snowflake,JavaScript,0.001
+Snowflake,Computer Vision,0.30528018251157524
+Snowflake,Selenium,0.001
+Snowflake,MongoDB,0.001
+Snowflake,PHP,0.001
+Snowflake,jQuery,0.001
+Snowflake,FastAPI,0.001
+Snowflake,LLM,0.001
+Snowflake,Cybersecurity,0.001
+Snowflake,R,0.001
+Snowflake,Go,0.001
+Snowflake,Manual Testing,0.001
+Snowflake,PyTorch,0.001
+Snowflake,Excel,0.001
+Snowflake,Prompt Engineering,0.001
+Snowflake,Generative AI,0.001
+Snowflake,MLOps,0.001
+Snowflake,LangChain,0.001
+Snowflake,Rust,0.3096976386182981
+Spark,Kafka,2.130052337345072
+Spark,Airflow,2.163382402213826
+Spark,Node.js,0.001
 Spark,Communication,0.001
-Spark,Hadoop,3.2201713476994898
-Spark,Power BI,1.4379813294875854
-Spark,Tableau,2.159299387014227
-Spark,Scikit-learn,2.6011321392932665
-Spark,R,1.2889457503270978
-TensorFlow,Deep Learning,2.4398639916971443
-TensorFlow,Leadership,0.08343566668227552
-TensorFlow,NLP,2.446981459466008
-TensorFlow,Communication,0.001
-TensorFlow,GCP,1.9443526029041962
-TensorFlow,Pandas,2.824275690607476
-TensorFlow,Computer Vision,2.264659902672053
-TensorFlow,Hadoop,2.446981459466008
-TensorFlow,LLM,2.52108943161973
-TensorFlow,MLOps,2.5058219594889417
-TensorFlow,Scikit-learn,3.1119577630592574
-TensorFlow,Generative AI,2.264659902672053
+Spark,Django,0.001
+Spark,C++,0.09905621683859121
+Spark,MLOps,0.001
+Spark,Leadership,0.001
+Spark,Tableau,0.001
+Spark,FastAPI,0.001
+Spark,Java,0.001
+Spark,MongoDB,0.001
+Spark,PyTorch,0.001
+Spark,Scikit-learn,0.001
+Spark,Cybersecurity,0.001
+Spark,Linux,0.001
+Spark,LLM,0.001
+Spark,NLP,0.001
+Spark,TypeScript,0.001
+Spark,Kubernetes,0.001
+Spark,CI/CD,0.001
+Spark,Pandas,0.001
+Spark,Machine Learning,0.001
+Spark,R,0.001
+Spark,Azure,0.001
+Spark,GCP,0.001
+Spark,Terraform,0.001
+Spark,jQuery,0.001
+Spark,Deep Learning,0.001
+Spark,Spring Boot,0.001
+Spark,Excel,0.001
+Spark,Computer Vision,0.3633715786301966
+Spark,Power BI,0.001
+Spark,Angular,0.001
+Spark,Generative AI,0.001
+Spark,Prompt Engineering,0.001
+Spark,Selenium,0.001
+Spark,Rust,0.2471610469483044
+Spark,JavaScript,0.001
+Spark,Git,0.001
+Spark,Manual Testing,0.001
+Spark,PHP,0.001
+Spark,TensorFlow,0.001
+Spark,Go,0.001
+Spark,LangChain,0.001
+Git,MongoDB,1.0706303217426005
+Git,Node.js,1.000021253601112
+Git,Angular,1.0683090439387128
+Git,JavaScript,1.141285498855979
+Git,TypeScript,1.0895227801850371
+Git,Azure,0.5189775415544355
+Git,FastAPI,0.17259972942921578
+Git,Linux,0.19270090875030288
+Git,NLP,0.001
+Git,Selenium,0.001
+Git,Django,1.0034909625004136
+Git,Java,0.45864282128895184
+Git,Spring Boot,1.0665201284210701
+Git,CI/CD,0.5591208400465201
+Git,Kubernetes,0.5473253758795269
+Git,jQuery,1.0563002896786564
+Git,PHP,1.0761726578873745
+Git,Terraform,0.5585102617824081
+Git,Power BI,0.001
+Git,Pandas,0.001
+Git,Cybersecurity,0.001
+Git,Go,1.0779227536918223
+Git,Airflow,0.001
+Git,C++,0.001
+Git,Leadership,0.001
+Git,Machine Learning,0.001
+Git,Communication,0.001
+Git,Excel,0.001
+Git,Tableau,0.001
+Git,Manual Testing,0.001
+Git,TensorFlow,0.001
+Git,Computer Vision,0.1400095578045016
+Git,Deep Learning,0.001
+Git,GCP,0.001
+Git,Blockchain,0.1460886038808838
+Git,Scikit-learn,0.001
+Git,PyTorch,0.001
+Git,Kafka,0.001
+Git,MLOps,0.001
+Git,Generative AI,0.001
+Git,Neo4j,0.1460886038808838
+Git,R,0.001
+Git,LLM,0.001
+Git,LangChain,0.001
+Git,Prompt Engineering,0.001
+Git,Rust,0.001
+MongoDB,Node.js,1.6279150914227092
+MongoDB,Azure,0.001
+MongoDB,Go,1.6591411744476265
+MongoDB,Django,1.5940804056609077
+MongoDB,FastAPI,0.7404658933154487
+MongoDB,Java,1.0688172269051253
+MongoDB,Spring Boot,1.6860341735847908
+MongoDB,Communication,0.001
+MongoDB,Power BI,0.001
+MongoDB,Tableau,0.001
+MongoDB,PHP,1.7154280748633055
+MongoDB,TypeScript,1.0823795877529143
+MongoDB,JavaScript,1.1189284880581207
+MongoDB,NLP,0.001
+MongoDB,Airflow,0.001
+MongoDB,jQuery,0.001
+MongoDB,Cybersecurity,0.001
+MongoDB,Deep Learning,0.001
+MongoDB,Pandas,0.001
+MongoDB,R,0.001
+MongoDB,Scikit-learn,0.001
+MongoDB,Leadership,0.001
+MongoDB,Excel,0.001
+MongoDB,C++,0.06798623750384221
+MongoDB,Angular,0.001
+MongoDB,Computer Vision,0.07201850103178063
+MongoDB,Manual Testing,0.001
+MongoDB,Linux,0.001
+MongoDB,Machine Learning,0.001
+MongoDB,PyTorch,0.001
+MongoDB,GCP,0.001
+MongoDB,CI/CD,0.001
+MongoDB,Kafka,0.001
+MongoDB,Blockchain,0.09174032351194943
+MongoDB,Terraform,0.001
+MongoDB,MLOps,0.001
+MongoDB,TensorFlow,0.001
+MongoDB,Selenium,0.001
+MongoDB,LLM,0.001
+MongoDB,Kubernetes,0.001
+MongoDB,Prompt Engineering,0.001
+MongoDB,Generative AI,0.001
+MongoDB,LangChain,0.001
+MongoDB,Rust,0.001
+MongoDB,Neo4j,0.001
+Node.js,Azure,0.001
+Node.js,CI/CD,0.001
+Node.js,Kubernetes,0.001
+Node.js,Linux,0.001
+Node.js,PHP,2.225914521850509
+Node.js,TypeScript,1.5977310369771092
+Node.js,JavaScript,1.672614630505474
+Node.js,Communication,0.001
+Node.js,Excel,0.001
+Node.js,Tableau,0.001
+Node.js,jQuery,0.001
+Node.js,LLM,0.001
+Node.js,NLP,0.001
+Node.js,Django,0.001
+Node.js,Leadership,0.001
+Node.js,FastAPI,0.001
+Node.js,Cybersecurity,0.001
+Node.js,GCP,0.001
+Node.js,Terraform,0.001
+Node.js,C++,0.07312237729286133
+Node.js,Angular,0.001
+Node.js,Airflow,0.001
+Node.js,Go,0.001
+Node.js,Java,0.001
+Node.js,Spring Boot,0.001
+Node.js,Computer Vision,0.33601627473708895
+Node.js,Machine Learning,0.001
+Node.js,PyTorch,0.001
+Node.js,Kafka,0.001
+Node.js,Manual Testing,0.001
+Node.js,Power BI,0.001
+Node.js,Scikit-learn,0.001
+Node.js,TensorFlow,0.001
+Node.js,Deep Learning,0.001
+Node.js,Selenium,0.001
+Node.js,Pandas,0.001
+Node.js,R,0.001
+Node.js,Generative AI,0.001
+Node.js,Prompt Engineering,0.001
+Node.js,MLOps,0.001
+Node.js,LangChain,0.001
+Node.js,Rust,0.001
+Generative AI,LangChain,1.161704151390245
+Generative AI,NLP,1.293138600133203
+Generative AI,Prompt Engineering,1.1869655243735324
+Generative AI,Scikit-learn,1.0535400988266859
+Generative AI,Pandas,1.0440674268090775
+Generative AI,Deep Learning,0.6035526191129866
+Generative AI,FastAPI,1.041458653783557
+Generative AI,PyTorch,0.9429471778321874
+Generative AI,Selenium,0.001
+Generative AI,Machine Learning,0.3605281861233154
+Generative AI,R,1.145238112285361
+Generative AI,LLM,0.8876900693124973
+Generative AI,Java,0.001
+Generative AI,jQuery,0.001
+Generative AI,Power BI,0.001
+Generative AI,Tableau,0.001
+Generative AI,C++,0.001
+Generative AI,Linux,0.001
+Generative AI,Azure,0.001
+Generative AI,TensorFlow,0.001
+Generative AI,Cybersecurity,0.001
+Generative AI,Django,0.001
+Generative AI,Terraform,0.001
+Generative AI,Computer Vision,0.041492326337909995
+Generative AI,Go,0.001
+Generative AI,Angular,0.001
+Generative AI,Kubernetes,0.001
+Generative AI,Leadership,0.001
+Generative AI,Communication,0.001
+Generative AI,Spring Boot,0.001
+Generative AI,PHP,0.001
+Generative AI,Excel,0.001
+Generative AI,Manual Testing,0.001
+Generative AI,Kafka,0.001
+Generative AI,Blockchain,0.001
+Generative AI,TypeScript,0.001
+Generative AI,Rust,0.4848975825914408
+Generative AI,CI/CD,0.001
+Generative AI,Airflow,0.001
+Generative AI,GCP,0.001
+Generative AI,JavaScript,0.001
+Generative AI,MLOps,0.001
+Generative AI,Neo4j,0.5185510876330833
+Angular,JavaScript,1.7341630726300463
+Angular,TypeScript,1.649284286098144
+Angular,jQuery,2.3756096746280417
+Angular,PHP,0.001
+Angular,C++,0.05631787720932984
+Angular,Azure,0.001
+Angular,Cybersecurity,0.001
+Angular,Django,0.001
+Angular,GCP,0.001
+Angular,Airflow,0.001
+Angular,Go,0.001
+Angular,Spring Boot,0.001
+Angular,Communication,0.001
+Angular,Power BI,0.001
+Angular,Tableau,0.001
+Angular,Pandas,0.001
+Angular,Computer Vision,0.6793893491434918
+Angular,Scikit-learn,0.001
+Angular,Linux,0.001
+Angular,Machine Learning,0.001
+Angular,R,0.001
+Angular,PyTorch,0.001
+Angular,Java,0.001
+Angular,FastAPI,0.001
+Angular,NLP,0.001
+Angular,Prompt Engineering,0.001
+Angular,Selenium,0.001
+Angular,CI/CD,0.001
+Angular,Excel,0.001
+Angular,Leadership,0.001
+Angular,Deep Learning,0.001
+Angular,Kubernetes,0.001
+Angular,TensorFlow,0.001
+Angular,LangChain,0.001
+Angular,LLM,0.001
+Angular,Kafka,0.001
+Angular,MLOps,0.001
+Angular,Terraform,0.001
+Angular,Manual Testing,0.001
+JavaScript,TypeScript,1.7650820339973365
+JavaScript,PHP,1.7990618965618226
+JavaScript,Pandas,0.001
+JavaScript,Selenium,0.001
+JavaScript,jQuery,1.8150375004347006
+JavaScript,Java,0.001
+JavaScript,Kubernetes,0.001
+JavaScript,Linux,0.001
+JavaScript,Terraform,0.001
+JavaScript,Leadership,0.001
+JavaScript,Deep Learning,0.001
+JavaScript,Machine Learning,0.001
+JavaScript,R,0.001
+JavaScript,Airflow,0.001
+JavaScript,Azure,0.001
+JavaScript,GCP,0.001
+JavaScript,Manual Testing,0.001
+JavaScript,Go,0.001
+JavaScript,Scikit-learn,0.001
+JavaScript,Tableau,0.001
+JavaScript,FastAPI,0.001
+JavaScript,CI/CD,0.001
+JavaScript,Excel,0.001
+JavaScript,C++,0.001
+JavaScript,Communication,0.001
+JavaScript,Power BI,0.001
+JavaScript,Kafka,0.001
+JavaScript,Cybersecurity,0.001
+JavaScript,Django,0.001
+JavaScript,Spring Boot,0.001
+JavaScript,LLM,0.001
+JavaScript,MLOps,0.001
+JavaScript,PyTorch,0.001
+JavaScript,TensorFlow,0.001
+JavaScript,LangChain,0.001
+JavaScript,NLP,0.001
+JavaScript,Computer Vision,0.5234954390488779
+JavaScript,Rust,0.001
+JavaScript,Prompt Engineering,0.001
+TypeScript,Communication,0.001
+TypeScript,Cybersecurity,0.001
+TypeScript,Excel,0.001
+TypeScript,Leadership,0.001
+TypeScript,Power BI,0.001
+TypeScript,Tableau,0.001
+TypeScript,PHP,1.6592518278635726
+TypeScript,C++,0.03284486087081467
+TypeScript,Django,0.001
+TypeScript,Pandas,0.001
+TypeScript,Selenium,0.001
+TypeScript,jQuery,1.6782666366394556
+TypeScript,Java,0.001
+TypeScript,Airflow,0.001
+TypeScript,Azure,0.001
+TypeScript,CI/CD,0.001
+TypeScript,Linux,0.001
+TypeScript,Machine Learning,0.001
+TypeScript,Go,0.001
+TypeScript,Spring Boot,0.001
+TypeScript,Computer Vision,0.44234223250691745
+TypeScript,Kubernetes,0.001
+TypeScript,GCP,0.001
+TypeScript,Blockchain,0.22365303154208793
+TypeScript,Deep Learning,0.001
+TypeScript,TensorFlow,0.001
+TypeScript,PyTorch,0.001
+TypeScript,Scikit-learn,0.001
+TypeScript,Terraform,0.001
+TypeScript,NLP,0.001
+TypeScript,FastAPI,0.001
+TypeScript,R,0.001
+TypeScript,Manual Testing,0.001
+TypeScript,Kafka,0.001
+TypeScript,MLOps,0.001
+TypeScript,LLM,0.001
+TypeScript,Prompt Engineering,0.001
+TypeScript,Neo4j,0.001
+TypeScript,LangChain,0.001
+TypeScript,Rust,0.001
+Azure,CI/CD,1.1008431203508078
+Azure,Kubernetes,1.648406814060302
+Azure,Linux,1.3159622597755871
+Azure,Cybersecurity,1.020496328828876
+Azure,GCP,1.6324490444723119
+Azure,Terraform,1.6771924712014459
+Azure,Tableau,0.001
+Azure,C++,0.001
+Azure,Java,0.001
+Azure,Manual Testing,0.001
+Azure,Airflow,0.001
+Azure,jQuery,0.001
+Azure,Machine Learning,0.001
+Azure,TensorFlow,0.001
+Azure,Deep Learning,0.001
+Azure,PyTorch,0.001
+Azure,Selenium,0.001
+Azure,Django,0.001
+Azure,MLOps,0.001
+Azure,Pandas,0.001
+Azure,Communication,0.001
+Azure,Power BI,0.001
+Azure,Excel,0.001
+Azure,Computer Vision,0.001
+Azure,Spring Boot,0.001
+Azure,PHP,0.001
+Azure,Leadership,0.001
+Azure,Scikit-learn,0.001
+Azure,Prompt Engineering,0.001
+Azure,LLM,0.001
+Azure,FastAPI,0.001
+Azure,Go,0.001
+Azure,Kafka,0.001
+Azure,R,0.001
+Azure,NLP,0.001
+Azure,Blockchain,0.23507262184640015
+Azure,LangChain,0.001
+Azure,Rust,0.001
+Azure,Neo4j,0.07076957055512381
+Deep Learning,NLP,0.7623841837652908
+Deep Learning,R,1.6543125929994664
+Deep Learning,Scikit-learn,1.5361808038163451
+Deep Learning,Machine Learning,1.7074062788364341
+Deep Learning,Pandas,1.5362871861985712
+Deep Learning,LLM,0.6655120388228326
+Deep Learning,TensorFlow,1.6570521718800504
+Deep Learning,MLOps,1.6793807371272889
+Deep Learning,PyTorch,0.8323519388204871
+Deep Learning,Communication,0.001
+Deep Learning,Excel,0.001
+Deep Learning,Tableau,0.001
+Deep Learning,FastAPI,0.001
+Deep Learning,Leadership,0.001
+Deep Learning,Django,0.001
+Deep Learning,Cybersecurity,0.001
+Deep Learning,Java,0.001
+Deep Learning,Computer Vision,0.001
+Deep Learning,Spring Boot,0.001
+Deep Learning,Linux,0.001
+Deep Learning,Selenium,0.001
+Deep Learning,Manual Testing,0.001
+Deep Learning,GCP,0.001
+Deep Learning,C++,0.028690653417804326
+Deep Learning,CI/CD,0.001
+Deep Learning,Power BI,0.001
+Deep Learning,Kubernetes,0.001
+Deep Learning,jQuery,0.001
+Deep Learning,Go,0.001
+Deep Learning,PHP,0.001
+Deep Learning,Kafka,0.001
+Deep Learning,Airflow,0.001
+Deep Learning,Blockchain,0.001
+Deep Learning,Prompt Engineering,0.001
+Deep Learning,Terraform,0.001
+Deep Learning,LangChain,0.001
+Deep Learning,Rust,0.001
+NLP,R,1.4707761935389962
+NLP,Scikit-learn,1.348475681249306
+NLP,FastAPI,1.2143266864604034
+NLP,Linux,0.001
+NLP,Selenium,0.001
+NLP,Machine Learning,0.4960508378507527
+NLP,Pandas,1.3801874535595275
+NLP,Airflow,0.001
+NLP,LangChain,1.2224832514474242
+NLP,Prompt Engineering,1.2384248924819092
+NLP,Java,0.001
+NLP,LLM,0.901396816195008
+NLP,PyTorch,1.108571457035818
+NLP,Leadership,0.001
+NLP,Tableau,0.001
+NLP,CI/CD,0.001
+NLP,MLOps,0.001
+NLP,Kubernetes,0.001
+NLP,C++,0.1312758281647564
+NLP,Power BI,0.001
+NLP,jQuery,0.001
+NLP,Kafka,0.001
+NLP,Computer Vision,0.03999791188837023
+NLP,Django,0.001
+NLP,Communication,0.001
+NLP,Cybersecurity,0.001
+NLP,Spring Boot,0.001
+NLP,PHP,0.001
+NLP,GCP,0.001
+NLP,Excel,0.001
+NLP,TensorFlow,0.001
+NLP,Go,0.001
+NLP,Terraform,0.001
+NLP,Neo4j,0.07076957055512381
+NLP,Manual Testing,0.001
+NLP,Rust,0.21146945265825892
+R,Scikit-learn,2.2708391000235744
+R,Pandas,2.297952335432135
+R,Machine Learning,1.39599128786814
+R,FastAPI,0.001
+R,LangChain,0.001
+R,PyTorch,0.001
+R,Leadership,0.001
+R,Kafka,0.001
+R,Selenium,0.001
+R,Power BI,0.001
+R,Linux,0.001
+R,jQuery,0.001
+R,Tableau,0.001
+R,C++,0.001
+R,Cybersecurity,0.001
+R,Django,0.001
+R,TensorFlow,0.001
+R,Excel,0.001
+R,Communication,0.001
+R,Java,0.001
+R,PHP,0.001
+R,Computer Vision,0.20941606384641687
+R,Kubernetes,0.001
+R,Terraform,0.001
+R,Prompt Engineering,0.001
+R,Airflow,0.001
+R,GCP,0.001
+R,CI/CD,0.001
+R,LLM,0.001
+R,MLOps,0.001
+R,Manual Testing,0.001
+R,Go,0.001
+Scikit-learn,Machine Learning,1.3049724753626153
+Scikit-learn,Pandas,2.1648223648136606
+Scikit-learn,PyTorch,0.001
+Scikit-learn,Leadership,0.001
+Scikit-learn,Excel,0.001
+Scikit-learn,Java,0.001
+Scikit-learn,Communication,0.001
+Scikit-learn,Power BI,0.001
+Scikit-learn,Tableau,0.001
+Scikit-learn,CI/CD,0.001
+Scikit-learn,Django,0.001
+Scikit-learn,MLOps,0.001
+Scikit-learn,Selenium,0.001
+Scikit-learn,Linux,0.001
+Scikit-learn,Airflow,0.001
+Scikit-learn,jQuery,0.001
+Scikit-learn,PHP,0.001
+Scikit-learn,LLM,0.001
+Scikit-learn,C++,0.14351684972149448
+Scikit-learn,Kubernetes,0.001
+Scikit-learn,Terraform,0.001
+Scikit-learn,Kafka,0.001
+Scikit-learn,Manual Testing,0.001
+Scikit-learn,TensorFlow,0.001
+Scikit-learn,Cybersecurity,0.001
+Scikit-learn,FastAPI,0.001
+Scikit-learn,Computer Vision,0.001
+Scikit-learn,Prompt Engineering,0.001
+Scikit-learn,Spring Boot,0.001
+Scikit-learn,LangChain,0.001
+Scikit-learn,GCP,0.001
+Scikit-learn,Go,0.001
+Scikit-learn,Rust,0.001
+CI/CD,Manual Testing,1.6753305805958019
+CI/CD,Pandas,0.001
+CI/CD,Kubernetes,1.1372005015957838
+CI/CD,Linux,0.816819234838293
+CI/CD,Java,1.047291921772066
+CI/CD,Selenium,1.6305391738615271
+CI/CD,Terraform,1.151609149872447
+CI/CD,Airflow,0.001
+CI/CD,Machine Learning,0.001
+CI/CD,TensorFlow,0.001
+CI/CD,Power BI,0.001
+CI/CD,C++,0.001
+CI/CD,Kafka,0.001
+CI/CD,Django,0.001
+CI/CD,FastAPI,0.001
+CI/CD,MLOps,0.001
+CI/CD,PyTorch,0.001
+CI/CD,Leadership,0.001
+CI/CD,PHP,0.001
+CI/CD,Excel,0.001
+CI/CD,Communication,0.001
+CI/CD,Rust,0.011116671679790188
+CI/CD,Tableau,0.001
+CI/CD,Cybersecurity,0.001
+CI/CD,GCP,0.001
+CI/CD,Go,0.001
+CI/CD,Spring Boot,0.001
+CI/CD,Prompt Engineering,0.001
+CI/CD,LangChain,0.001
+CI/CD,jQuery,0.001
+CI/CD,LLM,0.001
+CI/CD,Computer Vision,0.001
+CI/CD,Neo4j,0.6689244857944262
+Manual Testing,Pandas,0.001
+Manual Testing,Java,1.7676070343539028
+Manual Testing,Selenium,2.3750736077140986
+Manual Testing,C++,0.1548304245736381
+Manual Testing,FastAPI,0.001
+Manual Testing,Prompt Engineering,0.001
+Manual Testing,PyTorch,0.001
+Manual Testing,Tableau,0.001
+Manual Testing,Linux,0.001
+Manual Testing,Machine Learning,0.001
+Manual Testing,Terraform,0.001
+Manual Testing,Django,0.001
+Manual Testing,Go,0.001
+Manual Testing,Spring Boot,0.001
+Manual Testing,Excel,0.001
+Manual Testing,Kubernetes,0.001
+Manual Testing,PHP,0.001
+Manual Testing,TensorFlow,0.001
+Manual Testing,Airflow,0.001
+Manual Testing,Cybersecurity,0.001
+Manual Testing,GCP,0.001
+Manual Testing,jQuery,0.001
+Manual Testing,Communication,0.001
+Manual Testing,Power BI,0.001
+Manual Testing,Leadership,0.001
+Manual Testing,Kafka,0.001
+Manual Testing,LLM,0.001
+Manual Testing,MLOps,0.001
+Manual Testing,LangChain,0.001
+Manual Testing,Rust,0.2762670076011898
+Pandas,Machine Learning,1.3427236124931667
+Pandas,LLM,0.001
+Pandas,PyTorch,0.001
+Pandas,TensorFlow,0.001
+Pandas,Selenium,0.001
+Pandas,jQuery,0.001
+Pandas,Communication,0.001
+Pandas,Cybersecurity,0.001
+Pandas,Linux,0.001
+Pandas,Leadership,0.001
+Pandas,Java,0.001
+Pandas,Terraform,0.001
+Pandas,Kafka,0.001
+Pandas,Tableau,0.001
+Pandas,MLOps,0.001
+Pandas,FastAPI,0.001
+Pandas,LangChain,0.001
+Pandas,Power BI,0.001
+Pandas,C++,0.06349032175052176
+Pandas,Kubernetes,0.001
+Pandas,Excel,0.001
+Pandas,Django,0.001
+Pandas,Spring Boot,0.001
+Pandas,PHP,0.001
+Pandas,Airflow,0.001
+Pandas,GCP,0.001
+Pandas,Computer Vision,0.001
+Pandas,Prompt Engineering,0.001
+Pandas,Go,0.001
+Pandas,Rust,0.001
+Go,Django,2.2961381317717153
+Go,FastAPI,1.483066604180741
+Go,Java,1.7180659121255246
+Go,Spring Boot,2.356308861245217
+Go,Cybersecurity,0.001
+Go,PHP,0.001
+Go,Leadership,0.001
+Go,Power BI,0.001
+Go,Tableau,0.001
+Go,jQuery,0.001
+Go,Machine Learning,0.001
+Go,PyTorch,0.001
+Go,TensorFlow,0.001
+Go,Kubernetes,0.001
+Go,LLM,0.001
+Go,Prompt Engineering,0.001
+Go,Communication,0.001
+Go,LangChain,0.001
+Go,Linux,0.001
+Go,Selenium,0.001
+Go,Kafka,0.001
+Go,Airflow,0.001
+Go,Terraform,0.001
+Go,C++,0.12579636240013067
+Go,GCP,0.001
+Go,Rust,0.4348315593224807
+Go,Computer Vision,0.001
+Go,Excel,0.001
+Go,MLOps,0.001
+FastAPI,Linux,0.001
+FastAPI,Selenium,0.001
+FastAPI,Django,1.3551353077008899
+FastAPI,Java,0.8376090362454821
+FastAPI,Spring Boot,1.3878020664883262
+FastAPI,LangChain,1.3165243849995454
+FastAPI,Prompt Engineering,1.3113384411752387
+FastAPI,PyTorch,1.1826568543247007
+FastAPI,Power BI,0.001
+FastAPI,Cybersecurity,0.001
+FastAPI,PHP,0.001
+FastAPI,LLM,0.9622551305421553
+FastAPI,Tableau,0.001
+FastAPI,Neo4j,0.24910308617112295
+FastAPI,C++,0.18531162710317836
+FastAPI,Communication,0.001
+FastAPI,jQuery,0.001
+FastAPI,Terraform,0.001
+FastAPI,Blockchain,0.001
+FastAPI,Machine Learning,0.001
+FastAPI,TensorFlow,0.001
+FastAPI,Kafka,0.001
+FastAPI,Excel,0.001
+FastAPI,Airflow,0.001
+FastAPI,MLOps,0.001
+FastAPI,Computer Vision,0.001
+FastAPI,Leadership,0.001
+FastAPI,Rust,0.49801655291449076
+FastAPI,GCP,0.001
+FastAPI,Kubernetes,0.001
+Linux,Selenium,0.001
+Linux,Kubernetes,1.3496236777004262
+Linux,Communication,0.35824268477339716
+Linux,Cybersecurity,1.3552093278442814
+Linux,Tableau,0.001
+Linux,Terraform,1.3600577866687502
+Linux,Airflow,0.001
+Linux,GCP,1.3199476245102084
+Linux,jQuery,0.001
+Linux,PHP,0.001
+Linux,C++,0.001
+Linux,Kafka,0.001
+Linux,Machine Learning,0.001
+Linux,Leadership,0.001
+Linux,Django,0.001
+Linux,PyTorch,0.001
+Linux,Java,0.001
+Linux,Computer Vision,0.001
+Linux,Power BI,0.001
+Linux,Spring Boot,0.001
+Linux,LangChain,0.001
+Linux,MLOps,0.001
+Linux,LLM,0.001
+Linux,TensorFlow,0.001
+Linux,Blockchain,0.18404645715190326
+Linux,Excel,0.001
+Linux,Rust,0.001
+Linux,Prompt Engineering,0.001
+Linux,Neo4j,0.0868827086982555
+Selenium,Java,1.735085720211442
+Selenium,jQuery,0.001
+Selenium,Prompt Engineering,0.001
+Selenium,PyTorch,0.001
+Selenium,Terraform,0.001
+Selenium,Django,0.001
+Selenium,Communication,0.001
+Selenium,Excel,0.001
+Selenium,Tableau,0.001
+Selenium,Machine Learning,0.001
+Selenium,MLOps,0.001
+Selenium,TensorFlow,0.001
+Selenium,Airflow,0.001
+Selenium,LLM,0.001
+Selenium,Leadership,0.001
+Selenium,Spring Boot,0.001
+Selenium,C++,0.001
+Selenium,Computer Vision,0.21188459138974516
+Selenium,Kafka,0.001
+Selenium,Rust,0.001
+Selenium,Kubernetes,0.001
+Selenium,PHP,0.001
+Selenium,LangChain,0.001
+Selenium,GCP,0.001
+Selenium,Cybersecurity,0.001
+Selenium,Power BI,0.001
+Selenium,Neo4j,1.1589469819306537
+Django,Java,1.702830542906881
+Django,Spring Boot,2.286032526591576
+Django,Communication,0.001
+Django,Power BI,0.001
+Django,Tableau,0.001
+Django,C++,0.001
+Django,Airflow,0.001
+Django,Cybersecurity,0.001
+Django,PHP,0.001
+Django,GCP,0.001
+Django,MLOps,0.001
+Django,Machine Learning,0.001
+Django,TensorFlow,0.001
+Django,Excel,0.001
+Django,PyTorch,0.001
+Django,Terraform,0.001
+Django,jQuery,0.001
+Django,Kubernetes,0.001
+Django,Kafka,0.001
+Django,Leadership,0.001
+Django,Prompt Engineering,0.001
+Django,LLM,0.001
+Django,LangChain,0.001
+Django,Computer Vision,0.001
+Django,Rust,0.11013802189388058
+Java,Spring Boot,1.764595252556343
+Java,C++,0.1386103524557159
+Java,Airflow,0.001
+Java,Power BI,0.001
+Java,Cybersecurity,0.001
+Java,PHP,0.001
+Java,PyTorch,0.001
+Java,LangChain,0.001
+Java,Prompt Engineering,0.001
+Java,Excel,0.001
+Java,Machine Learning,0.001
+Java,Terraform,0.001
+Java,Communication,0.001
+Java,Tableau,0.001
+Java,Leadership,0.001
+Java,Computer Vision,0.001
+Java,GCP,0.001
+Java,Kafka,0.001
+Java,jQuery,0.001
+Java,TensorFlow,0.001
+Java,Kubernetes,0.001
+Java,LLM,0.001
+Java,MLOps,0.001
+Java,Rust,0.13976076960876574
+Java,Neo4j,0.17341427465040823
+Spring Boot,Cybersecurity,0.001
+Spring Boot,PHP,0.001
+Spring Boot,Tableau,0.001
+Spring Boot,Computer Vision,0.25998295338699967
+Spring Boot,Machine Learning,0.001
+Spring Boot,TensorFlow,0.001
+Spring Boot,C++,0.001
+Spring Boot,Communication,0.001
+Spring Boot,Terraform,0.001
+Spring Boot,jQuery,0.001
+Spring Boot,Excel,0.001
+Spring Boot,Leadership,0.001
+Spring Boot,Kafka,0.001
+Spring Boot,Airflow,0.001
+Spring Boot,Kubernetes,0.001
+Spring Boot,MLOps,0.001
+Spring Boot,LLM,0.001
+Spring Boot,LangChain,0.001
+Spring Boot,Power BI,0.001
+Spring Boot,Prompt Engineering,0.001
+Spring Boot,PyTorch,0.001
+Spring Boot,GCP,0.001
+Excel,Tableau,1.778614087810767
+Excel,Communication,1.4274570927038195
+Excel,Leadership,1.6959861396592921
+Excel,Power BI,1.767004576472327
+Excel,C++,0.2561102940410295
+Excel,Kafka,0.001
+Excel,GCP,0.001
+Excel,Cybersecurity,0.001
+Excel,Kubernetes,0.001
+Excel,TensorFlow,0.001
+Excel,jQuery,0.001
+Excel,Machine Learning,0.001
+Excel,Terraform,0.001
+Excel,PHP,0.001
+Excel,LLM,0.001
+Excel,PyTorch,0.001
+Excel,LangChain,0.001
+Excel,MLOps,0.001
+Excel,Airflow,0.001
+Excel,Prompt Engineering,0.001
+Excel,Rust,0.16924983387136583
+Tableau,LLM,0.001
+Tableau,Machine Learning,0.001
+Tableau,PyTorch,0.001
+Tableau,TensorFlow,0.001
+Tableau,Communication,1.3792400089340442
+Tableau,Power BI,1.7451563826332703
+Tableau,Leadership,1.6750817420303266
+Tableau,Cybersecurity,0.001
+Tableau,C++,0.060843880246162496
+Tableau,Kafka,0.001
+Tableau,Kubernetes,0.001
+Tableau,GCP,0.001
+Tableau,PHP,0.001
+Tableau,LangChain,0.001
+Tableau,Computer Vision,0.001
+Tableau,Airflow,0.001
+Tableau,Blockchain,0.001
+Tableau,Prompt Engineering,0.001
+Tableau,Terraform,0.001
+Tableau,jQuery,0.001
+Tableau,MLOps,0.001
+Tableau,Rust,0.22255436241165383
+Tableau,Neo4j,0.30499803162272865
+Communication,Cybersecurity,0.7695614403185451
+Communication,Power BI,1.3941886105480514
+Communication,Leadership,1.3109787373715334
+Communication,C++,0.034241588226474454
+Communication,Kafka,0.001
 Communication,GCP,0.001
-Communication,CI/CD,0.011943141067785417
-Communication,Docker,0.2052337292323142
-Communication,R,0.05660391189520632
-Communication,Spring Boot,0.001
-Communication,MongoDB,0.322098069371625
-Communication,Deep Learning,0.009280023648301952
-Communication,Excel,0.3209181282317762
-Communication,Power BI,0.17054817124442403
-Communication,Tableau,0.08093601255473665
-Communication,Generative AI,0.1987190482111203
-Communication,LLM,0.2728270203648422
-Communication,Leadership,0.12433532808929264
-Communication,NLP,0.1297261767241687
-Communication,Computer Vision,0.08093601255473665
-Communication,Hadoop,0.001
+Communication,PHP,0.001
+Communication,Kubernetes,0.001
 Communication,MLOps,0.001
-Communication,Pandas,0.001
-Communication,Scikit-learn,0.001
-Communication,Blockchain,0.05276513558804049
-CI/CD,GCP,2.6035982317884603
-CI/CD,Docker,2.9120710739093147
-CI/CD,Power BI,2.09722695837185
-GCP,NLP,1.7563003714012564
-GCP,MongoDB,2.5772809234710867
-GCP,Docker,2.3242844090071957
-GCP,Deep Learning,1.3073501513533532
-GCP,Pandas,2.3849090308236303
-Leadership,NLP,0.4831701000814548
-Leadership,Deep Learning,0.001
-Leadership,Power BI,0.32146783049023614
-Leadership,R,0.001
-Leadership,Excel,0.545150320109056
-NLP,Deep Learning,2.3915737025693633
-NLP,Generative AI,2.4130799077903267
-NLP,LLM,2.6207192725685715
-NLP,Power BI,1.249929097984646
-NLP,R,1.2344249114486807
-NLP,Tableau,1.853464119854904
-NLP,Pandas,2.4130799077903267
-NLP,Computer Vision,2.4130799077903267
-NLP,Hadoop,2.4130799077903267
-NLP,MLOps,2.317769727986002
-R,Deep Learning,1.4992411591634587
-R,Power BI,1.8836528580737906
-R,Tableau,2.2113402651392704
-R,Excel,0.349477430140237
-R,Hadoop,1.6807120140771004
-Computer Vision,Deep Learning,2.5702654913127394
-Deep Learning,Power BI,1.4251331870097366
-Deep Learning,Tableau,1.877118310752794
-Deep Learning,Generative AI,2.369594795850588
-Deep Learning,LLM,2.192388339723404
-Deep Learning,Pandas,2.341423918883892
-Deep Learning,Hadoop,2.369594795850588
-Deep Learning,Scikit-learn,2.405962440021463
-Excel,Power BI,0.834985245921938
-Excel,Tableau,0.7453730872322508
-Power BI,Tableau,2.6362234591045364
-Tableau,Hadoop,2.6362234591045364
-Generative AI,LLM,3.5370100044427266
-LLM,Pandas,2.933474982572468
+Communication,Machine Learning,0.001
+Communication,PyTorch,0.001
+Communication,TensorFlow,0.001
+Communication,Computer Vision,0.001
+Communication,Blockchain,0.001
+Communication,Terraform,0.001
+Communication,jQuery,0.001
+Communication,Airflow,0.001
+Communication,LLM,0.001
+Communication,Rust,0.055594712697043566
+Communication,LangChain,0.001
+Communication,Prompt Engineering,0.001
+Communication,Neo4j,0.001
+Cybersecurity,GCP,1.7181792746279327
+Cybersecurity,Kubernetes,1.0529806999493865
+Cybersecurity,PHP,0.001
+Cybersecurity,Terraform,1.0759705310087697
+Cybersecurity,Machine Learning,0.001
+Cybersecurity,TensorFlow,0.001
+Cybersecurity,Power BI,0.001
+Cybersecurity,Leadership,0.001
+Cybersecurity,PyTorch,0.001
+Cybersecurity,Blockchain,0.001
+Cybersecurity,C++,0.001
+Cybersecurity,jQuery,0.001
+Cybersecurity,Computer Vision,0.14367634136321164
+Cybersecurity,MLOps,0.001
+Cybersecurity,Kafka,0.001
+Cybersecurity,LLM,0.001
+Cybersecurity,Prompt Engineering,0.001
+Cybersecurity,Airflow,0.001
+Cybersecurity,LangChain,0.001
+Cybersecurity,Rust,0.027465809681319543
+Kubernetes,GCP,1.612725124172931
+Kubernetes,Power BI,0.001
+Kubernetes,Terraform,1.7454954415662518
+Kubernetes,jQuery,0.001
+Kubernetes,PHP,0.001
+Kubernetes,C++,0.001
+Kubernetes,Airflow,0.001
+Kubernetes,Leadership,0.001
+Kubernetes,LLM,0.001
+Kubernetes,MLOps,0.001
+Kubernetes,Machine Learning,0.001
+Kubernetes,TensorFlow,0.001
+Kubernetes,Prompt Engineering,0.001
+Kubernetes,Kafka,0.001
+Kubernetes,Computer Vision,0.027258886110940288
+Kubernetes,Blockchain,0.19156193740221653
+Kubernetes,PyTorch,0.001
+Kubernetes,LangChain,0.001
+Kubernetes,Rust,0.001
+Kubernetes,Neo4j,0.05803054477769385
+Machine Learning,LLM,0.7845597347818984
+Machine Learning,PyTorch,1.0290380436672655
+Machine Learning,TensorFlow,1.8863221495620197
+Machine Learning,MLOps,1.8627937609274727
+Machine Learning,Leadership,0.001
+Machine Learning,Terraform,0.001
+Machine Learning,Computer Vision,0.001
+Machine Learning,C++,0.001
+Machine Learning,Power BI,0.001
+Machine Learning,jQuery,0.001
+Machine Learning,Kafka,0.001
+Machine Learning,PHP,0.001
+Machine Learning,Airflow,0.001
+Machine Learning,GCP,0.001
+Machine Learning,Blockchain,0.001
+Machine Learning,Prompt Engineering,0.001
+Machine Learning,LangChain,0.001
+Machine Learning,Rust,0.001
+LLM,PyTorch,1.2503162731406514
+LLM,TensorFlow,1.0957357245921029
+LLM,LangChain,1.098595505939104
+LLM,Prompt Engineering,1.1151058286447053
+LLM,MLOps,1.1973215682148197
+LLM,PHP,0.001
+LLM,GCP,0.001
+LLM,Blockchain,0.001
+LLM,Power BI,0.001
+LLM,Rust,0.38385056974696274
+LLM,Kafka,0.001
+LLM,Leadership,0.001
+LLM,jQuery,0.001
+LLM,Computer Vision,0.0010699353098668608
+LLM,C++,0.001
+LLM,Terraform,0.001
+LLM,Airflow,0.001
+LLM,Neo4j,0.1943605234743956
+PyTorch,TensorFlow,1.4115813652711549
+PyTorch,MLOps,1.439138236909077
+PyTorch,Prompt Engineering,1.2465155582296246
+PyTorch,LangChain,1.224092408532882
+PyTorch,C++,0.05582946633991178
+PyTorch,PHP,0.001
+PyTorch,jQuery,0.001
+PyTorch,Terraform,0.001
+PyTorch,Airflow,0.001
+PyTorch,Kafka,0.001
+PyTorch,Leadership,0.001
+PyTorch,Computer Vision,0.14374321384855238
+PyTorch,GCP,0.001
+PyTorch,Power BI,0.001
+PyTorch,Rust,0.2801234348071713
+PyTorch,Neo4j,0.001
+TensorFlow,MLOps,2.230773455074367
+TensorFlow,Computer Vision,0.001
+TensorFlow,C++,0.07451318747280848
+TensorFlow,Kafka,0.001
+TensorFlow,Leadership,0.001
+TensorFlow,GCP,0.001
+TensorFlow,Power BI,0.001
+TensorFlow,Airflow,0.001
+TensorFlow,Terraform,0.001
+TensorFlow,Prompt Engineering,0.001
+TensorFlow,PHP,0.001
+TensorFlow,Rust,0.1322339561142523
+TensorFlow,jQuery,0.001
+TensorFlow,LangChain,0.001
+jQuery,Terraform,0.001
+jQuery,PHP,0.001
+jQuery,Airflow,0.001
+jQuery,C++,0.001
+jQuery,GCP,0.001
+jQuery,Leadership,0.001
+jQuery,Computer Vision,0.14821149652860274
+jQuery,Kafka,0.001
+jQuery,Power BI,0.001
+jQuery,LangChain,0.001
+jQuery,Prompt Engineering,0.001
+jQuery,MLOps,0.001
+jQuery,Rust,0.1373614805045371
+Kafka,Airflow,2.2037944079098515
+Kafka,Leadership,0.001
+Kafka,Power BI,0.001
+Kafka,C++,0.008901115041200041
+Kafka,GCP,0.001
+Kafka,Computer Vision,0.1560342222098119
+Kafka,Terraform,0.001
+Kafka,PHP,0.001
+Kafka,LangChain,0.001
+Kafka,Prompt Engineering,0.001
+Kafka,MLOps,0.001
+Kafka,Rust,0.104362211665491
+Airflow,MLOps,0.001
+Airflow,Terraform,0.001
+Airflow,PHP,0.001
+Airflow,GCP,0.001
+Airflow,C++,0.1444111708423627
+Airflow,Computer Vision,0.001
+Airflow,Leadership,0.001
+Airflow,Power BI,0.001
+Airflow,Prompt Engineering,0.001
+Airflow,LangChain,0.001
+Airflow,Rust,0.03223290268840922
+Power BI,Leadership,1.677625787990508
+Power BI,C++,0.04811802049111674
+Power BI,GCP,0.001
+Power BI,Blockchain,0.015782639848180187
+Power BI,Terraform,0.001
+Power BI,Computer Vision,0.001
+Power BI,PHP,0.001
+Power BI,Rust,0.08748965046436415
+Power BI,MLOps,0.001
+Power BI,LangChain,0.001
+Power BI,Prompt Engineering,0.001
+Power BI,Neo4j,0.001
+Leadership,GCP,0.001
+Leadership,C++,0.07909007499418616
+Leadership,Terraform,0.001
+Leadership,LangChain,0.001
+Leadership,Prompt Engineering,0.001
+Leadership,PHP,0.001
+Leadership,MLOps,0.001
+Leadership,Rust,0.001
+MLOps,C++,0.001
+MLOps,Prompt Engineering,0.034385034172702104
+MLOps,PHP,0.001
+MLOps,Terraform,0.001
+MLOps,GCP,0.001
+MLOps,Rust,0.001
+MLOps,LangChain,0.001
+C++,Terraform,0.001
+C++,PHP,0.001
+C++,GCP,0.001
+C++,Prompt Engineering,0.05440507640614432
+C++,Computer Vision,0.7683335420736582
+C++,LangChain,0.001
+PHP,GCP,0.001
+PHP,Terraform,0.001
+PHP,Computer Vision,0.001
+PHP,Prompt Engineering,0.001
+PHP,LangChain,0.001
+GCP,Terraform,1.634754423089941
+GCP,Computer Vision,0.001
+GCP,LangChain,0.001
+GCP,Rust,0.001
+GCP,Prompt Engineering,0.001
+Terraform,Computer Vision,0.001
+Terraform,Prompt Engineering,0.001
+Terraform,Blockchain,0.032655201049307206
+Terraform,LangChain,0.001
+Terraform,Rust,0.22214524732187446
+Terraform,Neo4j,0.3409565607038239
+LangChain,Prompt Engineering,1.426661526912597
+LangChain,Rust,0.3727844295226827
+LangChain,Computer Vision,0.004602594506739468
+LangChain,Neo4j,0.40643793456432503
+Prompt Engineering,Rust,0.5623488537972462
+Prompt Engineering,Computer Vision,0.22657426173608108
+Prompt Engineering,Neo4j,0.5270094873519373

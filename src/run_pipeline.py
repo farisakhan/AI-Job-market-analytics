@@ -13,6 +13,46 @@ import collect, clean, extract, kg, forecast, explain, recommend
 
 plt.rcParams.update({"figure.dpi": 130, "axes.spines.top": False, "axes.spines.right": False, "font.size": 9})
 
+DEMO_USERS = {"Final-year CSE student (Python, SQL, ML basics)": ["Python", "SQL", "Machine Learning", "Pandas", "Git"],
+              "Web developer (JS, React, jQuery, PHP)": ["JavaScript", "React", "jQuery", "PHP", "Git"],
+              "Data analyst (Excel, SQL, Tableau)": ["Excel", "SQL", "Tableau", "Communication"]}
+
+def write_recommendations(rec, share):
+    """Run demo personas (skills not present in the dataset are dropped) and write JSON + Power BI CSVs."""
+    users = {k: [x for x in v if x in rec.sidx] for k, v in DEMO_USERS.items()}
+    users = {k: v for k, v in users.items() if len(v) >= 2}
+    if not users:                                   # dataset has none of the demo skills -> persona from its own top skills
+        top = list(share.mean().sort_values(ascending=False).index[:4])
+        users = {"Learner with the 4 most in-demand skills in the data": top}
+    out_rec = {}
+    for name, sk in users.items():
+        r = rec.recommend(sk)
+        out_rec[name] = dict(skills=r["user_skills"], roles=r["role_ranking"].round(3).to_dict("records"), target=r["target_role"],
+                             gaps=r["skill_gaps"], companies=r["companies"], explanations=r["explanations"])
+    json.dump(out_rec, open(OUT / "recommendations.json", "w"), indent=2, default=str)
+    pd.DataFrame([dict(user=k, **{"rank": i + 1, "role": r["role"], "score": r["score"]}) for k, v in out_rec.items() for i, r in enumerate(v["roles"])]).to_csv(PBI / "recommendations_roles.csv", index=False)
+    pd.DataFrame([dict(user=k, **g) for k, v in out_rec.items() for g in v["gaps"]]).to_csv(PBI / "recommendations_skills.csv", index=False)
+    return out_rec
+
+def figures_descriptive(share, H, gfeat):
+    """Charts that need no forecast: demand over time, top skills, knowledge graph coloured by current demand."""
+    mean = share.mean().sort_values(ascending=False)
+    fig, ax = plt.subplots(figsize=(7, 4.4)); t = mean.head(15)[::-1]
+    ax.barh(t.index, t.values, color="#2980b9"); ax.set_xlabel("average demand (postings mentioning skill per 1000 postings)"); ax.set_title("Most demanded skills")
+    plt.tight_layout(); plt.savefig(FIG / "fig6_skill_outlook.png"); plt.close()
+    fig, ax = plt.subplots(figsize=(8, 3.8))
+    for sname in mean.index[:6]: ax.plot(share.index, share[sname].rolling(2, min_periods=1).mean(), label=sname)
+    ax.set_title("Demand over time (top skills)"); ax.set_ylabel("postings per 1000"); ax.legend(fontsize=7, ncol=2)
+    plt.tight_layout(); plt.savefig(FIG / "fig2_skill_trends.png"); plt.close()
+    top = [s for s in gfeat.sort_values("pagerank", ascending=False).index[:28]]; sub = H.subgraph(top)
+    if sub.number_of_nodes() < 2: return
+    pos = nx.spring_layout(sub, seed=3, k=0.9, weight="weight")
+    fig, ax = plt.subplots(figsize=(7.5, 6))
+    nx.draw_networkx_edges(sub, pos, alpha=0.15, width=[0.3 + 1.5 * d["weight"] for *_, d in sub.edges(data=True)], ax=ax)
+    nc = nx.draw_networkx_nodes(sub, pos, node_color=[mean.get(n, 0) for n in sub], cmap="YlGnBu", node_size=[200 + 4000 * gfeat.loc[n, "pagerank"] for n in sub], ax=ax, edgecolors="k", linewidths=0.4)
+    nx.draw_networkx_labels(sub, pos, font_size=7, ax=ax); plt.colorbar(nc, label="average demand (per 1000 postings)", shrink=0.7); ax.axis("off"); ax.set_title("Skill knowledge graph (size = PageRank, colour = demand)")
+    plt.tight_layout(); plt.savefig(FIG / "fig4_knowledge_graph.png"); plt.close()
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--data"); ap.add_argument("--colmap", default=None); ap.add_argument("--source", default="linkedin")
     a = ap.parse_args()
@@ -60,6 +100,13 @@ def main():
         ])
         ed.to_csv(PBI / "skill_graph_edges.csv", index=False)
 
+        # Recommendations still work without a forecast: use CURRENT demand instead of forecast growth
+        fc0 = pd.DataFrame({"skill": share.columns, "current_level": share.mean().values})
+        rec = recommend.CareerRecommender(G, H, fc0, demand_only=True)
+        write_recommendations(rec, share)
+        figures_descriptive(share, H, gfeat)
+        print("[recommend] done in current-demand mode (no forecast)")
+
         summary = dict(
             mode=mode,
             rows=int(len(df)),
@@ -71,7 +118,7 @@ def main():
             forecast_message=f"Only {len(share)} months available; "
                              f"{min_history} required.",
             xai_status="SKIPPED",
-            recommendations_status="SKIPPED",
+            recommendations_status="OK (current-demand mode, no forecast)",
             best_model=None
         )
 
@@ -79,10 +126,9 @@ def main():
             json.dumps(summary, indent=2)
         )
 
-        print("[done] Skill extraction and knowledge graph completed.")
+        print("[done] Skill extraction, knowledge graph and recommendations completed.")
         print("[done] Outputs saved to", OUT)
         return
-
     # ---- Phase 5 + 6
     results, ctx = forecast.fit_predict_all(share, A, gfeat)
     results.to_csv(OUT / "model_comparison.csv"); print("\n", results.to_string(), "\n")
@@ -92,6 +138,24 @@ def main():
     fc.to_csv(OUT / "skill_forecast.csv", index=False)
     # ---- Phase 7
     hg = ctx["hg_model"]
+
+    # If PyTorch HGTSP was used, train a separate explainable surrogate.
+    # This surrogate explains its own predictions, not the PyTorch model directly.
+    if hg is None:
+        from sklearn.ensemble import HistGradientBoostingRegressor
+        hg = HistGradientBoostingRegressor(
+            max_iter=500,
+            learning_rate=0.04,
+            max_depth=5,
+            l2_regularization=1.0,
+            random_state=SEED
+        ).fit(ctx["Xtr"], ctx["tr"].yn)
+
+        xai_model_type = "HistGradientBoosting surrogate for HGTSP-PyTorch"
+        print("[xai] Using separate HistGradientBoosting surrogate for explanations.")
+    else:
+        xai_model_type = "HGTSP-lite (HistGradientBoostingRegressor)"
+
     if hg is not None:
         gi = explain.global_importance(hg, ctx["Xte"], ctx["te"].yn.values, ctx["names"]); gi.to_csv(OUT / "global_importance.csv", index=False)
         fam = gi.groupby("family").importance.sum().sort_values(ascending=False); fam.to_csv(OUT / "importance_by_family.csv")
@@ -103,14 +167,7 @@ def main():
         json.dump({k: dict(pred=v["predicted_ratio"], top_features=v["local"]) for k, v in local.items()}, open(OUT / "local_explanations.json", "w"), indent=2)
     # ---- Phase 8
     rec = recommend.CareerRecommender(G, H, fc)
-    demo_users = {"Final-year CSE student (Python, SQL, ML basics)": ["Python", "SQL", "Machine Learning", "Pandas", "Git"],
-                  "Web developer (JS, React, jQuery, PHP)": ["JavaScript", "React", "jQuery", "PHP", "Git"],
-                  "Data analyst (Excel, SQL, Tableau)": ["Excel", "SQL", "Tableau", "Communication"]}
-    out_rec = {}
-    for name, sk in demo_users.items():
-        r = rec.recommend(sk); out_rec[name] = dict(skills=r["user_skills"], roles=r["role_ranking"].round(3).to_dict("records"), target=r["target_role"],
-                                                      gaps=r["skill_gaps"], companies=r["companies"], explanations=r["explanations"])
-    json.dump(out_rec, open(OUT / "recommendations.json", "w"), indent=2, default=str)
+    out_rec = write_recommendations(rec, share)
     # ---- Power BI exports
     cnt.reset_index(names="month").melt("month", var_name="skill", value_name="postings").to_csv(PBI / "fact_skill_monthly.csv", index=False)
     share.reset_index(names="month").melt("month", var_name="skill", value_name="share_per_1000").to_csv(PBI / "fact_skill_share.csv", index=False)
@@ -119,11 +176,20 @@ def main():
     results.reset_index(names="model").to_csv(PBI / "model_comparison.csv", index=False)
     if hg is not None: gi.to_csv(PBI / "xai_global_importance.csv", index=False)
     ed = pd.DataFrame([dict(src=u[1], dst=v[1], weight=d["weight"]) for u, v, d in G.edges(data=True) if d["rel"] == "CO_OCCURS"]); ed.to_csv(PBI / "skill_graph_edges.csv", index=False)
-    pd.DataFrame([dict(user=k, **{"rank": i + 1, "role": r["role"], "score": r["score"]}) for k, v in out_rec.items() for i, r in enumerate(v["roles"])]).to_csv(PBI / "recommendations_roles.csv", index=False)
-    pd.DataFrame([dict(user=k, **g) for k, v in out_rec.items() for g in v["gaps"]]).to_csv(PBI / "recommendations_skills.csv", index=False)
     figures(share, results, fc, G, H, gfeat, ctx, skills, df)
-    (OUT / "run_summary.json").write_text(json.dumps(dict(mode=mode, rows=int(len(df)), months=int(len(share)), skills=len(skills),
-        kg_nodes=G.number_of_nodes(), kg_edges=G.number_of_edges(), best_model=results.MAE.idxmin()), indent=2))
+    (OUT / "run_summary.json").write_text(json.dumps(dict(
+        mode=mode,
+        rows=int(len(df)),
+        months=int(len(share)),
+        skills=len(skills),
+        kg_nodes=G.number_of_nodes(),
+        kg_edges=G.number_of_edges(),
+        forecast_status="COMPLETED",
+        xai_status="COMPLETED",
+        xai_model=xai_model_type,
+        recommendations_status="COMPLETED",
+        best_model=results.MAE.idxmin()
+    ), indent=2))
     print("\n[done] outputs ->", OUT)
 
 def figures(share, results, fc, G, H, gfeat, ctx, skills, df):
