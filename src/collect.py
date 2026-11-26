@@ -100,7 +100,7 @@ def unify(frames):
     return df[UNIFIED_COLUMNS]
 
 
-def load_real(csv_path, source="linkedin", colmap=None, country="India"):
+def load_real(csv_path, source="linkedin", colmap=None, country="India (assumed)"):
     """Load real job data and preserve source/country metadata."""
     df = pd.read_csv(csv_path)
 

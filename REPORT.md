@@ -45,7 +45,7 @@ The real dataset is a LinkedIn job-postings dataset focused on India. The unifie
 
 `job_id, source, country, title, company, location, description, date_posted, salary`
 
-The loader preserves the `source` field and adds `country = India` when it is absent from the supplied India dataset. The original raw CSV is not modified. The India label is an assumption based on the dataset's scope. It was not derived per posting, so some postings may belong to other countries.
+The loader preserves the `source` field and adds `country = India (assumed)` when it is absent from the supplied India dataset. The original raw CSV is not modified. The India label is an assumption based on the dataset's scope. It was not derived per posting, so some postings may belong to other countries.
 
 ### 5.2 Data cleaning and preprocessing
 
