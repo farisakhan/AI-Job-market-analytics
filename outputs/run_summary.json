@@ -1,9 +1,13 @@
 {
-  "mode": "SYNTHETIC",
-  "rows": 29440,
-  "months": 70,
-  "skills": 55,
-  "kg_nodes": 115,
-  "kg_edges": 2513,
-  "best_model": "XGBoost (HistGB fallback)"
+  "mode": "REAL",
+  "rows": 781,
+  "months": 12,
+  "skills": 16,
+  "kg_nodes": 648,
+  "kg_edges": 1285,
+  "forecast_status": "SKIPPED",
+  "forecast_message": "Only 12 months available; 21 required.",
+  "xai_status": "SKIPPED",
+  "recommendations_status": "SKIPPED",
+  "best_model": null
 }

@@ -33,6 +33,56 @@ def main():
     G = kg.build_graph(df); H = kg.skill_graph(G)
     skills = list(share.columns); gfeat = kg.graph_features(H, skills); A = kg.neighbor_matrix(H, skills)
     kg.export_neo4j(G, NEO)
+
+    # Skip forecasting and dependent phases when history is insufficient
+    min_history = max(16, LOOKBACK + HORIZON + TEST_MONTHS)
+
+    if len(share) < min_history:
+        print(f"[forecast] SKIPPED: {len(share)} months available; "
+              f"at least {min_history} months required.")
+
+        cnt.reset_index(names="month").melt(
+            "month", var_name="skill", value_name="postings"
+        ).to_csv(PBI / "fact_skill_monthly.csv", index=False)
+
+        share.reset_index(names="month").melt(
+            "month", var_name="skill", value_name="share_per_1000"
+        ).to_csv(PBI / "fact_skill_share.csv", index=False)
+
+        df.drop(columns=["description"]).assign(
+            skills=lambda d: d.skills.map("|".join)
+        ).to_csv(PBI / "fact_postings.csv", index=False)
+
+        ed = pd.DataFrame([
+            dict(src=u[1], dst=v[1], weight=d["weight"])
+            for u, v, d in G.edges(data=True)
+            if d["rel"] == "CO_OCCURS"
+        ])
+        ed.to_csv(PBI / "skill_graph_edges.csv", index=False)
+
+        summary = dict(
+            mode=mode,
+            rows=int(len(df)),
+            months=int(len(share)),
+            skills=len(skills),
+            kg_nodes=G.number_of_nodes(),
+            kg_edges=G.number_of_edges(),
+            forecast_status="SKIPPED",
+            forecast_message=f"Only {len(share)} months available; "
+                             f"{min_history} required.",
+            xai_status="SKIPPED",
+            recommendations_status="SKIPPED",
+            best_model=None
+        )
+
+        (OUT / "run_summary.json").write_text(
+            json.dumps(summary, indent=2)
+        )
+
+        print("[done] Skill extraction and knowledge graph completed.")
+        print("[done] Outputs saved to", OUT)
+        return
+
     # ---- Phase 5 + 6
     results, ctx = forecast.fit_predict_all(share, A, gfeat)
     results.to_csv(OUT / "model_comparison.csv"); print("\n", results.to_string(), "\n")

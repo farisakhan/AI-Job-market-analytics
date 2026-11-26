@@ -1,6 +1,0 @@
-family,importance
-Own recent demand (lags),0.011284603953344827
-"KG structure (PageRank, degree, clustering, community)",0.0027044372087857843
-Seasonality,0.0007497920667377152
-Momentum / volatility,-0.005922186851726602
-Graph neighbours' demand,-0.015702055724442807

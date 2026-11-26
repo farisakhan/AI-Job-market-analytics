@@ -34,8 +34,16 @@ def build_graph(df, min_cooc=5):
     for (comp, role), c in comp_role.items():
         G.add_node(("Company", comp), kind="Company", name=comp)
         if ("Role", role) in G: G.add_edge(("Company", comp), ("Role", role), rel="HIRES_FOR", weight=c)
+    # Add only certifications actually found in job descriptions
+    observed_certs = set()
+
+    if "certs" in df.columns:
+        for cert_list in df["certs"]:
+            if isinstance(cert_list, (list, tuple, set)):
+                observed_certs.update(cert_list)
+
     for s, (course, cert) in COURSES.items():
-        if cert and ("Skill", s) in G:
+        if cert and cert in observed_certs and ("Skill", s) in G:
             G.add_node(("Certification", cert), kind="Certification", name=cert)
             G.add_edge(("Certification", cert), ("Skill", s), rel="VALIDATES", weight=1.0)
     print(f"[kg] graph: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
