@@ -31,8 +31,22 @@ def extract_skills_dict(text):
     return sorted(found)
 
 def extract_certs(text):
-    low = text.lower()
-    return [c for c in CERTIFICATIONS if c.lower().split("(")[0].strip() in low]
+    if not isinstance(text, str):
+        return []
+
+    found = []
+
+    for cert in CERTIFICATIONS:
+        if cert == "CKA (Kubernetes)":
+            pattern = r"\bCKA\b.*\bKubernetes\b|\bKubernetes\b.*\bCKA\b"
+        else:
+            pattern = r"(?<!\w)" + re.escape(cert) + r"(?!\w)"
+
+        if re.search(pattern, text, re.IGNORECASE):
+            found.append(cert)
+
+    return sorted(found)
+
 
 def get_spacy_extractor():
     """Optional: spaCy EntityRuler with the skill catalogue (pip install spacy; python -m spacy download en_core_web_sm)."""
@@ -48,25 +62,35 @@ def get_spacy_extractor():
         print("[extract] spaCy unavailable -> dictionary matcher only:", type(e).__name__)
         return None
 
+
 def get_embedder(name="sentence-transformers/all-MiniLM-L6-v2"):
-    """Sentence-Transformers (BERT-family) embeddings. Falls back to a TF-IDF+SVD embedding."""
-    try:
-        from sentence_transformers import SentenceTransformer
-        m = SentenceTransformer(name)
-        return lambda texts: m.encode(list(texts), normalize_embeddings=True, show_progress_bar=False), "sbert"
-    except Exception:
-        from sklearn.feature_extraction.text import TfidfVectorizer
-        from sklearn.decomposition import TruncatedSVD
-        state = {}
-        def f(texts):
-            texts = list(texts)
-            if "v" not in state:
-                state["v"] = TfidfVectorizer(ngram_range=(1, 2), min_df=1).fit(texts + [s for s in SKILLS])
-                X = state["v"].transform(texts)
-                state["s"] = TruncatedSVD(min(32, max(2, X.shape[1] - 1)), random_state=0).fit(X)
-            Z = state["s"].transform(state["v"].transform(texts))
-            return Z / (np.linalg.norm(Z, axis=1, keepdims=True) + 1e-9)
-        return f, "tfidf-svd"
+    """Use TF-IDF + SVD embeddings without importing PyTorch."""
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.decomposition import TruncatedSVD
+
+    state = {}
+
+    def f(texts):
+        texts = list(texts)
+
+        if "v" not in state:
+            vectorizer = TfidfVectorizer(ngram_range=(1, 2), min_df=1)
+            X = vectorizer.fit_transform(texts + list(SKILLS))
+
+            n_components = min(32, X.shape[0] - 1, X.shape[1] - 1)
+            if n_components < 1:
+                return X[:len(texts)].toarray()
+
+            reducer = TruncatedSVD(n_components=n_components, random_state=0)
+            reducer.fit(X)
+
+            state["v"] = vectorizer
+            state["s"] = reducer
+
+        Z = state["s"].transform(state["v"].transform(texts))
+        return Z / (np.linalg.norm(Z, axis=1, keepdims=True) + 1e-9)
+
+    return f, "tfidf-svd"
 
 def extract_all(df):
     spacy_fn = get_spacy_extractor()

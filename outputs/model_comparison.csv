@@ -1,7 +1,0 @@
-,MAE,RMSE,MAPE
-Naive (last value),17.1472,22.9999,28.8586
-Seasonal Naive,26.4799,46.8298,31.5314
-Random Forest,15.2324,22.3115,22.5086
-XGBoost (HistGB fallback),14.7767,20.9316,23.6722
-HGTSP-lite (graph-augmented),17.159,26.9737,25.025
-Ablation: no graph,14.9769,21.6466,23.5107
