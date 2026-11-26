@@ -45,7 +45,7 @@ The real dataset is a LinkedIn job-postings dataset focused on India. The unifie
 
 `job_id, source, country, title, company, location, description, date_posted, salary`
 
-The loader preserves the `source` field and adds `country = India` when it is absent from the supplied India dataset. The original raw CSV is not modified.
+The loader preserves the `source` field and adds `country = India` when it is absent from the supplied India dataset. The original raw CSV is not modified. The India label is an assumption based on the dataset's scope. It was not derived per posting, so some postings may belong to other countries.
 
 ### 5.2 Data cleaning and preprocessing
 
@@ -128,7 +128,7 @@ Global feature importance is calculated using permutation importance and grouped
 
 For the synthetic run, HGTSP PyTorch completed successfully. The explainability pipeline used a separate HistGradientBoosting surrogate trained on the graph-augmented training features because the current explainer expects a compatible scikit-learn estimator.
 
-Therefore, the reported global and local explanations describe the surrogate model, not the HGTSP PyTorch model directly. SHAP calculations were also executed on up to 300 test samples.
+Therefore, the reported global and local explanations describe the surrogate model, not the HGTSP PyTorch model directly.
 
 ### 5.8 Career recommendation
 
@@ -155,7 +155,7 @@ The primary dataset is the LinkedIn job-postings dataset focused on India.
 | Historical coverage | March 2023 – February 2024 |
 | Months represented | 12 |
 | Source | LinkedIn |
-| Country | India |
+| Country | India (assumed) |
 | Retained skills | 16 |
 
 The 781 cleaned records are used for preprocessing, skill extraction, knowledge-graph construction and current-demand-based career recommendations.
@@ -237,7 +237,7 @@ The synthetic held-out evaluation results are:
 | HGTSP (proposed, torch) | 16.8896 | 28.7079 | 21.1197 |
 | Ablation: no graph | 15.0300 | 21.4611 | 24.9380 |
 
-The ablation model without graph features achieved the lowest MAE and RMSE. HGTSP achieved the lowest MAPE. These results do not show that HGTSP is the best model on every metric.
+The ablation model without graph features achieved the lowest MAE and RMSE. HGTSP achieved the lowest MAPE. These results do not show that HGTSP is the best model on every metric. In this synthetic dataset each skill's demand was generated independently, so graph features carry little predictive signal. The result therefore cannot confirm or refute the value of the knowledge graph for real forecasting.
 
 The synthetic evaluation validates that the forecasting and model-comparison pipeline executes on a sufficiently long dataset. It does not demonstrate predictive performance on real Indian job-market data.
 
@@ -255,7 +255,7 @@ Permutation importance by feature family was:
 | Momentum / volatility | -0.0035 |
 | Graph neighbours' demand | -0.0157 |
 
-Negative permutation-importance values indicate that permuting a feature family did not reduce the surrogate's validation performance in this run. They should not be interpreted as causal negative effects.
+Negative permutation-importance values indicate that permuting a feature family did not reduce the surrogate's held-out test performance in this run. They should not be interpreted as causal negative effects.
 
 The synthetic run generated global importance, importance by family and local explanation files. These explanations belong to the HistGradientBoosting surrogate, not directly to HGTSP PyTorch.
 
@@ -290,7 +290,7 @@ Record-level job-posting exports are not included in the GitHub submission. Real
 1. **Short real history:** The real Indian dataset contains 12 months, while the configured forecasting pipeline requires at least 21 months. Real-data forecasting and forecast-dependent explainability were therefore skipped.
 2. **Synthetic validation:** Forecasting, model comparison and surrogate explainability were validated on a synthetic 70-month dataset. These results demonstrate pipeline execution, not real-market predictive accuracy.
 3. **Small real sample:** The cleaned real dataset contains 781 postings and 16 retained skills, limiting the breadth of analysis.
-4. **Posting-date concentration:** Real postings are concentrated on a relatively small number of dates, which can make monthly demand estimates noisy.
+4. **Posting-date concentration:** Roughly 70% of the real postings fall in January 2024, and most other months contain only a handful. The 12 months are therefore not a continuous demand history, and monthly demand estimates are noisy.
 5. **Extraction method:** The primary skill extractor uses dictionary/alias matching and regular expressions; implicit or context-dependent skills may be missed.
 6. **Embedding fallback:** The current embedding run uses TF-IDF + SVD rather than BERT or Sentence Transformers.
 7. **Source and geography:** The real forecasting series is India-focused. Other country datasets were not mixed into it.
