@@ -1,0 +1,205 @@
+{
+  "Final-year CSE student (Python, SQL, ML basics)": {
+    "skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Pandas",
+      "Git"
+    ],
+    "roles": [
+      {
+        "role": "Data Scientist",
+        "score": 0.436,
+        "cosine": 0.612,
+        "future_alignment": 0.067,
+        "graph_proximity": 0.56
+      },
+      {
+        "role": "QA Engineer",
+        "score": 0.355,
+        "cosine": 0.49,
+        "future_alignment": 0.112,
+        "graph_proximity": 0.406
+      },
+      {
+        "role": "Backend Developer",
+        "score": 0.354,
+        "cosine": 0.46,
+        "future_alignment": 0.177,
+        "graph_proximity": 0.375
+      }
+    ],
+    "target": "Data Scientist",
+    "gaps": [
+      {
+        "skill": "Scikit-learn",
+        "course": "Search: 'Scikit-learn fundamentals' course",
+        "certification": null,
+        "attention": 0.484,
+        "why": "Required by Data Scientist in 93% of postings; forecast demand +8% in the next 3 months; closely related to your skills (proximity 0.38)."
+      },
+      {
+        "skill": "Deep Learning",
+        "course": "Deep Learning Specialization (DeepLearning.AI)",
+        "certification": "TensorFlow Developer Certificate",
+        "attention": 0.257,
+        "why": "Required by Data Scientist in 77% of postings; forecast demand +8% in the next 3 months; closely related to your skills (proximity 0.39)."
+      },
+      {
+        "skill": "Generative AI",
+        "course": "Generative AI with LLMs (DeepLearning.AI)",
+        "certification": "DeepLearning.AI Generative AI Specialization",
+        "attention": 0.105,
+        "why": "Required by Data Scientist in 64% of postings; forecast demand +5% in the next 3 months; closely related to your skills (proximity 0.25)."
+      },
+      {
+        "skill": "NLP",
+        "course": "NLP Specialization (DeepLearning.AI)",
+        "certification": null,
+        "attention": 0.08,
+        "why": "Required by Data Scientist in 56% of postings; forecast demand +3% in the next 3 months; closely related to your skills (proximity 0.30)."
+      },
+      {
+        "skill": "R",
+        "course": "Search: 'R fundamentals' course",
+        "certification": null,
+        "attention": 0.073,
+        "why": "Required by Data Scientist in 43% of postings; forecast demand +11% in the next 3 months; closely related to your skills (proximity 0.41)."
+      }
+    ],
+    "companies": [
+      "Wipro",
+      "Microsoft",
+      "Salesforce",
+      "Tech Mahindra",
+      "Accenture"
+    ],
+    "explanations": [
+      "Data Scientist: score 0.436 = 0.45x skill-match 0.61 + 0.3x future-alignment 0.07 + 0.25x graph-proximity 0.56",
+      "QA Engineer: score 0.355 = 0.45x skill-match 0.49 + 0.3x future-alignment 0.11 + 0.25x graph-proximity 0.41",
+      "Backend Developer: score 0.354 = 0.45x skill-match 0.46 + 0.3x future-alignment 0.18 + 0.25x graph-proximity 0.37"
+    ]
+  },
+  "Web developer (JS, React, jQuery, PHP)": {
+    "skills": [
+      "JavaScript",
+      "React",
+      "jQuery",
+      "PHP",
+      "Git"
+    ],
+    "roles": [
+      {
+        "role": "Frontend Developer",
+        "score": 0.469,
+        "cosine": 0.675,
+        "future_alignment": 0.01,
+        "graph_proximity": 0.649
+      },
+      {
+        "role": "Full Stack Developer",
+        "score": 0.334,
+        "cosine": 0.471,
+        "future_alignment": 0.007,
+        "graph_proximity": 0.478
+      },
+      {
+        "role": "Backend Developer",
+        "score": 0.169,
+        "cosine": 0.149,
+        "future_alignment": 0.177,
+        "graph_proximity": 0.195
+      }
+    ],
+    "target": "Frontend Developer",
+    "gaps": [
+      {
+        "skill": "TypeScript",
+        "course": "TypeScript Handbook & Total TypeScript",
+        "certification": null,
+        "attention": 0.847,
+        "why": "Required by Frontend Developer in 80% of postings; forecast demand -2% in the next 3 months; closely related to your skills (proximity 0.54)."
+      },
+      {
+        "skill": "Angular",
+        "course": "Search: 'Angular fundamentals' course",
+        "certification": null,
+        "attention": 0.153,
+        "why": "Required by Frontend Developer in 48% of postings; forecast demand -9% in the next 3 months; closely related to your skills (proximity 0.43)."
+      }
+    ],
+    "companies": [
+      "Tech Mahindra",
+      "Oracle",
+      "Nvidia",
+      "Phonepe",
+      "Flipkart"
+    ],
+    "explanations": [
+      "Frontend Developer: score 0.469 = 0.45x skill-match 0.67 + 0.3x future-alignment 0.01 + 0.25x graph-proximity 0.65",
+      "Full Stack Developer: score 0.334 = 0.45x skill-match 0.47 + 0.3x future-alignment 0.01 + 0.25x graph-proximity 0.48",
+      "Backend Developer: score 0.169 = 0.45x skill-match 0.15 + 0.3x future-alignment 0.18 + 0.25x graph-proximity 0.20"
+    ]
+  },
+  "Data analyst (Excel, SQL, Tableau)": {
+    "skills": [
+      "Excel",
+      "SQL",
+      "Tableau",
+      "Communication"
+    ],
+    "roles": [
+      {
+        "role": "Business Analyst",
+        "score": 0.535,
+        "cosine": 0.812,
+        "future_alignment": 0.009,
+        "graph_proximity": 0.667
+      },
+      {
+        "role": "Data Analyst",
+        "score": 0.511,
+        "cosine": 0.798,
+        "future_alignment": 0.008,
+        "graph_proximity": 0.595
+      },
+      {
+        "role": "QA Engineer",
+        "score": 0.22,
+        "cosine": 0.305,
+        "future_alignment": 0.112,
+        "graph_proximity": 0.197
+      }
+    ],
+    "target": "Business Analyst",
+    "gaps": [
+      {
+        "skill": "Power BI",
+        "course": "Microsoft Power BI Data Analyst",
+        "certification": "Microsoft PL-300 (Power BI)",
+        "attention": 0.535,
+        "why": "Required by Business Analyst in 68% of postings; forecast demand -2% in the next 3 months; closely related to your skills (proximity 0.56)."
+      },
+      {
+        "skill": "Leadership",
+        "course": "Search: 'Leadership fundamentals' course",
+        "certification": null,
+        "attention": 0.465,
+        "why": "Required by Business Analyst in 61% of postings; forecast demand +5% in the next 3 months; closely related to your skills (proximity 0.53)."
+      }
+    ],
+    "companies": [
+      "Phonepe",
+      "Swiggy",
+      "Oracle",
+      "Meesho",
+      "Infosys"
+    ],
+    "explanations": [
+      "Business Analyst: score 0.535 = 0.45x skill-match 0.81 + 0.3x future-alignment 0.01 + 0.25x graph-proximity 0.67",
+      "Data Analyst: score 0.511 = 0.45x skill-match 0.80 + 0.3x future-alignment 0.01 + 0.25x graph-proximity 0.60",
+      "QA Engineer: score 0.220 = 0.45x skill-match 0.31 + 0.3x future-alignment 0.11 + 0.25x graph-proximity 0.20"
+    ]
+  }
+}

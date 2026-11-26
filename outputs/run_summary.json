@@ -1,13 +1,13 @@
 {
-  "mode": "REAL",
-  "rows": 781,
-  "months": 12,
-  "skills": 16,
-  "kg_nodes": 648,
-  "kg_edges": 1285,
-  "forecast_status": "SKIPPED",
-  "forecast_message": "Only 12 months available; 21 required.",
-  "xai_status": "SKIPPED",
-  "recommendations_status": "SKIPPED",
-  "best_model": null
+  "mode": "SYNTHETIC",
+  "rows": 29440,
+  "months": 70,
+  "skills": 55,
+  "kg_nodes": 105,
+  "kg_edges": 2505,
+  "forecast_status": "COMPLETED",
+  "xai_status": "COMPLETED",
+  "xai_model": "HistGradientBoosting surrogate for HGTSP-PyTorch",
+  "recommendations_status": "COMPLETED",
+  "best_model": "Ablation: no graph"
 }

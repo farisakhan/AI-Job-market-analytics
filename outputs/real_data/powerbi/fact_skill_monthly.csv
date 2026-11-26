@@ -1,0 +1,193 @@
+month,skill,postings
+2023-03-01,AWS,0
+2023-04-01,AWS,1
+2023-05-01,AWS,1
+2023-06-01,AWS,0
+2023-07-01,AWS,0
+2023-08-01,AWS,0
+2023-09-01,AWS,0
+2023-10-01,AWS,0
+2023-11-01,AWS,1
+2023-12-01,AWS,4
+2024-01-01,AWS,40
+2024-02-01,AWS,4
+2023-03-01,Azure,0
+2023-04-01,Azure,0
+2023-05-01,Azure,0
+2023-06-01,Azure,0
+2023-07-01,Azure,0
+2023-08-01,Azure,0
+2023-09-01,Azure,0
+2023-10-01,Azure,0
+2023-11-01,Azure,0
+2023-12-01,Azure,1
+2024-01-01,Azure,42
+2024-02-01,Azure,1
+2023-03-01,Communication,1
+2023-04-01,Communication,3
+2023-05-01,Communication,2
+2023-06-01,Communication,5
+2023-07-01,Communication,4
+2023-08-01,Communication,1
+2023-09-01,Communication,5
+2023-10-01,Communication,11
+2023-11-01,Communication,10
+2023-12-01,Communication,39
+2024-01-01,Communication,288
+2024-02-01,Communication,43
+2023-03-01,Deep Learning,0
+2023-04-01,Deep Learning,0
+2023-05-01,Deep Learning,3
+2023-06-01,Deep Learning,1
+2023-07-01,Deep Learning,0
+2023-08-01,Deep Learning,0
+2023-09-01,Deep Learning,0
+2023-10-01,Deep Learning,0
+2023-11-01,Deep Learning,0
+2023-12-01,Deep Learning,5
+2024-01-01,Deep Learning,37
+2024-02-01,Deep Learning,1
+2023-03-01,Excel,0
+2023-04-01,Excel,0
+2023-05-01,Excel,1
+2023-06-01,Excel,0
+2023-07-01,Excel,2
+2023-08-01,Excel,1
+2023-09-01,Excel,2
+2023-10-01,Excel,1
+2023-11-01,Excel,3
+2023-12-01,Excel,13
+2024-01-01,Excel,73
+2024-02-01,Excel,10
+2023-03-01,Git,0
+2023-04-01,Git,0
+2023-05-01,Git,1
+2023-06-01,Git,0
+2023-07-01,Git,0
+2023-08-01,Git,0
+2023-09-01,Git,0
+2023-10-01,Git,0
+2023-11-01,Git,0
+2023-12-01,Git,2
+2024-01-01,Git,27
+2024-02-01,Git,2
+2023-03-01,Java,0
+2023-04-01,Java,0
+2023-05-01,Java,0
+2023-06-01,Java,0
+2023-07-01,Java,0
+2023-08-01,Java,0
+2023-09-01,Java,0
+2023-10-01,Java,0
+2023-11-01,Java,0
+2023-12-01,Java,8
+2024-01-01,Java,40
+2024-02-01,Java,1
+2023-03-01,JavaScript,1
+2023-04-01,JavaScript,0
+2023-05-01,JavaScript,1
+2023-06-01,JavaScript,0
+2023-07-01,JavaScript,0
+2023-08-01,JavaScript,0
+2023-09-01,JavaScript,0
+2023-10-01,JavaScript,0
+2023-11-01,JavaScript,0
+2023-12-01,JavaScript,13
+2024-01-01,JavaScript,30
+2024-02-01,JavaScript,2
+2023-03-01,Leadership,0
+2023-04-01,Leadership,0
+2023-05-01,Leadership,0
+2023-06-01,Leadership,1
+2023-07-01,Leadership,0
+2023-08-01,Leadership,0
+2023-09-01,Leadership,1
+2023-10-01,Leadership,1
+2023-11-01,Leadership,3
+2023-12-01,Leadership,7
+2024-01-01,Leadership,100
+2024-02-01,Leadership,11
+2023-03-01,Machine Learning,0
+2023-04-01,Machine Learning,0
+2023-05-01,Machine Learning,2
+2023-06-01,Machine Learning,2
+2023-07-01,Machine Learning,0
+2023-08-01,Machine Learning,0
+2023-09-01,Machine Learning,0
+2023-10-01,Machine Learning,0
+2023-11-01,Machine Learning,0
+2023-12-01,Machine Learning,7
+2024-01-01,Machine Learning,75
+2024-02-01,Machine Learning,6
+2023-03-01,NLP,0
+2023-04-01,NLP,0
+2023-05-01,NLP,0
+2023-06-01,NLP,1
+2023-07-01,NLP,0
+2023-08-01,NLP,0
+2023-09-01,NLP,0
+2023-10-01,NLP,0
+2023-11-01,NLP,0
+2023-12-01,NLP,3
+2024-01-01,NLP,28
+2024-02-01,NLP,3
+2023-03-01,Power BI,0
+2023-04-01,Power BI,0
+2023-05-01,Power BI,0
+2023-06-01,Power BI,0
+2023-07-01,Power BI,0
+2023-08-01,Power BI,0
+2023-09-01,Power BI,0
+2023-10-01,Power BI,0
+2023-11-01,Power BI,0
+2023-12-01,Power BI,1
+2024-01-01,Power BI,29
+2024-02-01,Power BI,2
+2023-03-01,Python,0
+2023-04-01,Python,0
+2023-05-01,Python,3
+2023-06-01,Python,2
+2023-07-01,Python,0
+2023-08-01,Python,0
+2023-09-01,Python,0
+2023-10-01,Python,0
+2023-11-01,Python,0
+2023-12-01,Python,10
+2024-01-01,Python,96
+2024-02-01,Python,9
+2023-03-01,R,0
+2023-04-01,R,0
+2023-05-01,R,1
+2023-06-01,R,0
+2023-07-01,R,0
+2023-08-01,R,0
+2023-09-01,R,1
+2023-10-01,R,0
+2023-11-01,R,0
+2023-12-01,R,4
+2024-01-01,R,41
+2024-02-01,R,5
+2023-03-01,React,0
+2023-04-01,React,0
+2023-05-01,React,0
+2023-06-01,React,0
+2023-07-01,React,0
+2023-08-01,React,0
+2023-09-01,React,0
+2023-10-01,React,0
+2023-11-01,React,0
+2023-12-01,React,8
+2024-01-01,React,19
+2024-02-01,React,3
+2023-03-01,SQL,0
+2023-04-01,SQL,0
+2023-05-01,SQL,2
+2023-06-01,SQL,0
+2023-07-01,SQL,0
+2023-08-01,SQL,0
+2023-09-01,SQL,1
+2023-10-01,SQL,0
+2023-11-01,SQL,0
+2023-12-01,SQL,10
+2024-01-01,SQL,76
+2024-02-01,SQL,4

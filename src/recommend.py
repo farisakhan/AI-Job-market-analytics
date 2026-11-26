@@ -14,17 +14,25 @@ def _softmax(x, tau=1.0):
     z = (np.array(x) - np.max(x)) / tau; e = np.exp(z); return e / e.sum()
 
 class CareerRecommender:
-    def __init__(self, G, H, forecast_df, weights=(0.45, 0.30, 0.25)):
+    def __init__(self, G, H, forecast_df, weights=(0.45, 0.30, 0.25), demand_only=False):
+        """demand_only=True: no forecast is available (too little history). The 'growth' signal is then the
+        skill's CURRENT demand percentile (0-100) instead of forecast growth, and texts say so."""
+        self.demand_only = demand_only
         self.G, self.H, self.fc = G, H, forecast_df.set_index("skill")
         self.w = weights
-        self.roles = [n[1] for n in G if n[0] == "Role"]
+        self.roles = [n[1] for n in G if n[0] == "Role" and n[1] != "Other"]
         self.skills = sorted(self.fc.index)
         self.sidx = {s: i for i, s in enumerate(self.skills)}
         self.R = pd.DataFrame(0.0, index=self.roles, columns=self.skills)
         for r in self.roles:
             for _, s, d in G.edges(("Role", r), data=True):
                 if d["rel"] == "REQUIRES" and s[1] in self.R.columns: self.R.loc[r, s[1]] = d["weight"]
-        self.growth = self.fc["growth_pct"].clip(-50, 150).reindex(self.skills).fillna(0)
+        if demand_only:
+            self.growth = (self.fc["current_level"].rank(pct=True) * 100).reindex(self.skills).fillna(0)
+            self.grow_thr, self.align_label = 50, "demand-alignment"
+        else:
+            self.growth = self.fc["growth_pct"].clip(-50, 150).reindex(self.skills).fillna(0)
+            self.grow_thr, self.align_label = 10, "future-alignment"
 
     def _ppr(self, user_skills):
         pers = {s: 1.0 for s in user_skills if s in self.H}
@@ -41,7 +49,7 @@ class CareerRecommender:
         for r in self.roles:
             v = self.R.loc[r]
             cos = float(u @ v / (np.linalg.norm(u) * np.linalg.norm(v) + 1e-9))
-            grow = float((v * (self.growth > 10)).sum() / (v.sum() + 1e-9))               # share of role weight in growing skills
+            grow = float((v * (self.growth > self.grow_thr)).sum() / (v.sum() + 1e-9))               # share of role weight in growing skills
             prox = float((v * ppr_n).sum() / (v.sum() + 1e-9))
             rows.append(dict(role=r, score=a * cos + b * grow + c * prox, cosine=cos, future_alignment=grow, graph_proximity=prox))
         rk = pd.DataFrame(rows).sort_values("score", ascending=False).reset_index(drop=True)
@@ -55,13 +63,15 @@ class CareerRecommender:
         recs = []
         for _, g in gap_df.iterrows():
             course, cert = COURSES.get(g.skill, (f"Search: '{g.skill} fundamentals' course", None))
-            why = (f"Required by {role} in {g.role_importance*100:.0f}% of postings; forecast demand "
-                   f"{g.forecast_growth_pct:+.0f}% in the next 3 months; closely related to your skills (proximity {g.graph_proximity:.2f}).")
+            demand_txt = (f"currently in the top {100 - g.forecast_growth_pct:.0f}% most-demanded skills (no forecast: history too short)"
+                          if self.demand_only else f"forecast demand {g.forecast_growth_pct:+.0f}% in the next 3 months")
+            why = (f"Required by {role} in {g.role_importance*100:.0f}% of postings; {demand_txt}; "
+                   f"closely related to your skills (proximity {g.graph_proximity:.2f}).")
             recs.append(dict(skill=g.skill, course=course, certification=cert, attention=round(float(g.attention), 3), why=why))
-        comps = sorted([(x[1], d["weight"]) for x, _, d in self.G.edges(("Role", role), data=True)
+        comps = sorted([(x[1], d["weight"]) for _, x, d in self.G.edges(("Role", role), data=True)
                         if d["rel"] == "HIRES_FOR"], key=lambda t: -t[1])[:5]
         expl = []
         for _, r in rk.head(top_roles).iterrows():
-            expl.append(f"{r.role}: score {r.score:.3f} = {a}x skill-match {r.cosine:.2f} + {b}x future-alignment {r.future_alignment:.2f} + {c}x graph-proximity {r.graph_proximity:.2f}")
+            expl.append(f"{r.role}: score {r.score:.3f} = {a}x skill-match {r.cosine:.2f} + {b}x {self.align_label} {r.future_alignment:.2f} + {c}x graph-proximity {r.graph_proximity:.2f}")
         return dict(user_skills=user_skills, role_ranking=rk.head(top_roles), target_role=role, skill_gaps=recs,
                     companies=[c for c, _ in comps], explanations=expl)
