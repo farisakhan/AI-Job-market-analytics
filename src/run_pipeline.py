@@ -53,9 +53,30 @@ def figures_descriptive(share, H, gfeat):
     nx.draw_networkx_labels(sub, pos, font_size=7, ax=ax); plt.colorbar(nc, label="average demand (per 1000 postings)", shrink=0.7); ax.axis("off"); ax.set_title("Skill knowledge graph (size = PageRank, colour = demand)")
     plt.tight_layout(); plt.savefig(FIG / "fig4_knowledge_graph.png"); plt.close()
 
+def configure_output_dirs(data_path=None, out_arg=None):
+    """Keep real and synthetic run artifacts in separate folders."""
+    global OUT, FIG, PBI, NEO
+    if out_arg:
+        chosen = Path(out_arg).expanduser()
+        if not chosen.is_absolute():
+            chosen = ROOT / chosen
+    elif data_path:
+        chosen = ROOT / "outputs" / "real_data"
+    else:
+        chosen = ROOT / "outputs"
+    OUT = chosen.resolve()
+    FIG, PBI, NEO = OUT / "figures", OUT / "powerbi", OUT / "neo4j"
+    for folder in (OUT, FIG, PBI, NEO):
+        folder.mkdir(parents=True, exist_ok=True)
+
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--data"); ap.add_argument("--colmap", default=None); ap.add_argument("--source", default="linkedin")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--data", help="Path to a real job-postings CSV")
+    ap.add_argument("--colmap", default=None, help="JSON mapping from input column names to project schema names")
+    ap.add_argument("--source", default="linkedin")
+    ap.add_argument("--out", default=None, help="Output directory (default: outputs/real_data for --data, otherwise outputs)")
     a = ap.parse_args()
+    configure_output_dirs(a.data, a.out)
     # ---- Phase 1-2
     if a.data:
         raw = collect.load_real(a.data, a.source, json.loads(a.colmap) if a.colmap else None); mode = "REAL"
@@ -89,9 +110,7 @@ def main():
             "month", var_name="skill", value_name="share_per_1000"
         ).to_csv(PBI / "fact_skill_share.csv", index=False)
 
-        df.drop(columns=["description"]).assign(
-            skills=lambda d: d.skills.map("|".join)
-        ).to_csv(PBI / "fact_postings.csv", index=False)
+        # Posting-level exports are intentionally omitted; only aggregated Power BI tables are written.
 
         ed = pd.DataFrame([
             dict(src=u[1], dst=v[1], weight=d["weight"])
@@ -172,7 +191,7 @@ def main():
     cnt.reset_index(names="month").melt("month", var_name="skill", value_name="postings").to_csv(PBI / "fact_skill_monthly.csv", index=False)
     share.reset_index(names="month").melt("month", var_name="skill", value_name="share_per_1000").to_csv(PBI / "fact_skill_share.csv", index=False)
     fc.to_csv(PBI / "dim_skill_forecast.csv", index=False)
-    df.drop(columns=["description"]).assign(skills=lambda d: d.skills.map("|".join)).to_csv(PBI / "fact_postings.csv", index=False)
+    # Posting-level exports are intentionally omitted; only aggregated Power BI tables are written.
     results.reset_index(names="model").to_csv(PBI / "model_comparison.csv", index=False)
     if hg is not None: gi.to_csv(PBI / "xai_global_importance.csv", index=False)
     ed = pd.DataFrame([dict(src=u[1], dst=v[1], weight=d["weight"]) for u, v, d in G.edges(data=True) if d["rel"] == "CO_OCCURS"]); ed.to_csv(PBI / "skill_graph_edges.csv", index=False)

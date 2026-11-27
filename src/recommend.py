@@ -63,10 +63,12 @@ class CareerRecommender:
         recs = []
         for _, g in gap_df.iterrows():
             course, cert = COURSES.get(g.skill, (f"Search: '{g.skill} fundamentals' course", None))
-            demand_txt = (f"currently in the top {100 - g.forecast_growth_pct:.0f}% most-demanded skills (no forecast: history too short)"
+            top_demand_pct = max(1, 100 - g.forecast_growth_pct)
+            relation = "closely related" if g.graph_proximity >= 0.2 else "weakly related"
+            demand_txt = (f"currently in the top {top_demand_pct:.0f}% most-demanded skills (no forecast: history too short)"
                           if self.demand_only else f"forecast demand {g.forecast_growth_pct:+.0f}% in the next 3 months")
             why = (f"Required by {role} in {g.role_importance*100:.0f}% of postings; {demand_txt}; "
-                   f"closely related to your skills (proximity {g.graph_proximity:.2f}).")
+                   f"{relation} to your skills (proximity {g.graph_proximity:.2f}).")
             recs.append(dict(skill=g.skill, course=course, certification=cert, attention=round(float(g.attention), 3), why=why))
         comps = sorted([(x[1], d["weight"]) for _, x, d in self.G.edges(("Role", role), data=True)
                         if d["rel"] == "HIRES_FOR"], key=lambda t: -t[1])[:5]

@@ -1,0 +1,1 @@
+python src/run_pipeline.py --data data/raw/team_mapped_jobs.csv --source linkedin --colmap '{"title":"title","company":"company","location":"location","description":"description","date_posted":"date_posted"}'
